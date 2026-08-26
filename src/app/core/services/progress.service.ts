@@ -1,5 +1,7 @@
 import { Injectable, computed, signal } from '@angular/core';
+import { Firestore, doc, getDoc, getFirestore, setDoc } from 'firebase/firestore';
 import { Attempt, ConfidenceLevel, EMPTY_PROGRESS, SimuladoResult, UserProgress } from '../../models/progress.model';
+import { getFirebaseApp } from '../firebase-app';
 
 const STORAGE_KEY = 'efs.progress.v1';
 
@@ -34,10 +36,46 @@ export class ProgressService {
   readonly level = computed(() => 1 + Math.floor(this.state().points / 100));
   readonly streakCount = computed(() => this.state().streak.count);
 
+  private db: Firestore = getFirestore(getFirebaseApp());
+  private uid: string | null = null;
+
   constructor() {
     // Best-effort: ask the browser not to evict this site's storage under pressure,
     // so her progress survives even without the app being reinstalled/reopened often.
     navigator.storage?.persist?.().catch(() => {});
+  }
+
+  /**
+   * Called once after login. Reconciles local (offline) progress with the remote copy:
+   * remote wins if it already exists (cross-device continuity); otherwise the local
+   * snapshot is uploaded as the first copy in Firestore.
+   */
+  async syncWithRemote(uid: string): Promise<void> {
+    this.uid = uid;
+    try {
+      const snap = await getDoc(doc(this.db, 'progress', uid));
+      if (snap.exists()) {
+        this.importSnapshot(snap.data() as UserProgress);
+      } else {
+        await this.pushToRemote(this.state());
+      }
+    } catch (err) {
+      console.warn('Não foi possível sincronizar com o Firestore, mantendo progresso local.', err);
+    }
+  }
+
+  /** Called on logout: stop syncing writes to remote, keep the local copy intact. */
+  detachFromRemote(): void {
+    this.uid = null;
+  }
+
+  private async pushToRemote(data: UserProgress): Promise<void> {
+    if (!this.uid) return;
+    try {
+      await setDoc(doc(this.db, 'progress', this.uid), data);
+    } catch (err) {
+      console.warn('Não foi possível salvar o progresso no Firestore agora; ele continua salvo localmente.', err);
+    }
   }
 
   private load(): UserProgress {
@@ -53,6 +91,7 @@ export class ProgressService {
   private persist(next: UserProgress): void {
     this.state.set(next);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+    void this.pushToRemote(next);
   }
 
   private touchStreak(p: UserProgress): UserProgress {

@@ -50,4 +50,11 @@
       <input type="file" accept="application/json" (change)="importProgress($event)" hidden />
     </label>
   </div>
+
+  @if (auth.currentUser(); as user) {
+    <div class="account-section">
+      <p class="hint">Conectada como {{ user.displayName || user.email }}</p>
+      <button type="button" class="btn btn--secondary btn--block" (click)="signOut()">Sair da conta</button>
+    </div>
+  }
 </div>

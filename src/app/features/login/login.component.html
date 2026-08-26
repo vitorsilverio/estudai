@@ -1,0 +1,17 @@
+<div class="login-page">
+  <div class="login-card">
+    <p class="login-card__emoji">🎓</p>
+    <h1>estudai</h1>
+    <p class="login-card__subtitle">Sua preparação para o concurso, sempre com você.</p>
+
+    <button type="button" class="btn btn--primary btn--block google-btn" (click)="signIn()">
+      Continuar com Google
+    </button>
+
+    @if (auth.error()) {
+      <p class="login-card__error">{{ auth.error() }}</p>
+    }
+
+    <p class="login-card__hint">Entrar garante que seu progresso não se perde e fica disponível em qualquer aparelho.</p>
+  </div>
+</div>

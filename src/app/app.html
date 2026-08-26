@@ -1,1 +1,7 @@
-<router-outlet />
+@if (auth.isLoading()) {
+  <div class="boot-loading">estudai</div>
+} @else if (!auth.currentUser()) {
+  <app-login />
+} @else {
+  <router-outlet />
+}
