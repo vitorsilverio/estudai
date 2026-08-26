@@ -38,6 +38,7 @@ export class ProgressService {
 
   private db: Firestore = getFirestore(getFirebaseApp());
   private uid: string | null = null;
+  private ownerMeta: { email: string | null; displayName: string | null } | null = null;
 
   constructor() {
     // Best-effort: ask the browser not to evict this site's storage under pressure,
@@ -50,12 +51,14 @@ export class ProgressService {
    * remote wins if it already exists (cross-device continuity); otherwise the local
    * snapshot is uploaded as the first copy in Firestore.
    */
-  async syncWithRemote(uid: string): Promise<void> {
+  async syncWithRemote(uid: string, owner: { email: string | null; displayName: string | null }): Promise<void> {
     this.uid = uid;
+    this.ownerMeta = owner;
     try {
       const snap = await getDoc(doc(this.db, 'progress', uid));
       if (snap.exists()) {
-        this.importSnapshot(snap.data() as UserProgress);
+        const { _owner, ...data } = snap.data() as UserProgress & { _owner?: unknown };
+        this.importSnapshot(data as UserProgress);
       } else {
         await this.pushToRemote(this.state());
       }
@@ -67,12 +70,21 @@ export class ProgressService {
   /** Called on logout: stop syncing writes to remote, keep the local copy intact. */
   detachFromRemote(): void {
     this.uid = null;
+    this.ownerMeta = null;
   }
 
   private async pushToRemote(data: UserProgress): Promise<void> {
     if (!this.uid) return;
     try {
-      await setDoc(doc(this.db, 'progress', this.uid), data);
+      await setDoc(doc(this.db, 'progress', this.uid), {
+        ...data,
+        // Metadata only, so it's easy to tell whose document is whose in the Firestore console.
+        _owner: {
+          email: this.ownerMeta?.email ?? null,
+          displayName: this.ownerMeta?.displayName ?? null,
+          updatedAt: new Date().toISOString(),
+        },
+      });
     } catch (err) {
       console.warn('Não foi possível salvar o progresso no Firestore agora; ele continua salvo localmente.', err);
     }

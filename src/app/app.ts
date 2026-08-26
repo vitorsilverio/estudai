@@ -19,7 +19,7 @@ export class App {
     effect(() => {
       const user = this.auth.currentUser();
       if (user) {
-        void this.progress.syncWithRemote(user.uid);
+        void this.progress.syncWithRemote(user.uid, { email: user.email, displayName: user.displayName });
       } else {
         this.progress.detachFromRemote();
       }
