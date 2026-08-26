@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-vigilancia-1",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "statement": "A ciência que estuda como as doenças se distribuem numa população — quem adoece, onde e quando — é chamada de:",
+    "options": [
+      { "id": "a", "text": "Epidemiologia" },
+      { "id": "b", "text": "Farmacologia" },
+      { "id": "c", "text": "Toxicologia" },
+      { "id": "d", "text": "Deontologia" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Epidemiologia é o estudo da distribuição e dos determinantes das doenças em uma população, servindo de base para as ações de vigilância em saúde."
+  },
+  {
+    "id": "q-vigilancia-2",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "statement": "A obrigação legal de comunicar às autoridades de saúde a ocorrência de doenças como dengue, tuberculose e sarampo é chamada de:",
+    "options": [
+      { "id": "a", "text": "Notificação compulsória" },
+      { "id": "b", "text": "Autuação preventiva" },
+      { "id": "c", "text": "Declaração de óbito" },
+      { "id": "d", "text": "Licenciamento sanitário" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A notificação compulsória é a obrigação legal de comunicar certas doenças às autoridades de saúde, permitindo que a vigilância epidemiológica aja rapidamente."
+  },
+  {
+    "id": "q-vigilancia-3",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "statement": "Um aumento inesperado de casos de intoxicação alimentar entre convidados de uma mesma festa, em curto período, é classificado como:",
+    "options": [
+      { "id": "a", "text": "Endemia" },
+      { "id": "b", "text": "Pandemia" },
+      { "id": "c", "text": "Surto" },
+      { "id": "d", "text": "Epidemia" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Surto é o aumento inesperado de casos de uma doença em um local específico e período curto, como no exemplo da festa."
+  },
+  {
+    "id": "q-vigilancia-4",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "statement": "Uma doença que ocorre com frequência constante e esperada em determinada região, sem grande variação ao longo do tempo, é chamada de:",
+    "options": [
+      { "id": "a", "text": "Surto" },
+      { "id": "b", "text": "Endemia" },
+      { "id": "c", "text": "Pandemia" },
+      { "id": "d", "text": "Epidemia" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Endemia é a ocorrência constante e esperada de uma doença numa região, diferente do surto e da epidemia, que indicam aumento acima do esperado."
+  },
+  {
+    "id": "q-vigilancia-5",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "statement": "A fiscalização de produtos e serviços que podem causar dano à saúde, como restaurantes e indústrias de alimentos, está principalmente associada a qual tipo de vigilância?",
+    "options": [
+      { "id": "a", "text": "Vigilância sanitária" },
+      { "id": "b", "text": "Vigilância epidemiológica" },
+      { "id": "c", "text": "Vigilância judiciária" },
+      { "id": "d", "text": "Vigilância tributária" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A vigilância sanitária é a responsável por fiscalizar produtos, serviços e ambientes que podem representar risco à saúde da população."
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "portugues-classes-gramaticais-p1",
+    "topicId": "portugues-classes-gramaticais",
+    "order": 1,
+    "title": "As classes de palavras mais cobradas",
+    "blocks": [
+      { "type": "text", "value": "Substantivo: nomeia seres, objetos, lugares, sentimentos. Ex.: 'fiscal', 'estabelecimento', 'higiene'." },
+      { "type": "text", "value": "Adjetivo: dá uma característica ao substantivo. Ex.: 'estabelecimento irregular', 'ambiente limpo'." },
+      { "type": "text", "value": "Artigo: vem antes do substantivo e indica se ele é conhecido (definido: o, a, os, as) ou não (indefinido: um, uma, uns, umas)." },
+      { "type": "tip", "value": "Truque rápido: se a palavra pode variar em gênero/número e 'nomeia algo', é substantivo. Se ela 'qualifica' um substantivo, é adjetivo." }
+    ]
+  },
+  {
+    "id": "portugues-classes-gramaticais-p2",
+    "topicId": "portugues-classes-gramaticais",
+    "order": 2,
+    "title": "Pronomes e advérbios",
+    "blocks": [
+      { "type": "text", "value": "Pronome substitui ou acompanha um substantivo, indicando pessoa (eu, ele), posse (meu, seu) ou uma ideia (isso, algo)." },
+      { "type": "text", "value": "Advérbio modifica um verbo, adjetivo ou outro advérbio, indicando circunstância: tempo (hoje), lugar (aqui), modo (rapidamente), intensidade (muito), negação (não)." },
+      { "type": "tip", "value": "Advérbio geralmente termina em '-mente' quando indica modo (rapidamente, cuidadosamente) — mas isso não é regra fechada." }
+    ]
+  },
+  {
+    "id": "portugues-classes-gramaticais-p3",
+    "topicId": "portugues-classes-gramaticais",
+    "order": 3,
+    "title": "Dígrafos",
+    "blocks": [
+      { "type": "text", "value": "Dígrafo é quando duas letras juntas representam um único som. Exemplos comuns: 'ch' (chave), 'lh' (trabalho), 'nh' (banho), 'rr' (carro), 'ss' (assunto), 'qu'/'gu' antes de e/i (que, guerra)." },
+      { "type": "tip", "value": "Cuidado: dígrafo é sobre SOM, não sobre letras. 'Rr' em 'carro' é um dígrafo porque as duas letras juntas fazem UM som só." }
+    ]
+  }
+]

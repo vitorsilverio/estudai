@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gerais-municipio-estado-uniao-p1",
+    "topicId": "gerais-municipio-estado-uniao",
+    "order": 1,
+    "title": "São Roque e o estado de São Paulo",
+    "blocks": [
+      { "type": "text", "value": "A prova é da Prefeitura da Estância Turística de São Roque, no estado de São Paulo. 'Estância Turística' é um título dado pelo governo estadual a municípios com forte vocação para o turismo — vale a pena saber que São Roque é conhecida como a 'Terra do Vinho', por sua tradição vinícola." },
+      { "type": "text", "value": "São Roque fica na região metropolitana de Sorocaba, no interior do estado de São Paulo." },
+      { "type": "tip", "value": "Questões desse tipo costumam perguntar dados básicos do município (apelido, região, vocação econômica) — vale conferir informações atualizadas no site oficial da prefeitura perto da prova." }
+    ]
+  },
+  {
+    "id": "gerais-municipio-estado-uniao-p2",
+    "topicId": "gerais-municipio-estado-uniao",
+    "order": 2,
+    "title": "Estrutura política: União, Estado e Município",
+    "blocks": [
+      { "type": "text", "value": "O Brasil é uma federação organizada em três níveis: a União (governo federal), os Estados (governos estaduais) e os Municípios (governos municipais), cada um com autonomia própria dentro da Constituição Federal." },
+      { "type": "text", "value": "Cada nível tem seu Executivo (Presidente, Governador, Prefeito) e seu Legislativo (Congresso Nacional, Assembleia Legislativa, Câmara Municipal). O Judiciário é organizado principalmente em nível federal e estadual." },
+      { "type": "tip", "value": "Fique atento a perguntas que trocam os níveis de propósito: 'o Governador cuida do quê?' x 'o Prefeito cuida do quê?' — a banca gosta de misturar essas atribuições para testar se você realmente entendeu a diferença." }
+    ]
+  }
+]

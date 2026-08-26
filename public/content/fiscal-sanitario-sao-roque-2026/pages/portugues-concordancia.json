@@ -1,0 +1,36 @@
+[
+  {
+    "id": "portugues-concordancia-p1",
+    "topicId": "portugues-concordancia",
+    "order": 1,
+    "title": "Concordância verbal: a ideia central",
+    "blocks": [
+      { "type": "text", "value": "Concordância verbal é o verbo 'combinar' com o sujeito em número (singular/plural) e pessoa (eu, tu, ele...)." },
+      { "type": "text", "value": "Regra básica: sujeito singular pede verbo singular. Sujeito plural pede verbo plural. Parece óbvio, mas a banca gosta de esconder o sujeito longe do verbo, com um monte de palavras no meio, para você se confundir." },
+      { "type": "tip", "value": "Truque: ache o verbo, pergunte 'quem pratica essa ação?' e ache o sujeito de verdade, ignorando o que está no meio da frase." }
+    ]
+  },
+  {
+    "id": "portugues-concordancia-p2",
+    "topicId": "portugues-concordancia",
+    "order": 2,
+    "title": "Casos que mais confundem",
+    "blocks": [
+      { "type": "text", "value": "Sujeito composto antes do verbo: o verbo geralmente vai para o plural. Ex.: 'O gerente e o fiscal assinaram o documento.'" },
+      { "type": "text", "value": "Expressões como 'a maioria de', 'grande parte de' + palavra no plural: o verbo pode ficar no singular (concordando com 'a maioria') ou no plural (concordando com a palavra depois de 'de'). As duas formas costumam ser aceitas, mas a prova cobra a coerência entre as duas opções da questão." },
+      { "type": "text", "value": "Verbo 'haver' no sentido de existir é sempre impessoal (não tem sujeito) e fica sempre no singular: 'Havia muitos problemas' (nunca 'haviam')." },
+      { "type": "tip", "value": "'Fazer' indicando tempo também é impessoal: 'Faz dois anos que ele trabalha aqui' (nunca 'fazem dois anos')." }
+    ]
+  },
+  {
+    "id": "portugues-concordancia-p3",
+    "topicId": "portugues-concordancia",
+    "order": 3,
+    "title": "Concordância nominal",
+    "blocks": [
+      { "type": "text", "value": "Concordância nominal é o adjetivo, artigo ou pronome 'combinando' em gênero (masculino/feminino) e número com o substantivo que ele acompanha." },
+      { "type": "text", "value": "Ex.: 'a fiscal sanitária dedicada' (feminino, singular) x 'os fiscais sanitários dedicados' (masculino, plural)." },
+      { "type": "text", "value": "Quando um adjetivo vem antes de dois ou mais substantivos, pode concordar só com o mais próximo: 'ótimo desempenho e conduta' ou concordar com todos no plural: 'ótimos desempenho e conduta'." }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+<div class="page">
+  <h1>Trilha de estudo</h1>
+
+  @for (subject of subjects(); track subject.id) {
+    <section class="subject">
+      <h2 class="subject__name">{{ subject.name }}</h2>
+      <div class="topic-list">
+        @for (topic of subject.topics; track topic.id) {
+          <div class="topic-row">
+            <a [routerLink]="['/trilha', topic.id, 'leitura']" class="topic-link">
+              <span class="topic-link__check">{{ topic.completed ? '✅' : '⬜️' }}</span>
+              <span>{{ topic.name }}</span>
+            </a>
+            @if (topic.completed) {
+              <a [routerLink]="['/simulado', topic.id]" class="topic-quiz-link">Simulado</a>
+            }
+          </div>
+        }
+      </div>
+    </section>
+  }
+</div>

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-interp-1",
+    "topicId": "portugues-interpretacao",
+    "statement": "Leia: \"Alguns estabelecimentos vistoriados apresentaram pequenas irregularidades, facilmente corrigidas ainda durante a visita.\" Assinale a alternativa que interpreta CORRETAMENTE o texto:",
+    "options": [
+      { "id": "a", "text": "Todos os estabelecimentos vistoriados tinham irregularidades graves." },
+      { "id": "b", "text": "Nenhum estabelecimento tinha qualquer irregularidade." },
+      { "id": "c", "text": "Parte dos estabelecimentos tinha irregularidades leves, resolvidas na hora." },
+      { "id": "d", "text": "Todos os estabelecimentos foram interditados imediatamente." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O texto diz 'alguns' (não 'todos') e 'pequenas irregularidades' (não graves), corrigidas 'durante a visita'. Isso corresponde exatamente à alternativa (c)."
+  },
+  {
+    "id": "q-interp-2",
+    "topicId": "portugues-interpretacao",
+    "statement": "Leia: \"É recomendável que os manipuladores de alimentos usem toucas, mas a fiscalização também observa outros aspectos de higiene.\" Assinale a interpretação CORRETA:",
+    "options": [
+      { "id": "a", "text": "O uso de touca é o único critério avaliado pela fiscalização." },
+      { "id": "b", "text": "A touca é recomendada, mas não é o único ponto observado na fiscalização." },
+      { "id": "c", "text": "A fiscalização não se importa com o uso de toucas." },
+      { "id": "d", "text": "É proibido por lei qualquer outro tipo de avaliação além da touca." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O texto usa 'também observa outros aspectos', deixando claro que a touca é um item entre vários, não o único — isso é dito literalmente no texto."
+  },
+  {
+    "id": "q-interp-3",
+    "topicId": "portugues-interpretacao",
+    "statement": "Leia: \"Em geral, a maioria das denúncias recebidas resulta em vistorias no prazo de até 15 dias.\" Assinale a alternativa CORRETA:",
+    "options": [
+      { "id": "a", "text": "Todas as denúncias são vistoriadas em exatamente 15 dias." },
+      { "id": "b", "text": "A maior parte das denúncias gera vistoria dentro de até 15 dias." },
+      { "id": "c", "text": "Nenhuma denúncia é vistoriada antes de 15 dias." },
+      { "id": "d", "text": "As denúncias nunca resultam em vistoria." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O texto diz 'a maioria' (não 'todas') e 'até 15 dias' (prazo máximo, não fixo) — a alternativa (b) reproduz fielmente essa ideia."
+  },
+  {
+    "id": "q-interp-4",
+    "topicId": "portugues-interpretacao",
+    "statement": "Leia: \"Ainda que rara, a interdição total de um estabelecimento pode ocorrer em casos de risco grave e imediato à saúde pública.\" Assinale a interpretação CORRETA:",
+    "options": [
+      { "id": "a", "text": "A interdição total é a medida mais comum aplicada pela fiscalização." },
+      { "id": "b", "text": "A interdição total só ocorre em situações raras, de risco grave e imediato." },
+      { "id": "c", "text": "A interdição total nunca acontece, mesmo em risco grave." },
+      { "id": "d", "text": "Qualquer irregularidade leva à interdição total." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O texto afirma explicitamente que a interdição é 'rara' e ligada a 'risco grave e imediato' — exatamente o que diz a alternativa (b)."
+  },
+  {
+    "id": "q-interp-5",
+    "topicId": "portugues-interpretacao",
+    "statement": "Leia: \"O fiscal pode, quando necessário, solicitar apoio da autoridade policial durante a fiscalização.\" Assinale a interpretação CORRETA:",
+    "options": [
+      { "id": "a", "text": "O fiscal é obrigado a levar a polícia em toda fiscalização." },
+      { "id": "b", "text": "O apoio policial é possível, mas condicionado à necessidade do caso." },
+      { "id": "c", "text": "O fiscal nunca pode contar com apoio policial." },
+      { "id": "d", "text": "Apenas a polícia pode realizar fiscalizações sanitárias." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O texto usa 'pode, quando necessário' — ou seja, é uma possibilidade condicionada, não uma obrigação nem uma proibição."
+  }
+]

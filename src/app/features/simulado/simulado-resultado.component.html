@@ -1,0 +1,33 @@
+<div class="page">
+  @if (result(); as r) {
+    <div class="score-card">
+      <p class="score-card__percent">{{ scorePercent() }}%</p>
+      <p class="score-card__detail">{{ correctCount() }} de {{ rows().length }} corretas · ⏱️ {{ formattedTime() }}</p>
+    </div>
+
+    @if (guessesThatWorked().length > 0) {
+      <p class="insight">🎲 Você acertou {{ guessesThatWorked().length }} questão(ões) no chute — vale reforçar esse conteúdo mesmo tendo acertado.</p>
+    }
+    @if (confidentMistakes().length > 0) {
+      <p class="insight insight--alert">⚠️ Você errou {{ confidentMistakes().length }} questão(ões) com certeza — atenção redobrada nelas.</p>
+    }
+
+    <h2>Gabarito comentado</h2>
+    <div class="result-list">
+      @for (row of rows(); track row.question.id) {
+        <div class="result-item" [class.result-item--correct]="row.attempt.correct">
+          <p class="result-item__statement">{{ row.question.statement }}</p>
+          <p class="result-item__meta">
+            {{ row.attempt.correct ? '✅ Correta' : '❌ Errada' }} · confiança: {{ row.attempt.confidence }}
+          </p>
+          <p class="result-item__explanation">{{ row.question.explanation }}</p>
+        </div>
+      }
+    </div>
+
+    <a routerLink="/trilha" class="btn btn--primary btn--block back-btn">Voltar à trilha</a>
+  } @else {
+    <p>Nenhum resultado disponível.</p>
+    <a routerLink="/" class="btn btn--secondary btn--block">Voltar ao início</a>
+  }
+</div>

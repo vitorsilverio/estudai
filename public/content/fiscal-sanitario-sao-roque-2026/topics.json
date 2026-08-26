@@ -1,0 +1,34 @@
+[
+  { "id": "portugues-concordancia", "subjectId": "portugues", "name": "Concordância verbal e nominal", "order": 1 },
+  { "id": "portugues-regencia", "subjectId": "portugues", "name": "Regência nominal e verbal", "order": 2 },
+  { "id": "portugues-sujeito-predicado", "subjectId": "portugues", "name": "Sujeito, predicado e estrutura da oração", "order": 3 },
+  { "id": "portugues-classes-gramaticais", "subjectId": "portugues", "name": "Classes gramaticais", "order": 4 },
+  { "id": "portugues-crase-vicios", "subjectId": "portugues", "name": "Crase, \"por que\" e vícios de linguagem", "order": 5 },
+  { "id": "portugues-colocacao-pronominal", "subjectId": "portugues", "name": "Colocação pronominal e termos da oração", "order": 6 },
+  { "id": "portugues-interpretacao", "subjectId": "portugues", "name": "Interpretação de texto", "order": 7 },
+
+  { "id": "matematica-logica", "subjectId": "matematica", "name": "Estruturas lógicas e raciocínio", "order": 1 },
+  { "id": "matematica-numeros", "subjectId": "matematica", "name": "Números inteiros e racionais", "order": 2 },
+  { "id": "matematica-razao-proporcao", "subjectId": "matematica", "name": "Razão, proporção, porcentagem e regra de três", "order": 3 },
+  { "id": "matematica-equacao-1grau", "subjectId": "matematica", "name": "Equação do 1º grau", "order": 4 },
+  { "id": "matematica-sistema-metrico", "subjectId": "matematica", "name": "Sistema métrico e grandezas", "order": 5 },
+  { "id": "matematica-geometria", "subjectId": "matematica", "name": "Triângulo retângulo e trigonometria básica", "order": 6 },
+
+  { "id": "gerais-atualidades", "subjectId": "gerais", "name": "Atualidades: política, economia e sociedade", "order": 1 },
+  { "id": "gerais-municipio-estado-uniao", "subjectId": "gerais", "name": "Conhecimentos municipais, estaduais e nacionais", "order": 2 },
+
+  { "id": "especificos-atribuicoes-fiscal", "subjectId": "especificos", "name": "Atribuições do Fiscal e Processo Administrativo Sanitário", "order": 1 },
+  { "id": "especificos-mapeamento-diagnostico", "subjectId": "especificos", "name": "Mapeamento, territorialização e diagnóstico comunitário", "order": 2 },
+  { "id": "especificos-vigilancia-epidemiologia", "subjectId": "especificos", "name": "Vigilância em saúde e epidemiologia", "order": 3 },
+  { "id": "especificos-risco-sanitario", "subjectId": "especificos", "name": "Risco e gerenciamento de risco sanitário", "order": 4 },
+  { "id": "especificos-gestao-vigilancia", "subjectId": "especificos", "name": "Gestão da Vigilância Sanitária e municipalização", "order": 5 },
+  { "id": "especificos-riscos-ocupacionais", "subjectId": "especificos", "name": "Riscos ocupacionais e saúde do trabalhador", "order": 6 },
+  { "id": "especificos-lei-6437", "subjectId": "especificos", "name": "Infrações à legislação sanitária (Lei 6.437/77)", "order": 7 },
+  { "id": "especificos-alimentos", "subjectId": "especificos", "name": "Alimentos: manipulação, armazenamento e transporte", "order": 8 },
+  { "id": "especificos-lei-9782", "subjectId": "especificos", "name": "Sistema Nacional de Vigilância Sanitária (Lei 9.782/99)", "order": 9 },
+  { "id": "especificos-lei-11445", "subjectId": "especificos", "name": "Política Nacional de Saneamento Básico (Lei 11.445/2007)", "order": 10 },
+  { "id": "especificos-lei-12305", "subjectId": "especificos", "name": "Política Nacional de Resíduos Sólidos (Lei 12.305/2010)", "order": 11 },
+  { "id": "especificos-residuos-saude", "subjectId": "especificos", "name": "Resíduos dos Serviços de Saúde", "order": 12 },
+  { "id": "especificos-coleta-vetores", "subjectId": "especificos", "name": "Coleta de amostras e controle de vetores", "order": 13 },
+  { "id": "especificos-projetos-edificacoes", "subjectId": "especificos", "name": "Avaliação de projetos de edificações e LTA", "order": 14 }
+]

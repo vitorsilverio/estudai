@@ -1,0 +1,27 @@
+[
+  {
+    "id": "matematica-geometria-p1",
+    "topicId": "matematica-geometria",
+    "order": 1,
+    "title": "Teorema de Pitágoras",
+    "blocks": [
+      { "type": "text", "value": "Num triângulo retângulo (que tem um ângulo de 90°), o lado maior (oposto ao ângulo reto) se chama hipotenusa. Os outros dois lados são os catetos." },
+      { "type": "text", "value": "O Teorema de Pitágoras diz: hipotenusa² = cateto1² + cateto2². Ou seja, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos." },
+      { "type": "text", "value": "Exemplo clássico: catetos de 3 e 4. Hipotenusa² = 3² + 4² = 9 + 16 = 25. Hipotenusa = raiz quadrada de 25 = 5." },
+      { "type": "tip", "value": "O trio 3-4-5 aparece muito em prova. Se você decorar esse trio (e seus múltiplos, como 6-8-10), resolve várias questões rapidinho." }
+    ]
+  },
+  {
+    "id": "matematica-geometria-p2",
+    "topicId": "matematica-geometria",
+    "order": 2,
+    "title": "Área e perímetro das figuras mais comuns",
+    "blocks": [
+      { "type": "text", "value": "Perímetro é a soma de todos os lados de uma figura (o 'contorno'). Área é o espaço 'dentro' da figura." },
+      { "type": "text", "value": "Retângulo: área = base × altura. Perímetro = 2 × (base + altura)." },
+      { "type": "text", "value": "Triângulo: área = (base × altura) ÷ 2." },
+      { "type": "text", "value": "Exemplo: um terreno retangular de 10m por 6m tem área de 10 × 6 = 60 m² e perímetro de 2 × (10+6) = 32m." },
+      { "type": "tip", "value": "Sempre desenhe a figura (mesmo que simples) na hora da prova — visualizar ajuda a não confundir base com altura." }
+    ]
+  }
+]

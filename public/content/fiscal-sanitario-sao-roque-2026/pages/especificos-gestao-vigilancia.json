@@ -1,0 +1,24 @@
+[
+  {
+    "id": "especificos-gestao-vigilancia-p1",
+    "topicId": "especificos-gestao-vigilancia",
+    "order": 1,
+    "title": "Como a Vigilância Sanitária é organizada no Brasil",
+    "blocks": [
+      { "type": "text", "value": "No Brasil, a vigilância sanitária existe em três níveis: federal (ANVISA), estadual (Vigilâncias Sanitárias Estaduais) e municipal (Vigilâncias Sanitárias Municipais). Cada nível tem responsabilidades diferentes." },
+      { "type": "text", "value": "De forma simples: o nível federal cria normas gerais e fiscaliza produtos de abrangência nacional (como medicamentos); os estados apoiam e fiscalizam questões regionais; os municípios fazem a fiscalização do dia a dia — restaurantes, mercados, salões, indústrias locais." },
+      { "type": "tip", "value": "O Fiscal Sanitário de uma prefeitura, como no caso de São Roque, atua no nível MUNICIPAL — é a ponta mais próxima da população." }
+    ]
+  },
+  {
+    "id": "especificos-gestao-vigilancia-p2",
+    "topicId": "especificos-gestao-vigilancia",
+    "order": 2,
+    "title": "Municipalização e descentralização",
+    "blocks": [
+      { "type": "text", "value": "Descentralização é o princípio de que as decisões e ações de saúde não devem ficar só no governo federal — devem ser repassadas para estados e principalmente municípios, que conhecem melhor a realidade local." },
+      { "type": "text", "value": "Municipalização é a descentralização aplicada especificamente ao município: transferir para a prefeitura a responsabilidade de executar ações de vigilância sanitária que antes eram só do estado ou da união." },
+      { "type": "tip", "value": "Ideia central para prova: municipalização não significa que o município decide sozinho e sem regras — ele segue as normas nacionais e estaduais, mas executa a fiscalização localmente." }
+    ]
+  }
+]

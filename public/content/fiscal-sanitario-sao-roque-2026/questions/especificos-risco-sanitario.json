@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-risco-1",
+    "topicId": "especificos-risco-sanitario",
+    "statement": "A chance de que algo (um produto, serviço ou ambiente) cause dano à saúde de uma pessoa ou população é chamada de:",
+    "options": [
+      { "id": "a", "text": "Perigo absoluto" },
+      { "id": "b", "text": "Risco sanitário" },
+      { "id": "c", "text": "Endemia" },
+      { "id": "d", "text": "Auto de infração" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Risco sanitário é a probabilidade de dano à saúde decorrente de um produto, serviço, ambiente ou processo."
+  },
+  {
+    "id": "q-risco-2",
+    "topicId": "especificos-risco-sanitario",
+    "statement": "A fonte capaz de causar dano (por exemplo, uma bactéria presente em um alimento) é tecnicamente chamada de:",
+    "options": [
+      { "id": "a", "text": "Risco" },
+      { "id": "b", "text": "Endemia" },
+      { "id": "c", "text": "Perigo" },
+      { "id": "d", "text": "Notificação" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Perigo é a fonte capaz de causar dano; o risco é a chance real desse dano ocorrer, considerando o contexto (por exemplo, más condições de armazenamento)."
+  },
+  {
+    "id": "q-risco-3",
+    "topicId": "especificos-risco-sanitario",
+    "statement": "Decidir onde a vigilância sanitária deve agir primeiro, comparando a gravidade e a probabilidade de diferentes riscos, é chamado de:",
+    "options": [
+      { "id": "a", "text": "Priorização de risco" },
+      { "id": "b", "text": "Judicialização sanitária" },
+      { "id": "c", "text": "Logística reversa" },
+      { "id": "d", "text": "Municipalização" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A priorização de risco é o processo de comparar riscos diferentes para decidir onde a ação de vigilância deve ser feita primeiro."
+  },
+  {
+    "id": "q-risco-4",
+    "topicId": "especificos-risco-sanitario",
+    "statement": "No gerenciamento de risco sanitário, depois de identificar o perigo e avaliar o risco, a etapa seguinte é:",
+    "options": [
+      { "id": "a", "text": "Ignorar o caso até nova denúncia" },
+      { "id": "b", "text": "Decidir a ação adequada (orientar, notificar ou interditar, por exemplo)" },
+      { "id": "c", "text": "Encerrar o processo automaticamente" },
+      { "id": "d", "text": "Aguardar decisão judicial obrigatória" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Após identificar o perigo e avaliar o risco (gravidade x probabilidade), a etapa seguinte do gerenciamento de risco é decidir a ação mais adequada para reduzi-lo ou eliminá-lo."
+  },
+  {
+    "id": "q-risco-5",
+    "topicId": "especificos-risco-sanitario",
+    "statement": "Após uma ação de vigilância ser tomada para reduzir um risco sanitário identificado, é importante que a vigilância faça:",
+    "options": [
+      { "id": "a", "text": "O acompanhamento, para verificar se o risco foi realmente controlado" },
+      { "id": "b", "text": "O arquivamento definitivo do caso, sem necessidade de retorno" },
+      { "id": "c", "text": "A transferência do caso para outro município" },
+      { "id": "d", "text": "A eliminação do cadastro do estabelecimento" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O gerenciamento de risco não termina na ação — é preciso acompanhar para confirmar que o risco foi de fato reduzido ou eliminado."
+  }
+]

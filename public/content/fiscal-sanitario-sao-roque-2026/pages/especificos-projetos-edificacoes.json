@@ -1,0 +1,35 @@
+[
+  {
+    "id": "especificos-projetos-edificacoes-p1",
+    "topicId": "especificos-projetos-edificacoes",
+    "order": 1,
+    "title": "Avaliação de projetos de edificações de interesse da saúde",
+    "blocks": [
+      { "type": "text", "value": "Antes de um estabelecimento de interesse da saúde abrir (como uma clínica, um restaurante ou um salão de beleza), o projeto do imóvel pode precisar passar pela avaliação da vigilância sanitária, verificando se a estrutura física atende às normas: ventilação, iluminação, pias, banheiros, fluxo de pessoas e materiais, entre outros pontos." },
+      { "type": "text", "value": "Essa avaliação é chamada de avaliação físico-funcional: verifica se o espaço físico funciona bem para a atividade que será exercida ali, prevenindo riscos antes mesmo do estabelecimento começar a funcionar." },
+      { "type": "tip", "value": "'Físico-funcional' junta duas ideias: FÍSICO (a estrutura em si — paredes, instalações) e FUNCIONAL (como as pessoas e os materiais vão se mover e ser usados naquele espaço)." }
+    ]
+  },
+  {
+    "id": "especificos-projetos-edificacoes-p2",
+    "topicId": "especificos-projetos-edificacoes",
+    "order": 2,
+    "title": "O Laudo Técnico de Avaliação (LTA)",
+    "blocks": [
+      { "type": "text", "value": "O Laudo Técnico de Avaliação (LTA) é o documento emitido pelo fiscal (ou pela vigilância sanitária) depois de avaliar o projeto ou a estrutura de uma edificação de interesse da saúde. Ele atesta se o local está de acordo com as normas sanitárias." },
+      { "type": "text", "value": "O LTA costuma ser exigido para a liberação da licença de funcionamento do estabelecimento — sem ele, muitas vezes não é possível abrir legalmente o negócio." },
+      { "type": "tip", "value": "Se a prova perguntar 'qual documento formaliza a avaliação físico-funcional de um projeto de interesse da saúde', a resposta é o Laudo Técnico de Avaliação (LTA)." }
+    ]
+  },
+  {
+    "id": "especificos-projetos-edificacoes-p3",
+    "topicId": "especificos-projetos-edificacoes",
+    "order": 3,
+    "title": "Instauração do processo administrativo sanitário — revisão prática",
+    "blocks": [
+      { "type": "text", "value": "Este ponto conecta com o que já vimos em 'Atribuições do Fiscal': quando uma irregularidade é encontrada, o fiscal instaura o processo administrativo sanitário, começando pela lavratura do auto de infração." },
+      { "type": "text", "value": "Depois disso, segue o rito: notificação do autuado, prazo de defesa, julgamento e, se mantida a irregularidade, aplicação do auto de imposição de penalidade — sempre respeitando contraditório e ampla defesa." },
+      { "type": "tip", "value": "Esse fluxo se aplica tanto para infrações encontradas numa fiscalização de rotina quanto para problemas identificados na avaliação de um projeto de edificação." }
+    ]
+  }
+]

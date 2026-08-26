@@ -1,0 +1,36 @@
+[
+  {
+    "id": "portugues-regencia-p1",
+    "topicId": "portugues-regencia",
+    "order": 1,
+    "title": "Regência: quem 'pede' preposição?",
+    "blocks": [
+      { "type": "text", "value": "Regência é a relação entre uma palavra (verbo ou nome) e os termos que a completam. Alguns verbos e nomes 'pedem' uma preposição específica para fazer sentido." },
+      { "type": "text", "value": "Regência verbal cuida dos verbos. Regência nominal cuida de substantivos, adjetivos e advérbios que também exigem preposição." },
+      { "type": "tip", "value": "Decore aos poucos os casos mais cobrados: são poucos verbos que aparecem sempre na prova. Não precisa saber regência de todo verbo da língua." }
+    ]
+  },
+  {
+    "id": "portugues-regencia-p2",
+    "topicId": "portugues-regencia",
+    "order": 2,
+    "title": "Verbos que mais caem em prova",
+    "blocks": [
+      { "type": "text", "value": "ASSISTIR (ver): pede a preposição 'a'. Ex.: 'Assisti ao treinamento.' (não 'assisti o treinamento')." },
+      { "type": "text", "value": "CHEGAR e IR: pedem 'a', nunca 'em'. Ex.: 'Cheguei ao estabelecimento' (não 'cheguei no estabelecimento')." },
+      { "type": "text", "value": "PREFERIR: pede 'a', sem palavra de comparação. Ex.: 'Prefiro multar a interditar' (não 'prefiro multar do que interditar')." },
+      { "type": "text", "value": "OBEDECER e DESOBEDECER: pedem 'a'. Ex.: 'O estabelecimento obedeceu às normas.'" },
+      { "type": "tip", "value": "Na fala do dia a dia usamos errado sem perceber ('cheguei no trabalho', 'assisti o jogo'). Na prova, vale a norma culta: 'cheguei ao trabalho', 'assisti ao jogo'." }
+    ]
+  },
+  {
+    "id": "portugues-regencia-p3",
+    "topicId": "portugues-regencia",
+    "order": 3,
+    "title": "Regência nominal comum",
+    "blocks": [
+      { "type": "text", "value": "Alguns adjetivos também pedem preposição fixa: 'apto A' (apto ao cargo), 'favorável A' (favorável à proposta), 'necessário A' (necessário ao processo)." },
+      { "type": "text", "value": "Perceba que muitos desses casos usam a preposição 'a' — e é justamente aí que costuma aparecer a crase (a + a = à), outro assunto que a prova adora combinar com regência." }
+    ]
+  }
+]

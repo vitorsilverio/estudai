@@ -1,0 +1,38 @@
+[
+  {
+    "id": "portugues-crase-vicios-p1",
+    "topicId": "portugues-crase-vicios",
+    "order": 1,
+    "title": "Crase: quando usar o acento (à)",
+    "blocks": [
+      { "type": "text", "value": "Crase é a junção da preposição 'a' com o artigo feminino 'a' (ou 'as'), resultando em 'à' (ou 'às')." },
+      { "type": "text", "value": "Só existe crase antes de palavra feminina. Regra de ouro: troque a palavra feminina por uma masculina equivalente. Se virar 'ao', tem crase (fica 'à'). Se virar apenas 'a', não tem crase." },
+      { "type": "tip", "value": "Exemplo prático: 'Fui à reunião' → trocando para masculino: 'Fui AO encontro' → tem 'ao', então tem crase: 'à reunião'." }
+    ]
+  },
+  {
+    "id": "portugues-crase-vicios-p2",
+    "topicId": "portugues-crase-vicios",
+    "order": 2,
+    "title": "Os quatro 'porquês'",
+    "blocks": [
+      { "type": "text", "value": "PORQUE (junto, sem acento): usado para explicar/responder. Ex.: 'Multei porque havia risco à saúde.'" },
+      { "type": "text", "value": "POR QUE (separado, sem acento): usado em perguntas (diretas ou indiretas) e antes de 'que' relativo. Ex.: 'Por que o local foi interditado?'" },
+      { "type": "text", "value": "POR QUÊ (separado, com acento): igual ao anterior, mas usado no final da frase. Ex.: 'O local foi interditado por quê?'" },
+      { "type": "text", "value": "PORQUÊ (junto, com acento): é um substantivo, equivale a 'motivo'. Ex.: 'Ninguém entendeu o porquê da interdição.'" },
+      { "type": "tip", "value": "Se dá para substituir por 'motivo' ou 'razão', é PORQUÊ (substantivo). Se está perguntando algo, é POR QUE/POR QUÊ." }
+    ]
+  },
+  {
+    "id": "portugues-crase-vicios-p3",
+    "topicId": "portugues-crase-vicios",
+    "order": 3,
+    "title": "Vícios de linguagem comuns",
+    "blocks": [
+      { "type": "text", "value": "Vício de linguagem é um erro ou desvio da norma culta que prejudica a clareza ou a correção da frase. Alguns exemplos que a prova gosta de citar:" },
+      { "type": "text", "value": "Ambiguidade: frase que dá margem a duas interpretações. Ex.: 'O fiscal viu o dono saindo do carro' (quem saiu do carro, o fiscal ou o dono?)." },
+      { "type": "text", "value": "Cacofonia: junção de palavras que forma um som estranho/engraçado quando lidas seguidas. Ex.: 'Vou-me já'." },
+      { "type": "text", "value": "Pleonasmo (vicioso): repetição desnecessária de uma ideia. Ex.: 'subir para cima', 'entrar para dentro'." }
+    ]
+  }
+]

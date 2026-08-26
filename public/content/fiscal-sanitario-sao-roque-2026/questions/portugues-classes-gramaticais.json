@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-classes-1",
+    "topicId": "portugues-classes-gramaticais",
+    "statement": "Na frase 'O estabelecimento irregular foi interditado', a palavra 'irregular' é classificada como:",
+    "options": [
+      { "id": "a", "text": "Substantivo" },
+      { "id": "b", "text": "Adjetivo" },
+      { "id": "c", "text": "Advérbio" },
+      { "id": "d", "text": "Artigo" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Irregular' atribui uma característica ao substantivo 'estabelecimento', função típica do adjetivo."
+  },
+  {
+    "id": "q-classes-2",
+    "topicId": "portugues-classes-gramaticais",
+    "statement": "Na frase 'A equipe trabalhou rapidamente na vistoria', a palavra 'rapidamente' é classificada como:",
+    "options": [
+      { "id": "a", "text": "Adjetivo" },
+      { "id": "b", "text": "Substantivo" },
+      { "id": "c", "text": "Advérbio de modo" },
+      { "id": "d", "text": "Pronome" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Rapidamente' modifica o verbo 'trabalhou', indicando o modo como a ação ocorreu — é advérbio de modo."
+  },
+  {
+    "id": "q-classes-3",
+    "topicId": "portugues-classes-gramaticais",
+    "statement": "Assinale a alternativa em que a palavra sublinhada é um PRONOME: 'ELE assinou o auto de infração.'",
+    "options": [
+      { "id": "a", "text": "'Assinou' é o pronome" },
+      { "id": "b", "text": "'Ele' é o pronome" },
+      { "id": "c", "text": "'Auto' é o pronome" },
+      { "id": "d", "text": "'De' é o pronome" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Ele' substitui um substantivo (o nome da pessoa) e indica a 3ª pessoa — é um pronome pessoal."
+  },
+  {
+    "id": "q-classes-4",
+    "topicId": "portugues-classes-gramaticais",
+    "statement": "Assinale a palavra que contém um DÍGRAFO:",
+    "options": [
+      { "id": "a", "text": "fiscal" },
+      { "id": "b", "text": "carro" },
+      { "id": "c", "text": "água" },
+      { "id": "d", "text": "vistoria" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Em 'carro', o 'rr' representa um único som — as duas letras juntas formam um dígrafo."
+  },
+  {
+    "id": "q-classes-5",
+    "topicId": "portugues-classes-gramaticais",
+    "statement": "Na frase 'Um fiscal visitou o mercado', a palavra 'um' é classificada como:",
+    "options": [
+      { "id": "a", "text": "Artigo definido" },
+      { "id": "b", "text": "Artigo indefinido" },
+      { "id": "c", "text": "Numeral apenas" },
+      { "id": "d", "text": "Pronome pessoal" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Um' antes de substantivo, indicando um elemento não específico (não se sabe qual fiscal), é artigo indefinido."
+  }
+]

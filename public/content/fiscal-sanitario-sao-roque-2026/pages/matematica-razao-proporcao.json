@@ -1,0 +1,26 @@
+[
+  {
+    "id": "matematica-razao-proporcao-p1",
+    "topicId": "matematica-razao-proporcao",
+    "order": 1,
+    "title": "Razão, proporção e porcentagem",
+    "blocks": [
+      { "type": "text", "value": "Razão é a comparação entre dois números por meio de uma divisão. Se numa equipe há 2 fiscais para cada 10 estabelecimentos, a razão é 2/10 (ou 1/5)." },
+      { "type": "text", "value": "Proporção é a igualdade entre duas razões: 2/10 = 1/5. Isso permite descobrir valores desconhecidos: se para 10 estabelecimentos preciso de 2 fiscais, para 50 estabelecimentos preciso de quantos?" },
+      { "type": "text", "value": "Porcentagem é uma razão especial, sempre comparada com 100. 25% significa 25 em cada 100, ou seja, 25/100 = 0,25." },
+      { "type": "tip", "value": "Para calcular X% de um valor, multiplique o valor pela porcentagem em forma decimal. Ex.: 20% de 300 = 0,20 × 300 = 60." }
+    ]
+  },
+  {
+    "id": "matematica-razao-proporcao-p2",
+    "topicId": "matematica-razao-proporcao",
+    "order": 2,
+    "title": "Regra de três simples, passo a passo",
+    "blocks": [
+      { "type": "text", "value": "Regra de três simples serve para descobrir um valor desconhecido quando duas grandezas são proporcionais." },
+      { "type": "text", "value": "Exemplo: se 4 fiscais vistoriam 20 estabelecimentos por dia, quantos estabelecimentos 6 fiscais vistoriam? Monte assim: 4 fiscais → 20 estabelecimentos; 6 fiscais → X estabelecimentos." },
+      { "type": "text", "value": "Multiplique cruzado: 4 × X = 6 × 20, então 4X = 120, então X = 30. Com 6 fiscais, vistoriam-se 30 estabelecimentos." },
+      { "type": "tip", "value": "Sempre confira se a relação é 'quanto mais, mais' (proporção direta, como no exemplo) ou 'quanto mais, menos' (proporção inversa, como tempo de obra e número de trabalhadores) antes de montar a conta." }
+    ]
+  }
+]

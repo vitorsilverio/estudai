@@ -1,0 +1,25 @@
+[
+  {
+    "id": "matematica-equacao-1grau-p1",
+    "topicId": "matematica-equacao-1grau",
+    "order": 1,
+    "title": "O que é uma equação do 1º grau",
+    "blocks": [
+      { "type": "text", "value": "Uma equação do 1º grau é uma 'balança' com um X escondido que você precisa descobrir. Ela tem a forma: número × X + número = número." },
+      { "type": "text", "value": "Exemplo: 2x + 4 = 10. Isso significa: 'um número (x), multiplicado por 2, mais 4, dá 10'. Queremos descobrir quanto vale x." },
+      { "type": "text", "value": "Regra de ouro: tudo que você faz de um lado da igualdade, tem que desfazer do outro lado, para manter o equilíbrio da balança." },
+      { "type": "tip", "value": "Quando um número 'muda de lado' na equação, ele troca de operação: quem soma vira subtração, quem multiplica vira divisão." }
+    ]
+  },
+  {
+    "id": "matematica-equacao-1grau-p2",
+    "topicId": "matematica-equacao-1grau",
+    "order": 2,
+    "title": "Resolvendo passo a passo",
+    "blocks": [
+      { "type": "text", "value": "Vamos resolver 2x + 4 = 10 passo a passo. Primeiro, tiramos o +4 do lado esquerdo, passando para o lado direito como -4: 2x = 10 - 4, ou seja, 2x = 6." },
+      { "type": "text", "value": "Agora, o 2 está multiplicando o x. Para isolar o x, passamos o 2 dividindo para o outro lado: x = 6 ÷ 2, ou seja, x = 3." },
+      { "type": "text", "value": "Sempre confira o resultado voltando na equação original: 2 × 3 + 4 = 6 + 4 = 10. Confere!" }
+    ]
+  }
+]

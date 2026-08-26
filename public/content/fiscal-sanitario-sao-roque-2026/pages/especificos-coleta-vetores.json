@@ -1,0 +1,25 @@
+[
+  {
+    "id": "especificos-coleta-vetores-p1",
+    "topicId": "especificos-coleta-vetores",
+    "order": 1,
+    "title": "Coleta de amostras de alimentos",
+    "blocks": [
+      { "type": "text", "value": "Quando há suspeita de que um alimento está contaminado ou fora do padrão, o fiscal pode coletar uma amostra para envio a um laboratório, que vai analisar e confirmar (ou não) o problema." },
+      { "type": "text", "value": "A coleta precisa seguir regras específicas: usar recipiente adequado e limpo, identificar a amostra corretamente (produto, lote, data, local), manter a cadeia de conservação (por exemplo, refrigerar se necessário) e, em geral, coletar mais de uma unidade — uma para análise e outra como contraprova (para o dono do produto poder contestar o resultado, se quiser)." },
+      { "type": "tip", "value": "Contraprova é um conceito importante: garante o direito de defesa do fiscalizado, permitindo que uma segunda amostra seja analisada em caso de contestação do resultado." }
+    ]
+  },
+  {
+    "id": "especificos-coleta-vetores-p2",
+    "topicId": "especificos-coleta-vetores",
+    "order": 2,
+    "title": "Controle de vetores, roedores e animais peçonhentos",
+    "blocks": [
+      { "type": "text", "value": "Vetor é um ser vivo (geralmente inseto) que transmite doenças de uma pessoa/animal para outra — o exemplo mais famoso no Brasil é o mosquito Aedes aegypti, que transmite dengue, zika e chikungunya." },
+      { "type": "text", "value": "O controle de vetores em estabelecimentos comerciais envolve verificar se existem focos de proliferação (água parada, lixo acumulado, buracos) e se o local tem um programa de controle de pragas (dedetização regular, telas, armadilhas)." },
+      { "type": "text", "value": "Roedores (ratos) e animais peçonhentos (como escorpiões e aranhas) também são fiscalizados, pois podem contaminar alimentos ou causar acidentes." },
+      { "type": "tip", "value": "Vetor ≠ hospedeiro: vetor TRANSMITE a doença (o mosquito); hospedeiro é o organismo onde o agente causador da doença vive e se multiplica (pode ser o próprio ser humano)." }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+@if (currentQuestion) {
+  <app-question-card
+    [question]="currentQuestion"
+    [questionNumber]="currentIndex() + 1"
+    [totalQuestions]="questions.length"
+    [showFeedback]="showFeedback"
+    (answered)="onAnswered($event)"
+  />
+
+  @if (hasAnsweredCurrent) {
+    <button type="button" class="btn btn--primary btn--block next-btn" (click)="goToNext()">
+      {{ currentIndex() + 1 < questions.length ? 'Próxima questão' : 'Ver resultado' }}
+    </button>
+  }
+}

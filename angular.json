@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "estudo-fiscal-sanitario": {
+    "estudai": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "estudo-fiscal-sanitario:build:production"
+              "buildTarget": "estudai:build:production"
             },
             "development": {
-              "buildTarget": "estudo-fiscal-sanitario:build:development"
+              "buildTarget": "estudai:build:development"
             }
           },
           "defaultConfiguration": "development"

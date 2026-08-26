@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-mapeamento-1",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "statement": "O processo de dividir a cidade em áreas menores para conhecer melhor sua população, seus riscos sanitários e sua estrutura de saúde é chamado de:",
+    "options": [
+      { "id": "a", "text": "Territorialização" },
+      { "id": "b", "text": "Judicialização" },
+      { "id": "c", "text": "Descentralização orçamentária" },
+      { "id": "d", "text": "Regionalização eleitoral" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Territorialização é exatamente esse processo de dividir o território em áreas menores para conhecer melhor a realidade local e planejar ações de saúde e vigilância."
+  },
+  {
+    "id": "q-mapeamento-2",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "statement": "O retrato da situação de saúde de uma comunidade, incluindo doenças mais comuns e problemas de saneamento, é chamado de:",
+    "options": [
+      { "id": "a", "text": "Auto de infração" },
+      { "id": "b", "text": "Diagnóstico comunitário" },
+      { "id": "c", "text": "Laudo Técnico de Avaliação" },
+      { "id": "d", "text": "Termo de notificação" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O diagnóstico comunitário reúne informações sobre a saúde e as condições de vida de uma comunidade, servindo de base para planejar ações de vigilância."
+  },
+  {
+    "id": "q-mapeamento-3",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "statement": "A identificação de 'pontos quentes' — locais com maior chance de causar dano à saúde da população — é o objetivo principal de qual atividade?",
+    "options": [
+      { "id": "a", "text": "Avaliação das áreas de risco ambiental e sanitário" },
+      { "id": "b", "text": "Emissão do Laudo Técnico de Avaliação" },
+      { "id": "c", "text": "Instauração de processo administrativo" },
+      { "id": "d", "text": "Controle de vetores em estabelecimentos comerciais" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A avaliação das áreas de risco ambiental e sanitário serve para localizar os pontos de maior risco à saúde, orientando a priorização das ações de vigilância."
+  },
+  {
+    "id": "q-mapeamento-4",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "statement": "O conjunto de dados sobre notificações de doenças, atendimentos e óbitos, usado para acompanhar a situação de saúde de um município, é conhecido como:",
+    "options": [
+      { "id": "a", "text": "Sistema de informação em saúde" },
+      { "id": "b", "text": "Cadastro de contribuintes" },
+      { "id": "c", "text": "Prontuário único nacional" },
+      { "id": "d", "text": "Boletim de ocorrência sanitária" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O sistema de informação em saúde reúne dados sobre a saúde da população (notificações, atendimentos, óbitos) para subsidiar o diagnóstico e o planejamento das ações."
+  },
+  {
+    "id": "q-mapeamento-5",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "statement": "Envolver a comunidade nas decisões de vigilância em saúde, por exemplo por meio de conselhos de saúde, é um exemplo de:",
+    "options": [
+      { "id": "a", "text": "Poder de polícia sanitário" },
+      { "id": "b", "text": "Participação e mobilização social" },
+      { "id": "c", "text": "Logística reversa" },
+      { "id": "d", "text": "Responsabilidade compartilhada" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Participação e mobilização social é o princípio que envolve a própria comunidade nas decisões e ações de vigilância em saúde, em vez de a fiscalização agir isoladamente."
+  }
+]

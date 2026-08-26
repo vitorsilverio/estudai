@@ -1,0 +1,24 @@
+[
+  {
+    "id": "especificos-risco-sanitario-p1",
+    "topicId": "especificos-risco-sanitario",
+    "order": 1,
+    "title": "O que é risco sanitário",
+    "blocks": [
+      { "type": "text", "value": "Risco sanitário é a chance de algo causar dano à saúde de uma pessoa ou de uma população — por exemplo, o risco de contaminação em um alimento mal conservado, ou o risco de uma doença se espalhar por falta de saneamento." },
+      { "type": "text", "value": "Nem todo risco é igual: um alimento vencido há 1 dia numa prateleira não tem o mesmo risco que uma indústria despejando esgoto num rio que abastece a cidade." },
+      { "type": "tip", "value": "A vigilância sanitária trabalha o tempo todo comparando riscos para decidir onde agir primeiro — isso se chama priorização de risco." }
+    ]
+  },
+  {
+    "id": "especificos-risco-sanitario-p2",
+    "topicId": "especificos-risco-sanitario",
+    "order": 2,
+    "title": "Gerenciamento de risco sanitário",
+    "blocks": [
+      { "type": "text", "value": "Gerenciar risco sanitário é o processo de identificar o risco, avaliar o quão grave e provável ele é, e decidir a melhor ação para reduzi-lo ou eliminá-lo." },
+      { "type": "text", "value": "Esse processo costuma ter etapas: identificação do perigo → avaliação do risco (gravidade x probabilidade) → decisão da ação (orientar, notificar, interditar) → acompanhamento (verificar se o risco foi realmente controlado)." },
+      { "type": "tip", "value": "Perigo é diferente de risco: perigo é a fonte capaz de causar dano (ex.: uma bactéria); risco é a chance real desse dano acontecer, considerando o contexto (ex.: alimento mal armazenado facilita a bactéria crescer)." }
+    ]
+  }
+]

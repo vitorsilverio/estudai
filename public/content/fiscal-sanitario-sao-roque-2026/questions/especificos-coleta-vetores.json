@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-coleta-1",
+    "topicId": "especificos-coleta-vetores",
+    "statement": "Ao coletar uma amostra de alimento suspeito de contaminação, é uma boa prática coletar mais de uma unidade porque:",
+    "options": [
+      { "id": "a", "text": "Uma delas serve como contraprova, em caso de contestação do resultado" },
+      { "id": "b", "text": "É exigido por questões estéticas do laboratório" },
+      { "id": "c", "text": "Aumenta o valor da multa aplicada" },
+      { "id": "d", "text": "Reduz o tempo de análise laboratorial" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A coleta de uma segunda amostra (contraprova) garante o direito de defesa do fiscalizado, permitindo nova análise em caso de contestação."
+  },
+  {
+    "id": "q-coleta-2",
+    "topicId": "especificos-coleta-vetores",
+    "statement": "Um ser vivo que transmite doenças de uma pessoa ou animal para outra, como o mosquito Aedes aegypti, é chamado de:",
+    "options": [
+      { "id": "a", "text": "Hospedeiro" },
+      { "id": "b", "text": "Vetor" },
+      { "id": "c", "text": "Reservatório inerte" },
+      { "id": "d", "text": "Vírus" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Vetor é o ser vivo (geralmente um inseto) que transmite o agente causador de uma doença de um hospedeiro para outro, como o mosquito Aedes aegypti."
+  },
+  {
+    "id": "q-coleta-3",
+    "topicId": "especificos-coleta-vetores",
+    "statement": "Ao fiscalizar um estabelecimento comercial quanto ao controle de vetores, o Fiscal Sanitário deve verificar principalmente:",
+    "options": [
+      { "id": "a", "text": "A existência de focos de proliferação, como água parada e lixo acumulado" },
+      { "id": "b", "text": "Apenas o faturamento mensal do estabelecimento" },
+      { "id": "c", "text": "O número de funcionários registrados" },
+      { "id": "d", "text": "A quantidade de produtos em estoque" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O controle de vetores envolve verificar focos de proliferação (água parada, lixo acumulado, buracos) e a existência de um programa de controle de pragas no local."
+  },
+  {
+    "id": "q-coleta-4",
+    "topicId": "especificos-coleta-vetores",
+    "statement": "Doenças como dengue, zika e chikungunya são transmitidas no Brasil principalmente por qual vetor?",
+    "options": [
+      { "id": "a", "text": "Barata" },
+      { "id": "b", "text": "Rato" },
+      { "id": "c", "text": "Mosquito Aedes aegypti" },
+      { "id": "d", "text": "Escorpião" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O mosquito Aedes aegypti é o principal vetor de transmissão de dengue, zika e chikungunya no Brasil."
+  },
+  {
+    "id": "q-coleta-5",
+    "topicId": "especificos-coleta-vetores",
+    "statement": "Para que uma amostra de alimento coletada para análise laboratorial seja válida, é necessário, entre outros cuidados:",
+    "options": [
+      { "id": "a", "text": "Utilizar recipiente adequado e identificar corretamente a amostra (produto, lote, data, local)" },
+      { "id": "b", "text": "Coletar qualquer quantidade, sem necessidade de identificação" },
+      { "id": "c", "text": "Descartar a amostra imediatamente após a coleta" },
+      { "id": "d", "text": "Coletar somente na presença de um juiz" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A coleta de amostras deve seguir procedimentos técnicos, incluindo recipiente adequado, identificação completa e cuidados de conservação, para garantir a validade da análise."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-lei11445-1",
+    "topicId": "especificos-lei-11445",
+    "statement": "A Lei Federal nº 11.445/2007 estabelece a Política Nacional de:",
+    "options": [
+      { "id": "a", "text": "Resíduos Sólidos" },
+      { "id": "b", "text": "Saneamento Básico" },
+      { "id": "c", "text": "Vigilância Sanitária" },
+      { "id": "d", "text": "Segurança Alimentar" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Lei nº 11.445/2007 é a que estabelece as diretrizes nacionais para o saneamento básico."
+  },
+  {
+    "id": "q-lei11445-2",
+    "topicId": "especificos-lei-11445",
+    "statement": "São considerados os 4 componentes do saneamento básico, segundo a Lei nº 11.445/2007:",
+    "options": [
+      { "id": "a", "text": "Água, esgoto, resíduos sólidos e drenagem pluvial" },
+      { "id": "b", "text": "Água, energia elétrica, gás e telefonia" },
+      { "id": "c", "text": "Transporte, moradia, saúde e educação" },
+      { "id": "d", "text": "Água, alimentos, medicamentos e vacinas" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os 4 componentes do saneamento básico são: abastecimento de água potável, esgotamento sanitário, limpeza urbana/manejo de resíduos sólidos e drenagem/manejo de águas pluviais."
+  },
+  {
+    "id": "q-lei11445-3",
+    "topicId": "especificos-lei-11445",
+    "statement": "A coleta e o tratamento do esgoto doméstico correspondem a qual componente do saneamento básico?",
+    "options": [
+      { "id": "a", "text": "Drenagem pluvial" },
+      { "id": "b", "text": "Abastecimento de água" },
+      { "id": "c", "text": "Esgotamento sanitário" },
+      { "id": "d", "text": "Limpeza urbana" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O esgotamento sanitário é o componente do saneamento básico responsável pela coleta e tratamento do esgoto."
+  },
+  {
+    "id": "q-lei11445-4",
+    "topicId": "especificos-lei-11445",
+    "statement": "O escoamento adequado da água da chuva nas áreas urbanas, evitando enchentes, faz parte de qual componente do saneamento básico?",
+    "options": [
+      { "id": "a", "text": "Drenagem e manejo das águas pluviais urbanas" },
+      { "id": "b", "text": "Esgotamento sanitário" },
+      { "id": "c", "text": "Limpeza urbana e manejo de resíduos sólidos" },
+      { "id": "d", "text": "Abastecimento de água potável" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A drenagem e o manejo das águas pluviais urbanas cuidam do escoamento da água da chuva nas cidades."
+  },
+  {
+    "id": "q-lei11445-5",
+    "topicId": "especificos-lei-11445",
+    "statement": "A ausência de saneamento básico adequado está mais diretamente associada a:",
+    "options": [
+      { "id": "a", "text": "Aumento de doenças de veiculação hídrica e proliferação de vetores" },
+      { "id": "b", "text": "Redução do custo de vida da população" },
+      { "id": "c", "text": "Melhoria automática da qualidade do ar" },
+      { "id": "d", "text": "Diminuição do consumo de energia elétrica" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A falta de saneamento básico está diretamente ligada ao aumento de doenças transmitidas pela água contaminada e à proliferação de vetores, como mosquitos e roedores."
+  }
+]

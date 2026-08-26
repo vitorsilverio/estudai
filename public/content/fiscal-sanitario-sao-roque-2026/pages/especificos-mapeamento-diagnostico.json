@@ -1,0 +1,35 @@
+[
+  {
+    "id": "especificos-mapeamento-diagnostico-p1",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "order": 1,
+    "title": "Mapeamento e territorialização",
+    "blocks": [
+      { "type": "text", "value": "Territorialização é o processo de 'conhecer o território': dividir a cidade em áreas menores (bairros, microáreas) e entender quem mora ali, quais são os riscos sanitários e como é a estrutura de saúde e saneamento de cada pedaço." },
+      { "type": "text", "value": "Mapeamento é a ferramenta prática disso: colocar no mapa os estabelecimentos, os pontos de risco (como lixões, esgoto a céu aberto, indústrias) e os equipamentos de saúde (postos, hospitais)." },
+      { "type": "tip", "value": "Ideia-chave: territorializar não é só desenhar um mapa — é usar essa divisão para planejar melhor onde e como fiscalizar." }
+    ]
+  },
+  {
+    "id": "especificos-mapeamento-diagnostico-p2",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "order": 2,
+    "title": "Diagnóstico comunitário e avaliação de risco",
+    "blocks": [
+      { "type": "text", "value": "Diagnóstico comunitário é o retrato da saúde de uma comunidade: quais doenças são mais comuns ali, quais problemas de saneamento existem, quais hábitos de risco a população tem." },
+      { "type": "text", "value": "A avaliação de áreas de risco ambiental e sanitário usa esse diagnóstico para identificar 'pontos quentes': lugares com maior chance de causar dano à saúde (por exemplo, área sem coleta de lixo regular, ou perto de um rio poluído)." },
+      { "type": "text", "value": "Isso ajuda o fiscal e o serviço de saúde a decidir onde agir primeiro, em vez de fiscalizar tudo com a mesma prioridade." }
+    ]
+  },
+  {
+    "id": "especificos-mapeamento-diagnostico-p3",
+    "topicId": "especificos-mapeamento-diagnostico",
+    "order": 3,
+    "title": "Sistema de informação em saúde e participação social",
+    "blocks": [
+      { "type": "text", "value": "Sistema de informação em saúde é o conjunto de dados (notificações de doenças, atendimentos, óbitos) que o serviço público reúne para acompanhar a situação de saúde da cidade. Esses dados alimentam o diagnóstico comunitário." },
+      { "type": "text", "value": "Participação e mobilização social é envolver a própria comunidade nas decisões e ações de vigilância — por exemplo, através de conselhos de saúde ou campanhas educativas — em vez de a fiscalização agir sozinha." },
+      { "type": "tip", "value": "Se a prova cobrar 'qual o papel da comunidade na vigilância sanitária', lembre: participação social é princípio, não um detalhe burocrático — está ligada à ideia de que saúde pública se constrói junto com a população." }
+    ]
+  }
+]

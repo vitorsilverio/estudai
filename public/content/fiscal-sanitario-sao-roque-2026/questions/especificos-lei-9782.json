@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-lei9782-1",
+    "topicId": "especificos-lei-9782",
+    "statement": "A lei federal que definiu o Sistema Nacional de Vigilância Sanitária e criou a ANVISA é a:",
+    "options": [
+      { "id": "a", "text": "Lei nº 6.437/77" },
+      { "id": "b", "text": "Lei nº 9.782/99" },
+      { "id": "c", "text": "Lei nº 11.445/2007" },
+      { "id": "d", "text": "Lei nº 8.080/90" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Lei Federal nº 9.782/99 definiu o Sistema Nacional de Vigilância Sanitária (SNVS) e criou a Agência Nacional de Vigilância Sanitária (ANVISA)."
+  },
+  {
+    "id": "q-lei9782-2",
+    "topicId": "especificos-lei-9782",
+    "statement": "A ANVISA é classificada, do ponto de vista administrativo, como uma:",
+    "options": [
+      { "id": "a", "text": "Empresa privada certificada pelo governo" },
+      { "id": "b", "text": "Autarquia federal vinculada ao Ministério da Saúde" },
+      { "id": "c", "text": "Organização não governamental internacional" },
+      { "id": "d", "text": "Secretaria estadual de saúde" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A ANVISA é uma autarquia federal, com autonomia administrativa, vinculada ao Ministério da Saúde."
+  },
+  {
+    "id": "q-lei9782-3",
+    "topicId": "especificos-lei-9782",
+    "statement": "O Sistema Nacional de Vigilância Sanitária (SNVS) pode ser descrito como:",
+    "options": [
+      { "id": "a", "text": "Apenas a estrutura interna da ANVISA" },
+      { "id": "b", "text": "O conjunto de órgãos federais, estaduais e municipais que atuam de forma integrada na vigilância sanitária" },
+      { "id": "c", "text": "Um sistema exclusivo dos hospitais privados" },
+      { "id": "d", "text": "Um cadastro nacional de médicos" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O SNVS reúne os órgãos federais, estaduais e municipais de vigilância sanitária, que atuam de forma integrada em todo o país."
+  },
+  {
+    "id": "q-lei9782-4",
+    "topicId": "especificos-lei-9782",
+    "statement": "É correto afirmar sobre a relação entre a ANVISA e as vigilâncias sanitárias municipais que:",
+    "options": [
+      { "id": "a", "text": "A ANVISA substitui integralmente a atuação municipal" },
+      { "id": "b", "text": "A ANVISA define regras gerais nacionais, enquanto o município executa a fiscalização local" },
+      { "id": "c", "text": "Municípios não podem ter vigilância sanitária própria" },
+      { "id": "d", "text": "A ANVISA só atua em casos de calamidade pública" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A ANVISA atua definindo regras gerais em nível nacional, enquanto a fiscalização mais próxima da população fica a cargo das vigilâncias sanitárias estaduais e municipais."
+  },
+  {
+    "id": "q-lei9782-5",
+    "topicId": "especificos-lei-9782",
+    "statement": "Entre as áreas fiscalizadas pela ANVISA está a vigilância sanitária de:",
+    "options": [
+      { "id": "a", "text": "Portos e aeroportos" },
+      { "id": "b", "text": "Trânsito urbano" },
+      { "id": "c", "text": "Concursos públicos" },
+      { "id": "d", "text": "Registro civil de imóveis" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A ANVISA também é responsável pela vigilância sanitária em portos, aeroportos e fronteiras, entre outras áreas de abrangência nacional."
+  }
+]

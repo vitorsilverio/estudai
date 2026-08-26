@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-razao-1",
+    "topicId": "matematica-razao-proporcao",
+    "statement": "Quanto é 20% de 300?",
+    "options": [
+      { "id": "a", "text": "20" },
+      { "id": "b", "text": "60" },
+      { "id": "c", "text": "80" },
+      { "id": "d", "text": "150" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "20% em decimal é 0,20. Multiplicando: 0,20 × 300 = 60."
+  },
+  {
+    "id": "q-razao-2",
+    "topicId": "matematica-razao-proporcao",
+    "statement": "Se 4 fiscais vistoriam 20 estabelecimentos por dia, mantendo a mesma proporção, quantos estabelecimentos 6 fiscais vistoriam no mesmo período?",
+    "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "26" },
+      { "id": "c", "text": "30" },
+      { "id": "d", "text": "36" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Regra de três: 4/20 = 6/X. Multiplicando cruzado: 4X = 120, então X = 30."
+  },
+  {
+    "id": "q-razao-3",
+    "topicId": "matematica-razao-proporcao",
+    "statement": "Um produto custava R$ 80,00 e teve um aumento de 15%. Qual é o novo preço?",
+    "options": [
+      { "id": "a", "text": "R$ 92,00" },
+      { "id": "b", "text": "R$ 88,00" },
+      { "id": "c", "text": "R$ 95,00" },
+      { "id": "d", "text": "R$ 100,00" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "15% de 80 é 0,15 × 80 = 12. Somando ao preço original: 80 + 12 = 92."
+  },
+  {
+    "id": "q-razao-4",
+    "topicId": "matematica-razao-proporcao",
+    "statement": "Em uma prefeitura, a razão entre o número de fiscais e o número de bairros atendidos é de 3 para 12. Simplificando essa razão, temos:",
+    "options": [
+      { "id": "a", "text": "1 para 3" },
+      { "id": "b", "text": "1 para 4" },
+      { "id": "c", "text": "3 para 4" },
+      { "id": "d", "text": "1 para 12" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "3/12 simplificado (dividindo os dois números por 3) dá 1/4, ou seja, razão de 1 para 4."
+  },
+  {
+    "id": "q-razao-5",
+    "topicId": "matematica-razao-proporcao",
+    "statement": "Uma equipe de 5 pessoas conclui uma tarefa em 12 dias. Trabalhando na mesma proporção (mais pessoas, menos dias), em quantos dias 10 pessoas concluiriam a mesma tarefa?",
+    "options": [
+      { "id": "a", "text": "24 dias" },
+      { "id": "b", "text": "10 dias" },
+      { "id": "c", "text": "6 dias" },
+      { "id": "d", "text": "20 dias" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Essa é uma proporção inversa (mais pessoas, menos dias): 5 × 12 = 10 × X, então 60 = 10X, então X = 6 dias."
+  }
+]

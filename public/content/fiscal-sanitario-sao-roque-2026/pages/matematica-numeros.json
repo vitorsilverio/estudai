@@ -1,0 +1,26 @@
+[
+  {
+    "id": "matematica-numeros-p1",
+    "topicId": "matematica-numeros",
+    "order": 1,
+    "title": "Números inteiros: o básico",
+    "blocks": [
+      { "type": "text", "value": "Números inteiros são os números sem vírgula, positivos, negativos e o zero: ..., -3, -2, -1, 0, 1, 2, 3, ..." },
+      { "type": "text", "value": "Regra de sinais na multiplicação e divisão: sinais iguais dão resultado positivo (+ × + = + ; − × − = +). Sinais diferentes dão resultado negativo (+ × − = −)." },
+      { "type": "text", "value": "Na soma e subtração: se os sinais são iguais, soma os números e mantém o sinal (-3 + -5 = -8). Se são diferentes, subtrai o menor do maior e usa o sinal do maior (-3 + 5 = 2)." },
+      { "type": "tip", "value": "Pense em dinheiro: número negativo é dívida. Se você deve 3 e deve mais 5, deve 8 (-3 + -5 = -8). Se deve 3 mas ganha 5, sobra 2 (-3 + 5 = 2)." }
+    ]
+  },
+  {
+    "id": "matematica-numeros-p2",
+    "topicId": "matematica-numeros",
+    "order": 2,
+    "title": "Frações e decimais",
+    "blocks": [
+      { "type": "text", "value": "Uma fração representa uma parte de um todo. Em 3/4, o 4 (embaixo) diz em quantas partes o todo foi dividido, e o 3 (em cima) diz quantas dessas partes você tem." },
+      { "type": "text", "value": "Para transformar fração em decimal, basta dividir: 3 ÷ 4 = 0,75." },
+      { "type": "text", "value": "Para somar frações com denominadores diferentes, é preciso igualar os denominadores primeiro. Ex.: 1/2 + 1/4 = 2/4 + 1/4 = 3/4." },
+      { "type": "tip", "value": "Multiplicar frações é o caminho mais fácil: multiplica de cima com cima, de baixo com baixo. 1/2 × 2/3 = 2/6 = 1/3." }
+    ]
+  }
+]

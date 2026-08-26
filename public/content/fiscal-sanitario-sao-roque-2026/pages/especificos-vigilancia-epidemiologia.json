@@ -1,0 +1,35 @@
+[
+  {
+    "id": "especificos-vigilancia-epidemiologia-p1",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "order": 1,
+    "title": "O que é vigilância em saúde",
+    "blocks": [
+      { "type": "text", "value": "Vigilância em saúde é o conjunto de ações usadas para observar, prevenir e controlar doenças e riscos à saúde da população. Ela reúne várias 'frentes': vigilância sanitária (fiscalização de produtos e serviços), vigilância epidemiológica (acompanhamento de doenças) e vigilância ambiental (riscos do ambiente)." },
+      { "type": "tip", "value": "Pense assim: vigilância SANITÁRIA fiscaliza o que pode causar dano (um restaurante sujo, por exemplo); vigilância EPIDEMIOLÓGICA acompanha as doenças que já aconteceram, para entender padrões e agir rápido." }
+    ]
+  },
+  {
+    "id": "especificos-vigilancia-epidemiologia-p2",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "order": 2,
+    "title": "Epidemiologia: a base da vigilância",
+    "blocks": [
+      { "type": "text", "value": "Epidemiologia é o estudo de como as doenças se distribuem numa população: quem adoece, onde, quando e por quê. É a ciência que dá base para as decisões de saúde pública." },
+      { "type": "text", "value": "Análise de situação de saúde é usar dados epidemiológicos (número de casos, óbitos, internações) para entender o cenário de saúde de uma cidade e decidir prioridades." },
+      { "type": "text", "value": "Um conceito importante: 'notificação compulsória' é a obrigação legal de comunicar às autoridades de saúde a ocorrência de certas doenças (como dengue, tuberculose, sarampo), para que a vigilância possa agir rápido." }
+    ]
+  },
+  {
+    "id": "especificos-vigilancia-epidemiologia-p3",
+    "topicId": "especificos-vigilancia-epidemiologia",
+    "order": 3,
+    "title": "Surto, epidemia e endemia",
+    "blocks": [
+      { "type": "text", "value": "Surto: aumento inesperado de casos de uma doença em um local específico e período curto (por exemplo, vários casos de intoxicação alimentar na mesma festa)." },
+      { "type": "text", "value": "Epidemia: aumento significativo de casos de uma doença numa região mais ampla, acima do esperado." },
+      { "type": "text", "value": "Endemia: doença que ocorre com frequência constante e esperada numa região, sem grande variação (como a dengue em muitas cidades brasileiras)." },
+      { "type": "tip", "value": "Pandemia é quando a epidemia se espalha por vários países/continentes. A ordem de 'tamanho' costuma ser: surto → epidemia → pandemia; endemia é sobre constância, não tamanho." }
+    ]
+  }
+]

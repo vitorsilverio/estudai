@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-gestao-1",
+    "topicId": "especificos-gestao-vigilancia",
+    "statement": "O órgão federal responsável por normas gerais de vigilância sanitária no Brasil, incluindo o controle de medicamentos, é a:",
+    "options": [
+      { "id": "a", "text": "ANVISA" },
+      { "id": "b", "text": "OMS" },
+      { "id": "c", "text": "FUNASA" },
+      { "id": "d", "text": "ABCP" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A ANVISA (Agência Nacional de Vigilância Sanitária) é o órgão federal responsável por normas gerais e fiscalização de produtos de abrangência nacional."
+  },
+  {
+    "id": "q-gestao-2",
+    "topicId": "especificos-gestao-vigilancia",
+    "statement": "Um Fiscal Sanitário contratado por uma prefeitura, como a de São Roque, atua principalmente em qual nível da vigilância sanitária?",
+    "options": [
+      { "id": "a", "text": "Federal" },
+      { "id": "b", "text": "Estadual" },
+      { "id": "c", "text": "Municipal" },
+      { "id": "d", "text": "Internacional" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O Fiscal Sanitário municipal atua no nível municipal, fiscalizando o dia a dia de estabelecimentos locais como restaurantes, mercados e indústrias da cidade."
+  },
+  {
+    "id": "q-gestao-3",
+    "topicId": "especificos-gestao-vigilancia",
+    "statement": "O princípio de repassar decisões e ações de saúde do governo federal para estados e municípios, que conhecem melhor a realidade local, é chamado de:",
+    "options": [
+      { "id": "a", "text": "Centralização" },
+      { "id": "b", "text": "Descentralização" },
+      { "id": "c", "text": "Federalização" },
+      { "id": "d", "text": "Privatização" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Descentralização é o princípio que transfere decisões e execução de ações de saúde para níveis mais próximos da população, como estados e municípios."
+  },
+  {
+    "id": "q-gestao-4",
+    "topicId": "especificos-gestao-vigilancia",
+    "statement": "Transferir para a prefeitura a responsabilidade de executar ações de vigilância sanitária que antes eram do estado ou da união é chamado especificamente de:",
+    "options": [
+      { "id": "a", "text": "Estadualização" },
+      { "id": "b", "text": "Municipalização" },
+      { "id": "c", "text": "Federalização" },
+      { "id": "d", "text": "Judicialização" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Municipalização é a descentralização aplicada especificamente ao nível municipal, transferindo a execução da vigilância sanitária para a prefeitura."
+  },
+  {
+    "id": "q-gestao-5",
+    "topicId": "especificos-gestao-vigilancia",
+    "statement": "É correto afirmar sobre a municipalização da vigilância sanitária que:",
+    "options": [
+      { "id": "a", "text": "O município decide sozinho, sem seguir normas federais ou estaduais" },
+      { "id": "b", "text": "O município executa a fiscalização local seguindo normas nacionais e estaduais" },
+      { "id": "c", "text": "Apenas a União pode fiscalizar estabelecimentos comerciais" },
+      { "id": "d", "text": "A municipalização elimina a necessidade de vigilância estadual" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A municipalização transfere a execução para o município, mas ele continua seguindo as normas gerais definidas nos níveis federal e estadual."
+  }
+]

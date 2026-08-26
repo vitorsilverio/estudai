@@ -1,0 +1,25 @@
+[
+  {
+    "id": "portugues-colocacao-pronominal-p1",
+    "topicId": "portugues-colocacao-pronominal",
+    "order": 1,
+    "title": "Onde colocar o pronome (me, te, se, o, lhe...)",
+    "blocks": [
+      { "type": "text", "value": "Colocação pronominal é sobre ONDE colocar pronomes átonos (me, te, se, o, a, lhe, nos, vos, os, as) em relação ao verbo." },
+      { "type": "text", "value": "PRÓCLISE (pronome antes do verbo): usada quando há uma palavra 'atrativa' antes, como negação (não), pronome interrogativo (quem, que), ou certas conjunções. Ex.: 'Não SE preocupe.'" },
+      { "type": "text", "value": "ÊNCLISE (pronome depois do verbo, com hífen): é o padrão em início de frase, quando não há palavra atrativa antes. Ex.: 'Preocupe-SE com isso.'" },
+      { "type": "tip", "value": "Regra prática: começou a frase com o verbo? Usa ênclise (verbo-pronome). Tem 'não' ou palavra negativa/interrogativa antes do verbo? Usa próclise (pronome antes)." }
+    ]
+  },
+  {
+    "id": "portugues-colocacao-pronominal-p2",
+    "topicId": "portugues-colocacao-pronominal",
+    "order": 2,
+    "title": "Termos da oração: objeto direto e indireto",
+    "blocks": [
+      { "type": "text", "value": "Objeto direto: completa o verbo SEM preposição. Ex.: 'O fiscal notificou O ESTABELECIMENTO.'" },
+      { "type": "text", "value": "Objeto indireto: completa o verbo COM preposição obrigatória. Ex.: 'O fiscal obedeceu ÀS NORMAS.'" },
+      { "type": "tip", "value": "Pergunta para achar objeto direto: verbo + 'o quê?' ou 'quem?' (sem preposição). Para objeto indireto: verbo + 'a quê?', 'de quê?', 'a quem?' (com preposição)." }
+    ]
+  }
+]

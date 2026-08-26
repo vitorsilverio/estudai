@@ -1,0 +1,46 @@
+<div class="page">
+  @if (stage() === 'reading' && currentPage) {
+    <div class="reading-header">
+      <span class="reading-header__progress">Página {{ pageIndex() + 1 }} de {{ pages().length }}</span>
+      <div class="reading-header__actions">
+        <button type="button" class="icon-btn" (click)="settings.decreaseFontSize()">A-</button>
+        <button type="button" class="icon-btn" (click)="settings.increaseFontSize()">A+</button>
+        @if (speechSupported) {
+          <button type="button" class="icon-btn" (click)="readAloud()">🔊</button>
+        }
+      </div>
+    </div>
+
+    <h1 class="reading-title">{{ currentPage.title }}</h1>
+
+    <div class="reading-blocks">
+      @for (block of currentPage.blocks; track $index) {
+        @if (block.type === 'tip') {
+          <p class="reading-tip">💡 {{ block.value }}</p>
+        } @else {
+          <p class="reading-text">{{ block.value }}</p>
+        }
+      }
+    </div>
+
+    <button type="button" class="btn btn--primary btn--block" (click)="nextPage()">
+      {{ isLastPage ? 'Concluir leitura' : 'Próxima página' }}
+    </button>
+  }
+
+  @if (stage() === 'quiz') {
+    <h1>Vamos fixar o que você leu</h1>
+    <app-quiz-runner [questions]="questions()" feedbackMode="immediate" (finished)="onQuizFinished($event)" />
+  }
+
+  @if (stage() === 'done') {
+    <div class="done-card">
+      <p class="done-card__emoji">🎉</p>
+      <h1>Tópico concluído!</h1>
+      @if (pointsEarned() > 0) {
+        <p>Você ganhou {{ pointsEarned() }} pontos.</p>
+      }
+      <button type="button" class="btn btn--primary btn--block" (click)="goToTrilha()">Voltar à trilha</button>
+    </div>
+  }
+</div>

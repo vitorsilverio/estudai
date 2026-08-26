@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-sujpred-1",
+    "topicId": "portugues-sujeito-predicado",
+    "statement": "Em 'O fiscal sanitário notificou o restaurante', o sujeito da oração é:",
+    "options": [
+      { "id": "a", "text": "notificou" },
+      { "id": "b", "text": "o restaurante" },
+      { "id": "c", "text": "o fiscal sanitário" },
+      { "id": "d", "text": "a oração não tem sujeito" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O sujeito é quem pratica a ação do verbo: quem notificou foi 'o fiscal sanitário'. 'O restaurante' é o objeto direto, quem sofre a ação."
+  },
+  {
+    "id": "q-sujpred-2",
+    "topicId": "portugues-sujeito-predicado",
+    "statement": "Em 'Chegamos ao local antes da fiscalização começar', o sujeito da oração é classificado como:",
+    "options": [
+      { "id": "a", "text": "Sujeito indeterminado" },
+      { "id": "b", "text": "Sujeito oculto (nós)" },
+      { "id": "c", "text": "Oração sem sujeito" },
+      { "id": "d", "text": "Sujeito composto" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O sujeito 'nós' não aparece na frase, mas é identificado pela terminação verbal '-mos' de 'chegamos'. Isso é sujeito oculto (ou desinencial)."
+  },
+  {
+    "id": "q-sujpred-3",
+    "topicId": "portugues-sujeito-predicado",
+    "statement": "Assinale a alternativa que contém uma oração SEM sujeito:",
+    "options": [
+      { "id": "a", "text": "Choveu muito na semana da vistoria." },
+      { "id": "b", "text": "Eles vistoriaram três estabelecimentos." },
+      { "id": "c", "text": "A equipe chegou atrasada." },
+      { "id": "d", "text": "Alguém denunciou o local." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Verbos que indicam fenômenos da natureza, como 'chover', são impessoais e formam orações sem sujeito — não existe 'quem chove'."
+  },
+  {
+    "id": "q-sujpred-4",
+    "topicId": "portugues-sujeito-predicado",
+    "statement": "Em 'Falaram mal da limpeza da cozinha durante a reunião', o sujeito é classificado como:",
+    "options": [
+      { "id": "a", "text": "Sujeito simples" },
+      { "id": "b", "text": "Sujeito composto" },
+      { "id": "c", "text": "Sujeito indeterminado" },
+      { "id": "d", "text": "Oração sem sujeito" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Não se sabe quem falou; o verbo está na 3ª pessoa do plural sem um sujeito claro identificável no contexto — isso caracteriza sujeito indeterminado."
+  },
+  {
+    "id": "q-sujpred-5",
+    "topicId": "portugues-sujeito-predicado",
+    "statement": "Em 'O gerente e a nutricionista assinaram o termo de notificação', o sujeito é:",
+    "options": [
+      { "id": "a", "text": "Simples, com núcleo 'o gerente'" },
+      { "id": "b", "text": "Composto, com núcleos 'o gerente' e 'a nutricionista'" },
+      { "id": "c", "text": "Indeterminado" },
+      { "id": "d", "text": "Oculto" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Há dois núcleos praticando a ação ('o gerente' e 'a nutricionista'), ligados por 'e'. Isso é sujeito composto."
+  }
+]

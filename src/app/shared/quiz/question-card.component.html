@@ -1,0 +1,72 @@
+<div class="question-card">
+  <div class="question-card__header">
+    <span class="question-card__counter">Questão {{ questionNumber }} de {{ totalQuestions }}</span>
+    @if (speechSupported) {
+      <button type="button" class="icon-btn" (click)="readAloud()" aria-label="Ouvir questão">🔊 Ouvir</button>
+    }
+  </div>
+
+  <p class="question-card__statement">{{ question.statement }}</p>
+
+  <div class="question-card__options">
+    @for (option of question.options; track option.id) {
+      <button
+        type="button"
+        class="option"
+        [class.option--selected]="selectedOptionId === option.id"
+        [class.option--correct]="submitted && showFeedback && option.id === question.correctOptionId"
+        [class.option--wrong]="submitted && showFeedback && selectedOptionId === option.id && option.id !== question.correctOptionId"
+        [disabled]="submitted"
+        (click)="selectOption(option.id)"
+      >
+        {{ option.text }}
+      </button>
+    }
+  </div>
+
+  <div class="question-card__confidence">
+    <span class="question-card__confidence-label">Quão seguro você está?</span>
+    <div class="confidence-buttons">
+      <button
+        type="button"
+        class="confidence confidence--certeza"
+        [class.confidence--active]="selectedConfidence === 'certeza'"
+        [disabled]="submitted"
+        (click)="selectConfidence('certeza')"
+      >
+        ✅ Certeza
+      </button>
+      <button
+        type="button"
+        class="confidence confidence--duvida"
+        [class.confidence--active]="selectedConfidence === 'duvida'"
+        [disabled]="submitted"
+        (click)="selectConfidence('duvida')"
+      >
+        🤔 Dúvida
+      </button>
+      <button
+        type="button"
+        class="confidence confidence--chute"
+        [class.confidence--active]="selectedConfidence === 'chute'"
+        [disabled]="submitted"
+        (click)="selectConfidence('chute')"
+      >
+        🎲 Chute
+      </button>
+    </div>
+  </div>
+
+  @if (!submitted) {
+    <button type="button" class="btn btn--primary btn--block" [disabled]="!canSubmit" (click)="submit()">
+      Responder
+    </button>
+  }
+
+  @if (submitted && showFeedback) {
+    <div class="question-card__feedback" [class.question-card__feedback--correct]="isCorrect">
+      <p class="question-card__feedback-title">{{ isCorrect ? '✅ Isso mesmo!' : '❌ Não foi dessa vez.' }}</p>
+      <p class="question-card__feedback-explanation">{{ question.explanation }}</p>
+    </div>
+  }
+</div>

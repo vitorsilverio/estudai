@@ -1,0 +1,53 @@
+[
+  {
+    "id": "especificos-atribuicoes-fiscal-p1",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "order": 1,
+    "title": "O que faz um Fiscal Sanitário",
+    "blocks": [
+      { "type": "text", "value": "O Fiscal Sanitário fiscaliza tudo que pode colocar a saúde das pessoas em risco: alimentos, água, esgoto, estabelecimentos comerciais, indústrias, poços e até animais que transmitem doenças." },
+      { "type": "text", "value": "Ele age em nome do poder público. Isso quer dizer que, quando ele autua alguém, não é uma opinião pessoal — é o Estado usando seu 'poder de polícia' para proteger a coletividade." },
+      { "type": "tip", "value": "Poder de polícia: é a autoridade que o Estado tem para limitar o direito de alguém (por exemplo, fechar um estabelecimento) em nome do interesse público." }
+    ]
+  },
+  {
+    "id": "especificos-atribuicoes-fiscal-p2",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "order": 2,
+    "title": "As 6 atribuições principais (edital)",
+    "blocks": [
+      { "type": "text", "value": "O edital lista as atribuições do cargo em 6 pontos. Vamos ver um por um, de forma simples:" },
+      { "type": "text", "value": "1) Fazer cumprir leis e regulamentos sanitários — emitindo termos, notificações, autos de infração e autos de imposição de penalidade." },
+      { "type": "text", "value": "2) Coletar amostras de produtos (como alimentos) para análise, seguindo a legislação específica sobre coleta." },
+      { "type": "text", "value": "3) Fazer vistorias de orientação e educação sanitária junto à população, quando percebe risco à saúde." },
+      { "type": "text", "value": "4) Inspecionar poços, fossas, rios, drenos, pocilgas e águas paradas, procurando focos de contaminação e coletando material para análise." },
+      { "type": "text", "value": "5) Orientar comércio e indústria sobre normas de higiene sanitária." },
+      { "type": "text", "value": "6) Executar outras tarefas correlatas determinadas pelo superior imediato." },
+      { "type": "tip", "value": "Repare: 4 das 6 atribuições são sobre agir no território (vistoriar, inspecionar, coletar). Só uma é puramente punitiva (autuar). A banca gosta de cobrar essa ideia de que o fiscal também orienta, não só multa." }
+    ]
+  },
+  {
+    "id": "especificos-atribuicoes-fiscal-p3",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "order": 3,
+    "title": "Documentos que o fiscal emite",
+    "blocks": [
+      { "type": "text", "value": "No dia a dia da fiscalização, existem documentos-chave que aparecem muito em prova:" },
+      { "type": "text", "value": "Termo de notificação: avisa o estabelecimento sobre uma irregularidade, geralmente dando um prazo para corrigir." },
+      { "type": "text", "value": "Auto de infração: documento formal que registra que uma infração sanitária realmente aconteceu. É o início do processo punitivo." },
+      { "type": "text", "value": "Auto de imposição de penalidade: define qual a punição (advertência, multa, interdição, etc.) depois que o processo correu." },
+      { "type": "tip", "value": "Ordem lógica para prova: primeiro se identifica/notifica → depois lavra-se o auto de infração → depois, se confirmado, vem o auto de imposição de penalidade." }
+    ]
+  },
+  {
+    "id": "especificos-atribuicoes-fiscal-p4",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "order": 4,
+    "title": "Processo Administrativo Sanitário — a ideia central",
+    "blocks": [
+      { "type": "text", "value": "O Processo Administrativo Sanitário é o caminho formal que a fiscalização segue para poder aplicar uma penalidade. Ele existe para garantir que o estabelecimento fiscalizado tenha direito de se defender (contraditório e ampla defesa) antes de qualquer punição definitiva." },
+      { "type": "text", "value": "Fluxo básico, de forma simplificada: fiscalização detecta a irregularidade → lavra auto de infração → o autuado é notificado e pode apresentar defesa → a autoridade sanitária julga → se mantida a infração, aplica-se a penalidade (auto de imposição de penalidade) → cabe recurso." },
+      { "type": "tip", "value": "Se a prova perguntar 'o que garante o direito de defesa do estabelecimento fiscalizado?' — a resposta é o próprio Processo Administrativo Sanitário, com base nos princípios do contraditório e da ampla defesa." }
+    ]
+  }
+]

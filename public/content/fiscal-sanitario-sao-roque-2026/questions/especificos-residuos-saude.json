@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-rss-1",
+    "topicId": "especificos-residuos-saude",
+    "statement": "Seringas, agulhas e gaze com sangue, gerados em um hospital, são classificados como:",
+    "options": [
+      { "id": "a", "text": "Resíduos domiciliares comuns" },
+      { "id": "b", "text": "Resíduos dos Serviços de Saúde (RSS)" },
+      { "id": "c", "text": "Resíduos da construção civil" },
+      { "id": "d", "text": "Resíduos verdes" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Materiais como seringas, agulhas e gaze com sangue, gerados em serviços de saúde, são classificados como Resíduos dos Serviços de Saúde (RSS)."
+  },
+  {
+    "id": "q-rss-2",
+    "topicId": "especificos-residuos-saude",
+    "statement": "Os Resíduos dos Serviços de Saúde exigem cuidado especial principalmente porque podem:",
+    "options": [
+      { "id": "a", "text": "Ser sempre reciclados sem qualquer tratamento prévio" },
+      { "id": "b", "text": "Transmitir doenças, ferir pessoas ou contaminar o ambiente" },
+      { "id": "c", "text": "Ser descartados junto com resíduos domiciliares comuns sem restrição" },
+      { "id": "d", "text": "Ser incinerados em qualquer local sem licenciamento" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Os RSS oferecem risco biológico, de perfurocortante e, em alguns casos, químico ou radioativo, exigindo manejo diferenciado."
+  },
+  {
+    "id": "q-rss-3",
+    "topicId": "especificos-residuos-saude",
+    "statement": "Materiais perfurocortantes gerados em serviços de saúde, como agulhas usadas, são normalmente classificados no grupo:",
+    "options": [
+      { "id": "a", "text": "Grupo A" },
+      { "id": "b", "text": "Grupo D" },
+      { "id": "c", "text": "Grupo E" },
+      { "id": "d", "text": "Grupo C" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Materiais perfurocortantes são classificados no Grupo E, na classificação usual dos Resíduos dos Serviços de Saúde."
+  },
+  {
+    "id": "q-rss-4",
+    "topicId": "especificos-residuos-saude",
+    "statement": "O campo voltado para promover, proteger e recuperar a saúde da população como um todo, por meio de políticas e ações coletivas, é chamado de:",
+    "options": [
+      { "id": "a", "text": "Medicina individual" },
+      { "id": "b", "text": "Saúde pública" },
+      { "id": "c", "text": "Farmacologia clínica" },
+      { "id": "d", "text": "Odontologia preventiva particular" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Saúde pública é o campo focado em ações coletivas de promoção, proteção e recuperação da saúde da população, diferente do atendimento médico individual."
+  },
+  {
+    "id": "q-rss-5",
+    "topicId": "especificos-residuos-saude",
+    "statement": "É correto afirmar que o saneamento básico está relacionado à saúde pública porque:",
+    "options": [
+      { "id": "a", "text": "Substitui integralmente a necessidade de atendimento médico" },
+      { "id": "b", "text": "É uma ferramenta de prevenção de doenças antes que elas ocorram" },
+      { "id": "c", "text": "É de responsabilidade exclusiva do setor privado" },
+      { "id": "d", "text": "Não tem relação com a vigilância sanitária" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O saneamento básico é considerado uma das ferramentas mais importantes de saúde pública justamente por prevenir doenças, atuando antes que elas se manifestem."
+  }
+]

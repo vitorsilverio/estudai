@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gerais-atualidades-p1",
+    "topicId": "gerais-atualidades",
+    "order": 1,
+    "title": "Como estudar atualidades sem perder tempo",
+    "blocks": [
+      { "type": "text", "value": "Atualidades é a matéria mais difícil de 'estudar com antecedência', porque o conteúdo muda toda semana. A estratégia certa não é decorar fatos de meses atrás — é criar o hábito de acompanhar notícias até perto da prova." },
+      { "type": "text", "value": "Foque nos temas que o próprio edital cita: política, economia, geografia, sociedade, cultura e história (nível municipal, estadual e nacional), além de tecnologia, meio ambiente, segurança e relações internacionais." },
+      { "type": "tip", "value": "Dedique 10 a 15 minutos por dia lendo o resumo de notícias de um site confiável, de preferência perto da data da prova (últimas 2-3 semanas antes do dia 27/09/2026), em vez de tentar 'estudar' isso com meses de antecedência." }
+    ]
+  },
+  {
+    "id": "gerais-atualidades-p2",
+    "topicId": "gerais-atualidades",
+    "order": 2,
+    "title": "O que vale a pena revisar mesmo sem saber a notícia do dia",
+    "blocks": [
+      { "type": "text", "value": "Existem conhecimentos de 'atualidades' que não mudam de uma semana para outra e valem a pena estudar com calma: como funciona a divisão de poderes (Executivo, Legislativo, Judiciário), os símbolos e a estrutura básica do governo municipal, estadual e federal." },
+      { "type": "text", "value": "Questões de sustentabilidade e meio ambiente também costumam cobrar conceitos estáveis, como reciclagem, coleta seletiva e desenvolvimento sustentável — não fatos do noticiário." },
+      { "type": "tip", "value": "Separe mentalmente: 'conceito estável' (pode estudar agora, com calma) x 'fato do momento' (deixe para os últimos 15-20 dias antes da prova)." }
+    ]
+  }
+]

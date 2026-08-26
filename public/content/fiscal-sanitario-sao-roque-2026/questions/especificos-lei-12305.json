@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-lei12305-1",
+    "topicId": "especificos-lei-12305",
+    "statement": "A lei federal que institui a Política Nacional de Resíduos Sólidos é a:",
+    "options": [
+      { "id": "a", "text": "Lei nº 11.445/2007" },
+      { "id": "b", "text": "Lei nº 12.305/2010" },
+      { "id": "c", "text": "Lei nº 9.782/99" },
+      { "id": "d", "text": "Lei nº 6.437/77" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Lei Federal nº 12.305/2010 institui a Política Nacional de Resíduos Sólidos (PNRS)."
+  },
+  {
+    "id": "q-lei12305-2",
+    "topicId": "especificos-lei-12305",
+    "statement": "Segundo a ordem de prioridade estabelecida pela Política Nacional de Resíduos Sólidos, a primeira opção a ser buscada é:",
+    "options": [
+      { "id": "a", "text": "A disposição final em aterro sanitário" },
+      { "id": "b", "text": "A não geração de resíduos" },
+      { "id": "c", "text": "A reciclagem" },
+      { "id": "d", "text": "A incineração" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A ordem de prioridade da PNRS começa pela não geração, seguida de redução, reutilização, reciclagem, tratamento e, por último, disposição final ambientalmente adequada dos rejeitos."
+  },
+  {
+    "id": "q-lei12305-3",
+    "topicId": "especificos-lei-12305",
+    "statement": "O conjunto de ações para que produtos usados, como pilhas e pneus, retornem às empresas para reaproveitamento ou descarte correto é chamado de:",
+    "options": [
+      { "id": "a", "text": "Logística reversa" },
+      { "id": "b", "text": "Disposição final" },
+      { "id": "c", "text": "Coleta seletiva municipal" },
+      { "id": "d", "text": "Territorialização" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Logística reversa é o instrumento previsto na PNRS para que produtos usados retornem aos fabricantes/distribuidores para reaproveitamento ou descarte ambientalmente correto."
+  },
+  {
+    "id": "q-lei12305-4",
+    "topicId": "especificos-lei-12305",
+    "statement": "O princípio segundo o qual fabricantes, comerciantes, consumidores e poder público são todos responsáveis, cada um com seu papel, pela redução dos resíduos é chamado de:",
+    "options": [
+      { "id": "a", "text": "Responsabilidade objetiva exclusiva do consumidor" },
+      { "id": "b", "text": "Responsabilidade compartilhada pelo ciclo de vida dos produtos" },
+      { "id": "c", "text": "Responsabilidade solidária apenas entre municípios" },
+      { "id": "d", "text": "Responsabilidade penal automática do fabricante" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A responsabilidade compartilhada pelo ciclo de vida dos produtos envolve todos os elos da cadeia — fabricantes, distribuidores, comerciantes, consumidores e poder público."
+  },
+  {
+    "id": "q-lei12305-5",
+    "topicId": "especificos-lei-12305",
+    "statement": "Segundo a Política Nacional de Resíduos Sólidos, o material que já esgotou todas as possibilidades de reaproveitamento e só resta encaminhar para disposição final ambientalmente adequada é chamado de:",
+    "options": [
+      { "id": "a", "text": "Resíduo reciclável" },
+      { "id": "b", "text": "Rejeito" },
+      { "id": "c", "text": "Insumo secundário" },
+      { "id": "d", "text": "Produto perigoso" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Rejeito é o resíduo que já esgotou todas as possibilidades de tratamento e recuperação por processos tecnológicos disponíveis, restando apenas a disposição final ambientalmente adequada."
+  }
+]

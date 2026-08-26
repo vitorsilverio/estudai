@@ -1,0 +1,24 @@
+[
+  {
+    "id": "especificos-residuos-saude-p1",
+    "topicId": "especificos-residuos-saude",
+    "order": 1,
+    "title": "O que são Resíduos dos Serviços de Saúde (RSS)",
+    "blocks": [
+      { "type": "text", "value": "Resíduos dos Serviços de Saúde (RSS) são os resíduos gerados em hospitais, clínicas, laboratórios, consultórios e farmácias — como seringas, agulhas, gaze com sangue, restos de medicamentos e material perfurocortante." },
+      { "type": "text", "value": "Esses resíduos precisam de cuidado especial porque podem transmitir doenças (risco biológico), ferir pessoas (perfurocortantes) ou contaminar o ambiente (produtos químicos, radioativos)." },
+      { "type": "tip", "value": "Os RSS são normalmente separados por cor de saco/recipiente e por grupo (A: risco biológico, B: risco químico, C: rejeito radioativo, D: resíduo comum, E: perfurocortante) — não precisa decorar tudo, mas saiba que existe essa classificação por grupos." }
+    ]
+  },
+  {
+    "id": "especificos-residuos-saude-p2",
+    "topicId": "especificos-residuos-saude",
+    "order": 2,
+    "title": "Noções de saúde pública e saneamento básico",
+    "blocks": [
+      { "type": "text", "value": "Saúde pública é o campo voltado para promover, proteger e recuperar a saúde da população como um todo, por meio de políticas e ações coletivas — diferente da medicina individual, que trata pacientes um a um." },
+      { "type": "text", "value": "Saneamento básico (água, esgoto, lixo, drenagem — visto no tópico da Lei 11.445/2007) é uma das ferramentas mais importantes da saúde pública, porque previne doenças antes que elas aconteçam." },
+      { "type": "tip", "value": "Se a prova perguntar sobre ações de saúde pública x saúde individual: saúde pública pensa na POPULAÇÃO (prevenção, coletivo); saúde individual pensa no PACIENTE (tratamento, curativo)." }
+    ]
+  }
+]

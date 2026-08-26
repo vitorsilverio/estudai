@@ -1,0 +1,6 @@
+[
+  { "id": "portugues", "examId": "fiscal-sanitario-sao-roque-2026", "name": "Língua Portuguesa", "order": 1 },
+  { "id": "matematica", "examId": "fiscal-sanitario-sao-roque-2026", "name": "Matemática e Raciocínio Lógico", "order": 2 },
+  { "id": "gerais", "examId": "fiscal-sanitario-sao-roque-2026", "name": "Conhecimentos Gerais", "order": 3 },
+  { "id": "especificos", "examId": "fiscal-sanitario-sao-roque-2026", "name": "Conhecimentos Específicos — Fiscal Sanitário", "order": 4 }
+]

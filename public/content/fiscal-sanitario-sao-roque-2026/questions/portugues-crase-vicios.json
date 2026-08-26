@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-crase-1",
+    "topicId": "portugues-crase-vicios",
+    "statement": "Assinale a alternativa em que o uso da crase está CORRETO:",
+    "options": [
+      { "id": "a", "text": "O fiscal foi à padaria pela manhã." },
+      { "id": "b", "text": "O fiscal foi à um mercado pela manhã." },
+      { "id": "c", "text": "O fiscal entregou o auto à ele." },
+      { "id": "d", "text": "A notificação foi entregue à Carlos." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Padaria' é palavra feminina e determinada (trocando para masculino: 'foi ao mercado', tem 'ao'), logo há crase: 'à padaria'. Nas demais, o termo seguinte não é feminino/determinado, então não há crase."
+  },
+  {
+    "id": "q-crase-2",
+    "topicId": "portugues-crase-vicios",
+    "statement": "Complete corretamente: 'Ninguém explicou o ___ da interdição do restaurante.'",
+    "options": [
+      { "id": "a", "text": "porque" },
+      { "id": "b", "text": "por que" },
+      { "id": "c", "text": "porquê" },
+      { "id": "d", "text": "por quê" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Aqui a palavra funciona como substantivo (equivale a 'motivo'): 'o porquê' — por isso é escrita junta e com acento."
+  },
+  {
+    "id": "q-crase-3",
+    "topicId": "portugues-crase-vicios",
+    "statement": "Complete corretamente: 'O estabelecimento foi interditado ___ havia risco de contaminação.'",
+    "options": [
+      { "id": "a", "text": "porque" },
+      { "id": "b", "text": "por que" },
+      { "id": "c", "text": "por quê" },
+      { "id": "d", "text": "porquê" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Usa-se 'porque' (junto, sem acento) para dar uma explicação ou justificativa — é o caso aqui."
+  },
+  {
+    "id": "q-crase-4",
+    "topicId": "portugues-crase-vicios",
+    "statement": "\"O fiscal viu o funcionário saindo pela porta dos fundos com a caixa de alimentos.\" Essa frase, dependendo da interpretação, pode ser um exemplo de qual vício de linguagem?",
+    "options": [
+      { "id": "a", "text": "Cacofonia" },
+      { "id": "b", "text": "Ambiguidade" },
+      { "id": "c", "text": "Pleonasmo" },
+      { "id": "d", "text": "Nenhum, a frase é totalmente clara" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A frase permite mais de uma interpretação (não fica claro quem carregava a caixa), caracterizando ambiguidade."
+  },
+  {
+    "id": "q-crase-5",
+    "topicId": "portugues-crase-vicios",
+    "statement": "Assinale a alternativa que contém um PLEONASMO (repetição desnecessária de ideia):",
+    "options": [
+      { "id": "a", "text": "O fiscal subiu para cima antes de vistoriar o andar superior." },
+      { "id": "b", "text": "O fiscal subiu antes de vistoriar o andar superior." },
+      { "id": "c", "text": "O fiscal vistoriou o andar superior." },
+      { "id": "d", "text": "O fiscal chegou cedo para vistoriar o andar superior." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Subir para cima' repete a mesma ideia duas vezes, já que subir já significa ir para cima — isso é pleonasmo vicioso."
+  }
+]

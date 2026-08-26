@@ -1,0 +1,60 @@
+.reading-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.reading-header__progress {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.reading-header__actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.icon-btn {
+  border: none;
+  background: var(--surface-alt);
+  border-radius: var(--radius-md);
+  padding: 0.4rem 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reading-title {
+  font-size: 1.3rem;
+  margin: 0 0 1rem;
+}
+
+.reading-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.reading-text {
+  line-height: 1.7;
+  max-width: 68ch;
+}
+
+.reading-tip {
+  background: var(--accent-bg);
+  border-radius: var(--radius-md);
+  padding: 0.8rem 1rem;
+  line-height: 1.6;
+}
+
+.done-card {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.done-card__emoji {
+  font-size: 3rem;
+  margin: 0;
+}

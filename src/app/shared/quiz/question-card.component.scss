@@ -1,0 +1,130 @@
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: var(--shadow-card);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__counter {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  &__statement {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    max-width: 68ch;
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  &__confidence {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__confidence-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  &__feedback {
+    border-radius: var(--radius-md);
+    padding: 0.9rem 1rem;
+    background: var(--danger-bg);
+    border: 1px solid var(--danger-border);
+
+    &--correct {
+      background: var(--success-bg);
+      border-color: var(--success-border);
+    }
+  }
+
+  &__feedback-title {
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+  }
+
+  &__feedback-explanation {
+    line-height: 1.6;
+  }
+}
+
+.option {
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border);
+  background: var(--surface-alt);
+  font-size: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+
+  &--selected {
+    border-color: var(--accent);
+    background: var(--accent-bg);
+  }
+
+  &--correct {
+    border-color: var(--success-border);
+    background: var(--success-bg);
+  }
+
+  &--wrong {
+    border-color: var(--danger-border);
+    background: var(--danger-bg);
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.confidence-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.confidence {
+  padding: 0.6rem 0.4rem;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border);
+  background: var(--surface-alt);
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &--active {
+    border-color: var(--accent);
+    background: var(--accent-bg);
+    font-weight: 700;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.icon-btn {
+  border: none;
+  background: var(--surface-alt);
+  border-radius: var(--radius-md);
+  padding: 0.4rem 0.7rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}

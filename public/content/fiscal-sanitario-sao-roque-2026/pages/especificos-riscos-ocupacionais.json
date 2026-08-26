@@ -1,0 +1,24 @@
+[
+  {
+    "id": "especificos-riscos-ocupacionais-p1",
+    "topicId": "especificos-riscos-ocupacionais",
+    "order": 1,
+    "title": "O que são riscos ocupacionais",
+    "blocks": [
+      { "type": "text", "value": "Riscos ocupacionais são os riscos à saúde que um trabalhador enfrenta por causa do seu trabalho. Eles costumam ser divididos em 5 grupos, para facilitar a identificação." },
+      { "type": "text", "value": "Físicos: ruído, calor, vibração, radiação. Químicos: poeiras, gases, vapores, substâncias tóxicas. Biológicos: vírus, bactérias, fungos. Ergonômicos: postura inadequada, esforço repetitivo, jornada excessiva. Acidentes (ou mecânicos): máquinas sem proteção, arranjo físico inadequado, risco de queda." },
+      { "type": "tip", "value": "Decoreba útil: Físico, Químico, Biológico, Ergonômico, Acidente — 'FQBEA'. Uma questão pode descrever uma situação (ex.: 'ruído excessivo numa fábrica') e pedir para classificar o tipo de risco." }
+    ]
+  },
+  {
+    "id": "especificos-riscos-ocupacionais-p2",
+    "topicId": "especificos-riscos-ocupacionais",
+    "order": 2,
+    "title": "Saúde do trabalhador e o papel da vigilância",
+    "blocks": [
+      { "type": "text", "value": "Saúde do Trabalhador é a área que estuda a relação entre trabalho e saúde/doença, buscando prevenir acidentes e doenças ocupacionais (causadas pelo próprio trabalho)." },
+      { "type": "text", "value": "A vigilância sanitária também fiscaliza as condições de trabalho dentro dos estabelecimentos que inspeciona — por exemplo, verificando se os funcionários de uma cozinha industrial usam Equipamentos de Proteção Individual (EPIs) adequados." },
+      { "type": "tip", "value": "Doença ocupacional é diferente de acidente de trabalho: a doença se desenvolve aos poucos por exposição contínua (ex.: perda auditiva por ruído); o acidente é um evento súbito (ex.: uma queda)." }
+    ]
+  }
+]

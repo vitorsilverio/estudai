@@ -1,0 +1,24 @@
+[
+  {
+    "id": "especificos-lei-9782-p1",
+    "topicId": "especificos-lei-9782",
+    "order": 1,
+    "title": "Lei nº 9.782/99: cria o Sistema e a ANVISA",
+    "blocks": [
+      { "type": "text", "value": "A Lei Federal nº 9.782/99 fez duas coisas importantes: definiu o Sistema Nacional de Vigilância Sanitária (SNVS) e criou a ANVISA (Agência Nacional de Vigilância Sanitária)." },
+      { "type": "text", "value": "O SNVS é o conjunto de todos os órgãos e instituições (federais, estaduais e municipais) que atuam na vigilância sanitária no Brasil, trabalhando de forma integrada." },
+      { "type": "tip", "value": "Se a prova perguntar 'quem criou a ANVISA', a resposta é a Lei nº 9.782/99." }
+    ]
+  },
+  {
+    "id": "especificos-lei-9782-p2",
+    "topicId": "especificos-lei-9782",
+    "order": 2,
+    "title": "O que é a ANVISA",
+    "blocks": [
+      { "type": "text", "value": "ANVISA é uma autarquia federal (uma espécie de agência do governo com certa independência) vinculada ao Ministério da Saúde. Ela regula e fiscaliza produtos e serviços que envolvem risco à saúde: medicamentos, alimentos, cosméticos, saneantes, portos e aeroportos (vigilância sanitária de fronteiras), entre outros." },
+      { "type": "text", "value": "A ANVISA não substitui a vigilância sanitária estadual ou municipal — ela define regras gerais e atua nacionalmente, enquanto estados e municípios cuidam da fiscalização mais próxima da população." },
+      { "type": "tip", "value": "Autarquia = entidade da administração pública com personalidade jurídica própria, criada por lei, com autonomia administrativa, mas ligada a um Ministério." }
+    ]
+  }
+]

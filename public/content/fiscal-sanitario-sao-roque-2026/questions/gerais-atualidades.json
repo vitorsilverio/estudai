@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-atualidades-1",
+    "topicId": "gerais-atualidades",
+    "statement": "No Brasil, o poder responsável por criar as leis é o:",
+    "options": [
+      { "id": "a", "text": "Executivo" },
+      { "id": "b", "text": "Legislativo" },
+      { "id": "c", "text": "Judiciário" },
+      { "id": "d", "text": "Ministério Público" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O Poder Legislativo (Câmara dos Deputados e Senado, no âmbito federal) é o responsável por elaborar e votar leis."
+  },
+  {
+    "id": "q-atualidades-2",
+    "topicId": "gerais-atualidades",
+    "statement": "No âmbito municipal, o poder Executivo é exercido principalmente por:",
+    "options": [
+      { "id": "a", "text": "O Prefeito" },
+      { "id": "b", "text": "O Governador" },
+      { "id": "c", "text": "Os Vereadores" },
+      { "id": "d", "text": "O Presidente da República" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "No município, o Executivo é exercido pelo Prefeito; os Vereadores compõem o Legislativo municipal (a Câmara Municipal)."
+  },
+  {
+    "id": "q-atualidades-3",
+    "topicId": "gerais-atualidades",
+    "statement": "A separação dos resíduos recicláveis (papel, plástico, vidro, metal) dos resíduos orgânicos, feita já na origem, é chamada de:",
+    "options": [
+      { "id": "a", "text": "Coleta seletiva" },
+      { "id": "b", "text": "Aterro sanitário" },
+      { "id": "c", "text": "Incineração" },
+      { "id": "d", "text": "Compostagem industrial" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Coleta seletiva é a separação dos resíduos por tipo (reciclável, orgânico, etc.) desde a origem, facilitando a reciclagem posterior."
+  },
+  {
+    "id": "q-atualidades-4",
+    "topicId": "gerais-atualidades",
+    "statement": "O órgão do Poder Legislativo responsável por fiscalizar e votar as leis no âmbito do município é:",
+    "options": [
+      { "id": "a", "text": "A Assembleia Legislativa" },
+      { "id": "b", "text": "O Congresso Nacional" },
+      { "id": "c", "text": "A Câmara Municipal" },
+      { "id": "d", "text": "O Tribunal de Justiça" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A Câmara Municipal, formada pelos vereadores, é o órgão legislativo do município. A Assembleia Legislativa é o equivalente estadual, e o Congresso Nacional, o federal."
+  },
+  {
+    "id": "q-atualidades-5",
+    "topicId": "gerais-atualidades",
+    "statement": "'Desenvolvimento sustentável' é um conceito que busca principalmente:",
+    "options": [
+      { "id": "a", "text": "Maximizar o lucro das empresas a qualquer custo ambiental" },
+      { "id": "b", "text": "Atender às necessidades do presente sem comprometer a capacidade das futuras gerações atenderem às suas próprias necessidades" },
+      { "id": "c", "text": "Interromper totalmente o crescimento econômico" },
+      { "id": "d", "text": "Priorizar apenas o crescimento populacional" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Essa é a definição clássica de desenvolvimento sustentável: equilibrar progresso econômico, social e ambiental sem esgotar recursos para o futuro."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "matematica-sistema-metrico-p1",
+    "topicId": "matematica-sistema-metrico",
+    "order": 1,
+    "title": "Medidas de comprimento, tempo e capacidade",
+    "blocks": [
+      { "type": "text", "value": "Comprimento: a unidade principal é o metro (m). Cada casa à direita divide por 10 (decímetro, centímetro, milímetro); cada casa à esquerda multiplica por 10 (decâmetro, hectômetro, quilômetro)." },
+      { "type": "text", "value": "Exemplo: 2 metros = 200 centímetros (multiplica por 100, porque são 2 casas de diferença: m → dm → cm)." },
+      { "type": "text", "value": "Tempo: 1 hora = 60 minutos, 1 minuto = 60 segundos. Cuidado: tempo NÃO é base 10 como as outras medidas." },
+      { "type": "text", "value": "Capacidade: a unidade principal é o litro (L). 1 litro = 1000 mililitros (mL)." },
+      { "type": "tip", "value": "Para converter, é mais seguro montar a proporção (regra de três) do que tentar decorar todas as conversões de cabeça." }
+    ]
+  },
+  {
+    "id": "matematica-sistema-metrico-p2",
+    "topicId": "matematica-sistema-metrico",
+    "order": 2,
+    "title": "Lendo tabelas e gráficos",
+    "blocks": [
+      { "type": "text", "value": "Questões com tabelas e gráficos testam se você consegue ler dados organizados, não se você sabe fórmulas complicadas." },
+      { "type": "text", "value": "Passo a passo: 1) leia o título da tabela/gráfico para saber do que se trata; 2) identifique o que cada linha/coluna ou eixo representa; 3) só depois procure o valor pedido pela questão." },
+      { "type": "tip", "value": "Erro comum: responder rápido sem checar a unidade de medida (é em reais, em unidades, em porcentagem?). Sempre confira a unidade antes de marcar a resposta." }
+    ]
+  }
+]

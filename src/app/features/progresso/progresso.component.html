@@ -1,0 +1,53 @@
+<div class="page">
+  <h1>Meu progresso</h1>
+
+  <div class="progress-card">
+    <p class="progress-card__percent">{{ overallPercent() }}%</p>
+    <p class="progress-card__detail">{{ topicsCompletedCount() }} de {{ totalTopics() }} tópicos concluídos</p>
+    <div class="progress-bar">
+      <div class="progress-bar__fill" [style.width.%]="overallPercent()"></div>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-pill">
+      <span class="stat-pill__value">⭐ {{ progress.points() }}</span>
+      <span class="stat-pill__label">pontos</span>
+    </div>
+    <div class="stat-pill">
+      <span class="stat-pill__value">🔥 {{ progress.streakCount() }}</span>
+      <span class="stat-pill__label">dias seguidos</span>
+    </div>
+    <div class="stat-pill">
+      <span class="stat-pill__value">📝 {{ simuladoCount() }}</span>
+      <span class="stat-pill__label">simulados</span>
+    </div>
+  </div>
+
+  <h2>Conquistas</h2>
+  @if (badges().length > 0) {
+    <div class="badge-list">
+      @for (badge of badges(); track badge) {
+        <span class="badge">{{ badge }}</span>
+      }
+    </div>
+  } @else {
+    <p class="hint">Continue estudando para desbloquear conquistas!</p>
+  }
+
+  <div class="backup-section">
+    <h2>Backup dos dados</h2>
+    <p class="hint">
+      Exporte um arquivo com todo o seu progresso para enviar para quem está te ajudando a estudar,
+      ou para guardar antes de trocar de celular.
+    </p>
+    <button type="button" class="btn btn--secondary btn--block" (click)="exportProgress()">
+      ⬇️ Exportar meu progresso
+    </button>
+
+    <label class="import-label">
+      <span class="btn btn--secondary btn--block">⬆️ Importar progresso de um arquivo</span>
+      <input type="file" accept="application/json" (change)="importProgress($event)" hidden />
+    </label>
+  </div>
+</div>

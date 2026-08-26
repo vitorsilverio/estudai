@@ -1,0 +1,36 @@
+[
+  {
+    "id": "portugues-sujeito-predicado-p1",
+    "topicId": "portugues-sujeito-predicado",
+    "order": 1,
+    "title": "O que é sujeito e predicado",
+    "blocks": [
+      { "type": "text", "value": "Toda oração pode ser dividida em duas partes: sujeito (de quem se fala) e predicado (o que se diz sobre o sujeito)." },
+      { "type": "text", "value": "Ex.: 'O fiscal | autuou o estabelecimento.' 'O fiscal' é o sujeito (de quem se fala). 'autuou o estabelecimento' é o predicado (o que se diz sobre ele)." },
+      { "type": "tip", "value": "Pergunta mágica para achar o sujeito: 'quem pratica ou sofre a ação do verbo?'." }
+    ]
+  },
+  {
+    "id": "portugues-sujeito-predicado-p2",
+    "topicId": "portugues-sujeito-predicado",
+    "order": 2,
+    "title": "Tipos de sujeito",
+    "blocks": [
+      { "type": "text", "value": "Sujeito simples: tem só um núcleo. Ex.: 'O fiscal chegou.'" },
+      { "type": "text", "value": "Sujeito composto: tem dois ou mais núcleos. Ex.: 'O fiscal e o auxiliar chegaram.'" },
+      { "type": "text", "value": "Sujeito oculto (ou desinencial): não aparece na frase, mas é identificado pela terminação do verbo. Ex.: 'Chegamos cedo.' (sujeito oculto: nós)." },
+      { "type": "text", "value": "Sujeito indeterminado: não se sabe quem é, e o verbo não concorda com nada específico. Ex.: 'Falaram mal do atendimento.' (não se sabe quem falou)." }
+    ]
+  },
+  {
+    "id": "portugues-sujeito-predicado-p3",
+    "topicId": "portugues-sujeito-predicado",
+    "order": 3,
+    "title": "Oração sem sujeito",
+    "blocks": [
+      { "type": "text", "value": "Existem orações que simplesmente não têm sujeito — nem oculto, nem indeterminado. São orações com verbos impessoais." },
+      { "type": "text", "value": "Isso acontece com verbos que indicam fenômenos da natureza ('Choveu ontem'), com o verbo 'haver' no sentido de existir ('Havia muitas dúvidas') e com 'fazer' indicando tempo ('Faz três meses')." },
+      { "type": "tip", "value": "Se a oração não tem sujeito, o verbo fica travado na 3ª pessoa do singular, sempre. Por isso 'haviam' e 'fazem dois anos' estão errados." }
+    ]
+  }
+]

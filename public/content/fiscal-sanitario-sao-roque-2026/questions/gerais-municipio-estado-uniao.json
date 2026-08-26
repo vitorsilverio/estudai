@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-municipio-1",
+    "topicId": "gerais-municipio-estado-uniao",
+    "statement": "O concurso público tratado neste edital é organizado pela Prefeitura de qual município?",
+    "options": [
+      { "id": "a", "text": "São Paulo" },
+      { "id": "b", "text": "Sorocaba" },
+      { "id": "c", "text": "São Roque" },
+      { "id": "d", "text": "Campinas" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O Edital 008/2026 é da Prefeitura da Estância Turística de São Roque/SP."
+  },
+  {
+    "id": "q-municipio-2",
+    "topicId": "gerais-municipio-estado-uniao",
+    "statement": "O título 'Estância Turística', concedido pelo Estado a certos municípios paulistas, está relacionado a:",
+    "options": [
+      { "id": "a", "text": "Municípios com forte vocação para o turismo" },
+      { "id": "b", "text": "Municípios com maior população do estado" },
+      { "id": "c", "text": "Municípios que são capitais regionais" },
+      { "id": "d", "text": "Municípios litorâneos exclusivamente" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Estância Turística' é uma classificação dada pelo governo estadual a municípios com potencial e infraestrutura turística relevantes."
+  },
+  {
+    "id": "q-municipio-3",
+    "topicId": "gerais-municipio-estado-uniao",
+    "statement": "No sistema federativo brasileiro, quem exerce o Poder Executivo no âmbito estadual?",
+    "options": [
+      { "id": "a", "text": "O Prefeito" },
+      { "id": "b", "text": "O Governador" },
+      { "id": "c", "text": "O Presidente" },
+      { "id": "d", "text": "O Vereador" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O Governador exerce o Poder Executivo estadual; o Presidente atua no nível federal e o Prefeito, no municipal."
+  },
+  {
+    "id": "q-municipio-4",
+    "topicId": "gerais-municipio-estado-uniao",
+    "statement": "São Roque é conhecida nacionalmente por sua tradição relacionada a:",
+    "options": [
+      { "id": "a", "text": "Produção de vinho" },
+      { "id": "b", "text": "Extração de petróleo" },
+      { "id": "c", "text": "Produção de aço" },
+      { "id": "d", "text": "Indústria automobilística" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "São Roque é tradicionalmente conhecida como a 'Terra do Vinho', por sua produção vinícola."
+  },
+  {
+    "id": "q-municipio-5",
+    "topicId": "gerais-municipio-estado-uniao",
+    "statement": "O Brasil se organiza politicamente como uma federação composta por:",
+    "options": [
+      { "id": "a", "text": "Apenas União e Estados" },
+      { "id": "b", "text": "Apenas União e Municípios" },
+      { "id": "c", "text": "União, Estados, Distrito Federal e Municípios" },
+      { "id": "d", "text": "Apenas Estados e Municípios" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A Constituição Federal estabelece que a organização político-administrativa da República compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos."
+  }
+]

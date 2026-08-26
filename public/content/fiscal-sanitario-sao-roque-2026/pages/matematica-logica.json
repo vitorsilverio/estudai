@@ -1,0 +1,36 @@
+[
+  {
+    "id": "matematica-logica-p1",
+    "topicId": "matematica-logica",
+    "order": 1,
+    "title": "O que é raciocínio lógico",
+    "blocks": [
+      { "type": "text", "value": "Raciocínio lógico não é sobre fazer contas difíceis. É sobre organizar informações e tirar conclusões corretas a partir delas, sem se confundir com o que 'parece' certo." },
+      { "type": "text", "value": "Uma proposição é uma frase que pode ser verdadeira (V) ou falsa (F), nunca as duas ao mesmo tempo. Ex.: 'São Roque fica no estado de São Paulo' é uma proposição verdadeira." },
+      { "type": "tip", "value": "Se uma frase é uma pergunta, uma ordem ou uma exclamação, ela NÃO é uma proposição lógica — proposição sempre pode ser julgada como V ou F." }
+    ]
+  },
+  {
+    "id": "matematica-logica-p2",
+    "topicId": "matematica-logica",
+    "order": 2,
+    "title": "Negação de frases",
+    "blocks": [
+      { "type": "text", "value": "Negar uma proposição é inverter seu valor: se era V, a negação é F, e vice-versa." },
+      { "type": "text", "value": "Cuidado com frases que têm 'todo' ou 'algum'. A negação de 'Todos os fiscais usam uniforme' NÃO é 'Nenhum fiscal usa uniforme' — é 'Pelo menos um fiscal não usa uniforme'." },
+      { "type": "text", "value": "A negação de 'Algum item está vencido' é 'Nenhum item está vencido' (ou seja, 'todos os itens NÃO estão vencidos')." },
+      { "type": "tip", "value": "Regra rápida: negar 'todo' vira 'existe pelo menos um que não'. Negar 'algum/existe' vira 'nenhum'." }
+    ]
+  },
+  {
+    "id": "matematica-logica-p3",
+    "topicId": "matematica-logica",
+    "order": 3,
+    "title": "Resolvendo problemas passo a passo",
+    "blocks": [
+      { "type": "text", "value": "A maioria das questões de raciocínio lógico da prova é resolvida assim: 1) leia o problema com calma; 2) anote os dados que você já sabe; 3) teste as alternativas, se travar." },
+      { "type": "text", "value": "Exemplo: 'Se hoje é sábado, então a fiscalização não funciona. Hoje a fiscalização está funcionando. O que podemos concluir?' Resposta: hoje NÃO é sábado (porque se fosse sábado, a fiscalização não estaria funcionando)." },
+      { "type": "tip", "value": "Esse tipo de raciocínio se chama 'contrapositiva': se 'A implica B' é verdade, então 'não-B implica não-A' também é verdade." }
+    ]
+  }
+]

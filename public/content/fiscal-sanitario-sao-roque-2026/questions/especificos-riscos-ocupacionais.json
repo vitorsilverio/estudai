@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-ocupacional-1",
+    "topicId": "especificos-riscos-ocupacionais",
+    "statement": "Um trabalhador exposto diariamente a ruído excessivo numa fábrica está sujeito a um risco ocupacional do tipo:",
+    "options": [
+      { "id": "a", "text": "Químico" },
+      { "id": "b", "text": "Biológico" },
+      { "id": "c", "text": "Físico" },
+      { "id": "d", "text": "Ergonômico" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ruído é classificado como risco ocupacional físico, junto com calor, vibração e radiação."
+  },
+  {
+    "id": "q-ocupacional-2",
+    "topicId": "especificos-riscos-ocupacionais",
+    "statement": "A exposição de um trabalhador a vírus e bactérias durante o atendimento em um hospital é um exemplo de risco ocupacional:",
+    "options": [
+      { "id": "a", "text": "Mecânico" },
+      { "id": "b", "text": "Biológico" },
+      { "id": "c", "text": "Ergonômico" },
+      { "id": "d", "text": "Físico" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Vírus, bactérias e fungos são classificados como riscos ocupacionais biológicos."
+  },
+  {
+    "id": "q-ocupacional-3",
+    "topicId": "especificos-riscos-ocupacionais",
+    "statement": "Um funcionário que realiza esforço repetitivo em postura inadequada durante toda a jornada de trabalho está exposto a um risco ocupacional:",
+    "options": [
+      { "id": "a", "text": "Ergonômico" },
+      { "id": "b", "text": "Químico" },
+      { "id": "c", "text": "Biológico" },
+      { "id": "d", "text": "De acidente" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Postura inadequada, esforço repetitivo e jornada excessiva são classificados como riscos ergonômicos."
+  },
+  {
+    "id": "q-ocupacional-4",
+    "topicId": "especificos-riscos-ocupacionais",
+    "statement": "A perda auditiva desenvolvida ao longo de anos por exposição contínua a ruído no trabalho é classificada como:",
+    "options": [
+      { "id": "a", "text": "Acidente de trabalho" },
+      { "id": "b", "text": "Doença ocupacional" },
+      { "id": "c", "text": "Risco biológico agudo" },
+      { "id": "d", "text": "Infração sanitária" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Doenças que se desenvolvem gradualmente por exposição contínua a um risco (como o ruído) são chamadas de doenças ocupacionais, diferente do acidente de trabalho, que é um evento súbito."
+  },
+  {
+    "id": "q-ocupacional-5",
+    "topicId": "especificos-riscos-ocupacionais",
+    "statement": "Ao vistoriar uma cozinha industrial, um Fiscal Sanitário verifica se os funcionários usam equipamentos de proteção individual adequados. Essa verificação está relacionada a qual área?",
+    "options": [
+      { "id": "a", "text": "Logística reversa" },
+      { "id": "b", "text": "Saúde do trabalhador" },
+      { "id": "c", "text": "Diagnóstico comunitário" },
+      { "id": "d", "text": "Municipalização" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A verificação do uso de EPIs está relacionada à área de Saúde do Trabalhador, que busca prevenir acidentes e doenças ocupacionais."
+  }
+]

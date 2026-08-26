@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-geometria-1",
+    "topicId": "matematica-geometria",
+    "statement": "Um triângulo retângulo tem catetos de 6 cm e 8 cm. Qual é a medida da hipotenusa?",
+    "options": [
+      { "id": "a", "text": "10 cm" },
+      { "id": "b", "text": "12 cm" },
+      { "id": "c", "text": "14 cm" },
+      { "id": "d", "text": "48 cm" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Hipotenusa² = 6² + 8² = 36 + 64 = 100. Hipotenusa = raiz quadrada de 100 = 10 cm (é o trio 3-4-5 multiplicado por 2)."
+  },
+  {
+    "id": "q-geometria-2",
+    "topicId": "matematica-geometria",
+    "statement": "Qual é a área de um retângulo com 8 metros de base e 5 metros de altura?",
+    "options": [
+      { "id": "a", "text": "13 m²" },
+      { "id": "b", "text": "26 m²" },
+      { "id": "c", "text": "40 m²" },
+      { "id": "d", "text": "45 m²" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Área do retângulo = base × altura = 8 × 5 = 40 m²."
+  },
+  {
+    "id": "q-geometria-3",
+    "topicId": "matematica-geometria",
+    "statement": "Qual é o perímetro de um retângulo com 8 metros de base e 5 metros de altura?",
+    "options": [
+      { "id": "a", "text": "13 m" },
+      { "id": "b", "text": "26 m" },
+      { "id": "c", "text": "40 m" },
+      { "id": "d", "text": "45 m" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Perímetro = 2 × (base + altura) = 2 × (8 + 5) = 2 × 13 = 26 m."
+  },
+  {
+    "id": "q-geometria-4",
+    "topicId": "matematica-geometria",
+    "statement": "Um triângulo tem base de 10 cm e altura de 6 cm. Qual é sua área?",
+    "options": [
+      { "id": "a", "text": "16 cm²" },
+      { "id": "b", "text": "30 cm²" },
+      { "id": "c", "text": "60 cm²" },
+      { "id": "d", "text": "120 cm²" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Área do triângulo = (base × altura) ÷ 2 = (10 × 6) ÷ 2 = 60 ÷ 2 = 30 cm²."
+  },
+  {
+    "id": "q-geometria-5",
+    "topicId": "matematica-geometria",
+    "statement": "Uma escada está apoiada numa parede. A base da escada está a 9 metros da parede, e a escada tem 15 metros de comprimento. A que altura da parede a escada encosta?",
+    "options": [
+      { "id": "a", "text": "6 metros" },
+      { "id": "b", "text": "9 metros" },
+      { "id": "c", "text": "12 metros" },
+      { "id": "d", "text": "17 metros" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "É o teorema de Pitágoras: 15² = 9² + altura². 225 = 81 + altura². altura² = 144. altura = raiz quadrada de 144 = 12 metros (trio 9-12-15, múltiplo de 3-4-5)."
+  }
+]

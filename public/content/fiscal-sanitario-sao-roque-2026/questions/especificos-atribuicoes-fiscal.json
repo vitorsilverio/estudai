@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-atrib-1",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "statement": "A autoridade que o Estado exerce para limitar, em nome do interesse público, direitos individuais como o funcionamento de um estabelecimento é chamada de:",
+    "options": [
+      { "id": "a", "text": "Poder de polícia" },
+      { "id": "b", "text": "Poder judicial" },
+      { "id": "c", "text": "Poder normativo" },
+      { "id": "d", "text": "Poder discricionário absoluto" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Poder de polícia é exatamente essa prerrogativa: o Estado pode restringir direitos individuais (como fechar um estabelecimento) em nome da saúde e segurança coletivas."
+  },
+  {
+    "id": "q-atrib-2",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "statement": "De acordo com as atribuições descritas no edital, ao inspecionar poços, fossas e águas estagnadas, o Fiscal Sanitário deve, principalmente:",
+    "options": [
+      { "id": "a", "text": "Autuar imediatamente o proprietário, sem necessidade de qualquer análise" },
+      { "id": "b", "text": "Examinar a existência de focos de contaminação e coletar material para análise posterior" },
+      { "id": "c", "text": "Apenas registrar a existência do local, sem qualquer ação adicional" },
+      { "id": "d", "text": "Encaminhar a denúncia à polícia civil" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O edital descreve essa atribuição como inspecionar esses locais 'examinando a existência de focos de contaminação e coletando material para posterior análise' — é uma ação técnica, não uma autuação automática."
+  },
+  {
+    "id": "q-atrib-3",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "statement": "No processo administrativo sanitário, o documento que formaliza que uma infração de fato ocorreu, dando início ao processo punitivo, é o:",
+    "options": [
+      { "id": "a", "text": "Auto de imposição de penalidade" },
+      { "id": "b", "text": "Termo de encerramento" },
+      { "id": "c", "text": "Auto de infração" },
+      { "id": "d", "text": "Certidão de regularidade" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O auto de infração é o documento que registra formalmente a ocorrência da infração; a penalidade só vem depois, no auto de imposição de penalidade, após o direito de defesa."
+  },
+  {
+    "id": "q-atrib-4",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "statement": "O princípio que garante ao estabelecimento autuado o direito de apresentar sua defesa antes de sofrer uma penalidade definitiva é:",
+    "options": [
+      { "id": "a", "text": "Princípio da legalidade estrita" },
+      { "id": "b", "text": "Contraditório e ampla defesa" },
+      { "id": "c", "text": "Princípio da hierarquia" },
+      { "id": "d", "text": "Princípio da anterioridade" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O contraditório e a ampla defesa garantem que o autuado seja ouvido e possa se defender antes que a penalidade seja aplicada de forma definitiva."
+  },
+  {
+    "id": "q-atrib-5",
+    "topicId": "especificos-atribuicoes-fiscal",
+    "statement": "Segundo o edital, além de fiscalizar e autuar, uma das atribuições do Fiscal Sanitário junto ao comércio e à indústria é:",
+    "options": [
+      { "id": "a", "text": "Definir os preços dos produtos vendidos" },
+      { "id": "b", "text": "Orientar quanto às normas de higiene sanitária" },
+      { "id": "c", "text": "Realizar auditoria contábil dos estabelecimentos" },
+      { "id": "d", "text": "Aprovar contratos de fornecedores" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O edital cita expressamente 'orientar o comércio e a indústria quanto às normas de higiene sanitária' como uma das atribuições — o papel do fiscal também é educativo, não só punitivo."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-logica-1",
+    "topicId": "matematica-logica",
+    "statement": "Qual das frases abaixo é uma proposição lógica (pode ser julgada como verdadeira ou falsa)?",
+    "options": [
+      { "id": "a", "text": "Feche a porta, por favor." },
+      { "id": "b", "text": "Que dia é hoje?" },
+      { "id": "c", "text": "São Roque fica no estado de São Paulo." },
+      { "id": "d", "text": "Que fiscalização difícil!" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Uma proposição precisa poder ser julgada como verdadeira ou falsa. Ordens, perguntas e exclamações não são proposições. Apenas 'São Roque fica no estado de São Paulo' pode ser julgada (e é verdadeira)."
+  },
+  {
+    "id": "q-logica-2",
+    "topicId": "matematica-logica",
+    "statement": "A negação da frase \"Todos os estabelecimentos estão regularizados\" é:",
+    "options": [
+      { "id": "a", "text": "Nenhum estabelecimento está regularizado." },
+      { "id": "b", "text": "Pelo menos um estabelecimento não está regularizado." },
+      { "id": "c", "text": "Todos os estabelecimentos não estão regularizados." },
+      { "id": "d", "text": "Alguns estabelecimentos estão regularizados." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A negação de 'todo' não é 'nenhum' — é 'existe pelo menos um que não'. Negar 'todos estão regularizados' dá 'pelo menos um não está regularizado'."
+  },
+  {
+    "id": "q-logica-3",
+    "topicId": "matematica-logica",
+    "statement": "A negação da frase \"Algum item da cozinha está vencido\" é:",
+    "options": [
+      { "id": "a", "text": "Todo item da cozinha está vencido." },
+      { "id": "b", "text": "Algum item da cozinha não está vencido." },
+      { "id": "c", "text": "Nenhum item da cozinha está vencido." },
+      { "id": "d", "text": "Pelo menos um item não está vencido." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A negação de 'algum/existe' é 'nenhum'. Negar 'algum item está vencido' dá 'nenhum item está vencido'."
+  },
+  {
+    "id": "q-logica-4",
+    "topicId": "matematica-logica",
+    "statement": "Considere verdadeira a frase: \"Se o estabelecimento está sujo, então ele será notificado.\" Sabendo que o estabelecimento NÃO foi notificado, pode-se concluir corretamente que:",
+    "options": [
+      { "id": "a", "text": "O estabelecimento está sujo." },
+      { "id": "b", "text": "O estabelecimento não está sujo." },
+      { "id": "c", "text": "Não é possível concluir nada." },
+      { "id": "d", "text": "O estabelecimento será fechado." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Pela contrapositiva: se 'A implica B' é verdadeira, então 'não-B implica não-A' também é. Como 'não foi notificado' (não-B), conclui-se 'não está sujo' (não-A)."
+  },
+  {
+    "id": "q-logica-5",
+    "topicId": "matematica-logica",
+    "statement": "Se é verdade que \"Toda fiscal usa crachá\" e sabemos que \"Ana não usa crachá\", então é correto concluir que:",
+    "options": [
+      { "id": "a", "text": "Ana pode ou não ser fiscal, não dá para saber." },
+      { "id": "b", "text": "Ana é fiscal, mas esqueceu o crachá." },
+      { "id": "c", "text": "Ana não é fiscal." },
+      { "id": "d", "text": "Todas as fiscais esqueceram o crachá." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Se 'toda fiscal usa crachá' e Ana não usa crachá, ela não pode ser fiscal — senão a regra 'toda fiscal usa crachá' seria quebrada. É a mesma lógica da contrapositiva."
+  }
+]

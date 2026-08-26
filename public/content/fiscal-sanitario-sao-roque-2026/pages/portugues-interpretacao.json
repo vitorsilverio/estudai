@@ -1,0 +1,25 @@
+[
+  {
+    "id": "portugues-interpretacao-p1",
+    "topicId": "portugues-interpretacao",
+    "order": 1,
+    "title": "Como responder questão de interpretação",
+    "blocks": [
+      { "type": "text", "value": "Questão de interpretação testa se você entendeu o que o texto realmente diz — não o que você acha, nem o que você sabe sobre o assunto por fora." },
+      { "type": "text", "value": "Regra de ouro: a resposta certa sempre pode ser confirmada com uma frase (ou trecho) do próprio texto. Se você não consegue apontar onde no texto está escrito aquilo, desconfie da alternativa." },
+      { "type": "tip", "value": "Cuidado com alternativas que parecem certas mas 'exageram' o que o texto disse — trocam 'alguns' por 'todos', 'pode' por 'deve', 'às vezes' por 'sempre'. Esses exageros costumam ser a pegadinha." }
+    ]
+  },
+  {
+    "id": "portugues-interpretacao-p2",
+    "topicId": "portugues-interpretacao",
+    "order": 2,
+    "title": "Passo a passo para textos curtos",
+    "blocks": [
+      { "type": "text", "value": "1) Leia a pergunta ANTES do texto (ou logo depois de uma primeira leitura rápida) para saber o que procurar." },
+      { "type": "text", "value": "2) Leia o texto devagar, sem pressa — releia se precisar, não tem problema." },
+      { "type": "text", "value": "3) Volte ao texto para confirmar cada alternativa, uma por uma, em vez de confiar só na memória." },
+      { "type": "text", "value": "4) Elimine primeiro as alternativas claramente erradas — sobra menos coisa para decidir." }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-alimentos-1",
+    "topicId": "especificos-alimentos",
+    "statement": "A faixa de temperatura em que bactérias se multiplicam rapidamente em alimentos, e por isso deve ser evitada por tempo prolongado, é chamada de:",
+    "options": [
+      { "id": "a", "text": "Zona de conforto" },
+      { "id": "b", "text": "Zona de perigo" },
+      { "id": "c", "text": "Ponto crítico único" },
+      { "id": "d", "text": "Faixa de esterilização" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A 'zona de perigo' é a faixa de temperatura em que os micro-organismos se multiplicam rapidamente, devendo os alimentos permanecer nela pelo menor tempo possível."
+  },
+  {
+    "id": "q-alimentos-2",
+    "topicId": "especificos-alimentos",
+    "statement": "A transferência de micro-organismos de um alimento cru para um alimento pronto, por meio de contato direto ou de uma superfície compartilhada, é chamada de:",
+    "options": [
+      { "id": "a", "text": "Contaminação cruzada" },
+      { "id": "b", "text": "Fermentação controlada" },
+      { "id": "c", "text": "Desinfecção simples" },
+      { "id": "d", "text": "Pasteurização" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Contaminação cruzada ocorre quando micro-organismos de um alimento (geralmente cru) são transferidos para outro alimento, por contato direto, superfícies ou utensílios compartilhados."
+  },
+  {
+    "id": "q-alimentos-3",
+    "topicId": "especificos-alimentos",
+    "statement": "Durante uma vistoria em um restaurante, um Fiscal Sanitário verifica a temperatura das geladeiras e freezers. Essa verificação está relacionada principalmente a:",
+    "options": [
+      { "id": "a", "text": "Controle de armazenamento adequado dos alimentos" },
+      { "id": "b", "text": "Fiscalização tributária do estabelecimento" },
+      { "id": "c", "text": "Avaliação da estrutura elétrica do prédio" },
+      { "id": "d", "text": "Cadastro de funcionários" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A verificação da temperatura de geladeiras e freezers está relacionada ao controle do armazenamento adequado dos alimentos, evitando a zona de perigo."
+  },
+  {
+    "id": "q-alimentos-4",
+    "topicId": "especificos-alimentos",
+    "statement": "No transporte de alimentos, é uma prática INADEQUADA:",
+    "options": [
+      { "id": "a", "text": "Manter a temperatura adequada durante todo o trajeto" },
+      { "id": "b", "text": "Transportar alimentos junto com produtos de limpeza no mesmo compartimento" },
+      { "id": "c", "text": "Utilizar veículo limpo e apropriado para o tipo de alimento" },
+      { "id": "d", "text": "Verificar a integridade das embalagens antes do transporte" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Transportar alimentos junto com produtos de limpeza no mesmo compartimento é uma prática inadequada, pois pode causar contaminação do alimento."
+  },
+  {
+    "id": "q-alimentos-5",
+    "topicId": "especificos-alimentos",
+    "statement": "Documentos comumente verificados por um Fiscal Sanitário em uma vistoria de estabelecimento de alimentos incluem:",
+    "options": [
+      { "id": "a", "text": "Certidão de casamento dos sócios" },
+      { "id": "b", "text": "Licença sanitária do estabelecimento" },
+      { "id": "c", "text": "Extrato bancário da empresa" },
+      { "id": "d", "text": "Carteira de habilitação dos funcionários" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A licença sanitária do estabelecimento é um dos principais documentos verificados em uma vistoria, junto com atestados de saúde/capacitação dos manipuladores."
+  }
+]

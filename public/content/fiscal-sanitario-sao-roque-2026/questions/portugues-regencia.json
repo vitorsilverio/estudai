@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-regencia-1",
+    "topicId": "portugues-regencia",
+    "statement": "Assinale a alternativa que respeita a norma culta de regência verbal:",
+    "options": [
+      { "id": "a", "text": "O fiscal chegou no estabelecimento às oito horas." },
+      { "id": "b", "text": "O fiscal chegou ao estabelecimento às oito horas." },
+      { "id": "c", "text": "O fiscal chegou o estabelecimento às oito horas." },
+      { "id": "d", "text": "O fiscal chegou com o estabelecimento às oito horas." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O verbo 'chegar' rege a preposição 'a' (não 'em'). Na norma culta: 'chegou ao estabelecimento', não 'chegou no estabelecimento'."
+  },
+  {
+    "id": "q-regencia-2",
+    "topicId": "portugues-regencia",
+    "statement": "Assinale a alternativa CORRETA quanto à regência do verbo 'assistir' no sentido de 'ver':",
+    "options": [
+      { "id": "a", "text": "Os fiscais assistiram o curso de biossegurança." },
+      { "id": "b", "text": "Os fiscais assistiram ao curso de biossegurança." },
+      { "id": "c", "text": "Os fiscais assistiram no curso de biossegurança." },
+      { "id": "d", "text": "Os fiscais assistiram para o curso de biossegurança." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Assistir' no sentido de 'ver, presenciar' pede a preposição 'a': 'assistir ao curso'."
+  },
+  {
+    "id": "q-regencia-3",
+    "topicId": "portugues-regencia",
+    "statement": "Assinale a alternativa que segue corretamente a regência do verbo 'preferir':",
+    "options": [
+      { "id": "a", "text": "O gestor prefere notificar do que multar diretamente." },
+      { "id": "b", "text": "O gestor prefere notificar do que multar diretamente do que." },
+      { "id": "c", "text": "O gestor prefere notificar a multar diretamente." },
+      { "id": "d", "text": "O gestor prefere notificar em vez multar diretamente." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Na norma culta, 'preferir' pede a preposição 'a' e não admite 'do que': 'preferir notificar a multar', nunca 'preferir... do que'."
+  },
+  {
+    "id": "q-regencia-4",
+    "topicId": "portugues-regencia",
+    "statement": "Assinale a alternativa CORRETA quanto à regência de 'obedecer':",
+    "options": [
+      { "id": "a", "text": "O estabelecimento obedeceu as novas normas sanitárias." },
+      { "id": "b", "text": "O estabelecimento obedeceu às novas normas sanitárias." },
+      { "id": "c", "text": "O estabelecimento obedeceu para as novas normas sanitárias." },
+      { "id": "d", "text": "O estabelecimento obedeceu de as novas normas sanitárias." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Obedecer' pede a preposição 'a'; como o termo seguinte é feminino e determinado ('as normas'), ocorre a crase: 'obedeceu às normas'."
+  },
+  {
+    "id": "q-regencia-5",
+    "topicId": "portugues-regencia",
+    "statement": "Assinale a alternativa em que a regência nominal está de acordo com a norma culta:",
+    "options": [
+      { "id": "a", "text": "O candidato está apto ao exercício do cargo." },
+      { "id": "b", "text": "O candidato está apto no exercício do cargo." },
+      { "id": "c", "text": "O candidato está apto do exercício do cargo." },
+      { "id": "d", "text": "O candidato está apto com o exercício do cargo." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O adjetivo 'apto' rege a preposição 'a': 'apto ao exercício do cargo'."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "especificos-lei-11445-p1",
+    "topicId": "especificos-lei-11445",
+    "order": 1,
+    "title": "Os 4 pilares do saneamento básico",
+    "blocks": [
+      { "type": "text", "value": "A Lei Federal nº 11.445/2007 estabelece a Política Nacional de Saneamento Básico. Ela define saneamento básico como o conjunto de 4 serviços:" },
+      { "type": "text", "value": "1) Abastecimento de água potável. 2) Esgotamento sanitário (coleta e tratamento de esgoto). 3) Limpeza urbana e manejo de resíduos sólidos (coleta de lixo). 4) Drenagem e manejo das águas pluviais urbanas (escoamento da água da chuva)." },
+      { "type": "tip", "value": "Decoreba útil: 'água, esgoto, lixo, chuva' — os 4 pilares do saneamento básico. Uma questão pode listar 3 desses serviços e pedir para identificar o que falta, ou dar um exemplo e pedir para classificar em qual dos 4 pilares ele se encaixa." }
+    ]
+  },
+  {
+    "id": "especificos-lei-11445-p2",
+    "topicId": "especificos-lei-11445",
+    "order": 2,
+    "title": "Por que saneamento básico importa para a saúde",
+    "blocks": [
+      { "type": "text", "value": "Falta de saneamento básico está diretamente ligada a doenças: água contaminada causa diarreias e outras doenças de veiculação hídrica; esgoto a céu aberto atrai vetores (como o mosquito da dengue) e contamina o solo e a água; lixo acumulado atrai roedores e insetos." },
+      { "type": "text", "value": "Por isso, o saneamento básico é considerado uma das ações de maior impacto na saúde pública — muitas vezes mais eficaz do que o próprio atendimento médico para reduzir doenças." },
+      { "type": "tip", "value": "Se a prova pedir a relação entre saneamento e saúde, lembre: saneamento básico é PREVENÇÃO; ele evita que a doença aconteça, em vez de tratar depois que já aconteceu." }
+    ]
+  }
+]

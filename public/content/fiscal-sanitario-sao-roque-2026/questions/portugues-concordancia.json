@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-concordancia-1",
+    "topicId": "portugues-concordancia",
+    "statement": "Assinale a frase em que a concordância verbal está CORRETA:",
+    "options": [
+      { "id": "a", "text": "Fazem dois anos que ela trabalha na vigilância sanitária." },
+      { "id": "b", "text": "Faz dois anos que ela trabalha na vigilância sanitária." },
+      { "id": "c", "text": "Fazem dois ano que ela trabalha na vigilância sanitária." },
+      { "id": "d", "text": "Faziam dois anos que ela trabalha na vigilância sanitária." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Fazer' indicando tempo decorrido é verbo impessoal, sem sujeito, e por isso fica sempre na 3ª pessoa do singular: 'Faz dois anos'."
+  },
+  {
+    "id": "q-concordancia-2",
+    "topicId": "portugues-concordancia",
+    "statement": "Assinale a frase em que a concordância verbal está CORRETA:",
+    "options": [
+      { "id": "a", "text": "Havia muitos estabelecimentos irregulares no bairro." },
+      { "id": "b", "text": "Haviam muitos estabelecimentos irregulares no bairro." },
+      { "id": "c", "text": "Houveram muitos estabelecimentos irregulares no bairro." },
+      { "id": "d", "text": "Houverão muitos estabelecimentos irregulares no bairro." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Haver' no sentido de 'existir' é impessoal e não tem sujeito, ficando sempre na 3ª pessoa do singular: 'havia', nunca 'haviam'."
+  },
+  {
+    "id": "q-concordancia-3",
+    "topicId": "portugues-concordancia",
+    "statement": "\"O fiscal, acompanhado de dois auxiliares, ___ ao local para a vistoria.\" Assinale a alternativa que completa corretamente a frase:",
+    "options": [
+      { "id": "a", "text": "compareceram" },
+      { "id": "b", "text": "compareceu" },
+      { "id": "c", "text": "comparecerão" },
+      { "id": "d", "text": "compareceriam eles" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O sujeito é apenas 'o fiscal' (singular); 'acompanhado de dois auxiliares' é um aposto/adjunto que não entra na concordância. Por isso o verbo fica no singular: 'compareceu'."
+  },
+  {
+    "id": "q-concordancia-4",
+    "topicId": "portugues-concordancia",
+    "statement": "Assinale a alternativa em que a concordância nominal está CORRETA:",
+    "options": [
+      { "id": "a", "text": "Os estabelecimentos ficaram meia interditados." },
+      { "id": "b", "text": "As balanças estavam meio quebradas." },
+      { "id": "c", "text": "A cozinha estava meia suja." },
+      { "id": "d", "text": "Elas ficaram meia preocupadas com a fiscalização." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Meio' antes de adjetivo funciona como advérbio (equivalente a 'um pouco') e por isso é invariável: 'meio quebradas', 'meio suja', 'meio preocupadas' — nunca 'meia' nesse uso."
+  },
+  {
+    "id": "q-concordancia-5",
+    "topicId": "portugues-concordancia",
+    "statement": "\"A maioria dos estabelecimentos vistoriados ___ em conformidade com as normas.\" Assinale a alternativa que apresenta uma concordância verbal ACEITÁVEL:",
+    "options": [
+      { "id": "a", "text": "estava" },
+      { "id": "b", "text": "estive" },
+      { "id": "c", "text": "estiveste" },
+      { "id": "d", "text": "estivemos" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Com 'a maioria de' + substantivo no plural, o verbo pode concordar com 'a maioria' (singular: 'estava') ou com o termo no plural ('estavam'). Entre as opções, apenas 'estava' é gramaticalmente possível."
+  }
+]

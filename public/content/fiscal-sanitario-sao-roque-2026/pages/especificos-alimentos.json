@@ -1,0 +1,33 @@
+[
+  {
+    "id": "especificos-alimentos-p1",
+    "topicId": "especificos-alimentos",
+    "order": 1,
+    "title": "Manipulação de alimentos: os cuidados básicos",
+    "blocks": [
+      { "type": "text", "value": "Manipular alimentos com segurança envolve higiene pessoal (mãos limpas, cabelo preso, uso de uniforme e touca), higiene do ambiente (superfícies limpas, sem contato entre alimento cru e pronto) e controle de temperatura (evitar que o alimento fique tempo demais em temperatura que favorece bactérias)." },
+      { "type": "tip", "value": "'Zona de perigo' é a faixa de temperatura (aproximadamente entre 5°C e 60°C) em que bactérias se multiplicam rápido. Alimentos não podem ficar muito tempo nessa faixa." }
+    ]
+  },
+  {
+    "id": "especificos-alimentos-p2",
+    "topicId": "especificos-alimentos",
+    "order": 2,
+    "title": "Armazenamento e transporte",
+    "blocks": [
+      { "type": "text", "value": "Armazenamento correto significa guardar cada tipo de alimento na temperatura certa (refrigerado, congelado ou ambiente) e organizar para que alimentos crus não contaminem alimentos prontos para consumo (contaminação cruzada)." },
+      { "type": "text", "value": "No transporte, o veículo deve manter a temperatura adequada do alimento e estar limpo, sem transportar junto produtos que possam contaminar o alimento (como produtos de limpeza ou lixo)." },
+      { "type": "tip", "value": "Contaminação cruzada é quando um alimento contaminado (geralmente cru) transfere micro-organismos para um alimento limpo/pronto, por contato direto, por uma superfície ou por um utensílio compartilhado." }
+    ]
+  },
+  {
+    "id": "especificos-alimentos-p3",
+    "topicId": "especificos-alimentos",
+    "order": 3,
+    "title": "O que o fiscal observa numa vistoria",
+    "blocks": [
+      { "type": "text", "value": "Numa vistoria de estabelecimento de alimentos, o fiscal observa: condições de higiene do local e dos manipuladores, validade e condição dos produtos, temperatura de equipamentos (geladeiras, freezers), existência de pragas, e a estrutura física (pisos, paredes, ventilação, banheiros)." },
+      { "type": "text", "value": "Também é comum verificar documentos: licença sanitária do estabelecimento, atestados de saúde ou capacitação dos manipuladores, e o controle de fornecedores." }
+    ]
+  }
+]

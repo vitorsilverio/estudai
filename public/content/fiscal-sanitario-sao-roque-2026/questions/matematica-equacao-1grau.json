@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-equacao-1",
+    "topicId": "matematica-equacao-1grau",
+    "statement": "Qual é o valor de x na equação 3x + 5 = 20?",
+    "options": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "5" },
+      { "id": "c", "text": "8" },
+      { "id": "d", "text": "15" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "3x = 20 - 5 = 15. Então x = 15 ÷ 3 = 5."
+  },
+  {
+    "id": "q-equacao-2",
+    "topicId": "matematica-equacao-1grau",
+    "statement": "Qual é o valor de x na equação 4x - 6 = 10?",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "6" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "4x = 10 + 6 = 16. Então x = 16 ÷ 4 = 4."
+  },
+  {
+    "id": "q-equacao-3",
+    "topicId": "matematica-equacao-1grau",
+    "statement": "O dobro de um número, somado a 7, é igual a 21. Qual é esse número?",
+    "options": [
+      { "id": "a", "text": "5" },
+      { "id": "b", "text": "6" },
+      { "id": "c", "text": "7" },
+      { "id": "d", "text": "14" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Montando a equação: 2x + 7 = 21. Então 2x = 14, e x = 7."
+  },
+  {
+    "id": "q-equacao-4",
+    "topicId": "matematica-equacao-1grau",
+    "statement": "Qual é o valor de x na equação x/2 + 3 = 9?",
+    "options": [
+      { "id": "a", "text": "6" },
+      { "id": "b", "text": "9" },
+      { "id": "c", "text": "12" },
+      { "id": "d", "text": "18" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "x/2 = 9 - 3 = 6. Então x = 6 × 2 = 12."
+  },
+  {
+    "id": "q-equacao-5",
+    "topicId": "matematica-equacao-1grau",
+    "statement": "Um fiscal percorre a pé uma distância x todos os dias. Em 5 dias, ele percorre 20 km no total. Qual é a distância x percorrida por dia?",
+    "options": [
+      { "id": "a", "text": "2 km" },
+      { "id": "b", "text": "4 km" },
+      { "id": "c", "text": "5 km" },
+      { "id": "d", "text": "25 km" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Montando a equação: 5x = 20. Então x = 20 ÷ 5 = 4 km por dia."
+  }
+]

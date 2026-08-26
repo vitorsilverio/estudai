@@ -1,0 +1,71 @@
+.score-card {
+  text-align: center;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-card);
+  margin-bottom: 1rem;
+}
+
+.score-card__percent {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0;
+  color: var(--accent);
+}
+
+.score-card__detail {
+  color: var(--text-muted);
+  margin: 0.25rem 0 0;
+}
+
+.insight {
+  background: var(--accent-bg);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+
+  &--alert {
+    background: var(--danger-bg);
+  }
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.result-item {
+  background: var(--surface);
+  border-left: 4px solid var(--danger-border);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1rem;
+
+  &--correct {
+    border-left-color: var(--success-border);
+  }
+}
+
+.result-item__statement {
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+
+.result-item__meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 0.4rem;
+}
+
+.result-item__explanation {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.back-btn {
+  text-decoration: none;
+  text-align: center;
+}

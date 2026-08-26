@@ -1,0 +1,34 @@
+[
+  {
+    "id": "especificos-lei-12305-p1",
+    "topicId": "especificos-lei-12305",
+    "order": 1,
+    "title": "Lei nº 12.305/2010: a hierarquia dos resíduos",
+    "blocks": [
+      { "type": "text", "value": "A Lei Federal nº 12.305/2010 institui a Política Nacional de Resíduos Sólidos (PNRS). Ela traz um conceito muito cobrado em prova: a ordem de prioridade no manejo dos resíduos." },
+      { "type": "text", "value": "Ordem de prioridade (da mais desejada para a menos desejada): 1) não geração, 2) redução, 3) reutilização, 4) reciclagem, 5) tratamento dos resíduos sólidos, 6) disposição final ambientalmente adequada dos rejeitos." },
+      { "type": "tip", "value": "Repare que 'jogar no aterro' (disposição final) é a ÚLTIMA opção da lei, não a primeira. A lei prioriza evitar que o lixo seja criado, antes de pensar em reciclar ou descartar." }
+    ]
+  },
+  {
+    "id": "especificos-lei-12305-p2",
+    "topicId": "especificos-lei-12305",
+    "order": 2,
+    "title": "Responsabilidade compartilhada e logística reversa",
+    "blocks": [
+      { "type": "text", "value": "Responsabilidade compartilhada pelo ciclo de vida dos produtos é o princípio de que fabricantes, importadores, distribuidores, comerciantes, consumidores e o poder público são todos responsáveis, cada um com seu papel, por reduzir o volume de resíduos e rejeitos." },
+      { "type": "text", "value": "Logística reversa é o conjunto de ações para que produtos usados (como pilhas, pneus, eletrônicos e embalagens de agrotóxicos) voltem para as empresas, em vez de irem parar no meio ambiente, permitindo reaproveitamento ou descarte correto." },
+      { "type": "tip", "value": "Exemplo clássico de logística reversa cobrado em prova: pilhas e baterias, pneus, lâmpadas fluorescentes, óleo lubrificante e embalagens de agrotóxicos." }
+    ]
+  },
+  {
+    "id": "especificos-lei-12305-p3",
+    "topicId": "especificos-lei-12305",
+    "order": 3,
+    "title": "Resíduo x rejeito",
+    "blocks": [
+      { "type": "text", "value": "A lei diferencia dois termos: resíduo sólido é o material descartado que ainda pode ser reaproveitado ou reciclado. Rejeito é o resíduo que já esgotou todas as possibilidades de aproveitamento e só resta a disposição final ambientalmente adequada (aterro sanitário, por exemplo)." },
+      { "type": "tip", "value": "Nem todo resíduo é rejeito — rejeito é 'o que sobra depois de esgotar as opções de reduzir, reutilizar e reciclar'." }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-projetos-1",
+    "topicId": "especificos-projetos-edificacoes",
+    "statement": "O documento emitido após a avaliação físico-funcional de um projeto de edificação de interesse da saúde, atestando conformidade com as normas sanitárias, é o:",
+    "options": [
+      { "id": "a", "text": "Auto de infração" },
+      { "id": "b", "text": "Termo de notificação" },
+      { "id": "c", "text": "Laudo Técnico de Avaliação (LTA)" },
+      { "id": "d", "text": "Auto de imposição de penalidade" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O Laudo Técnico de Avaliação (LTA) é o documento que formaliza a avaliação físico-funcional de um projeto de edificação de interesse da saúde."
+  },
+  {
+    "id": "q-projetos-2",
+    "topicId": "especificos-projetos-edificacoes",
+    "statement": "A avaliação físico-funcional de um projeto de edificação de interesse da saúde verifica principalmente:",
+    "options": [
+      { "id": "a", "text": "Apenas o valor de mercado do imóvel" },
+      { "id": "b", "text": "Se a estrutura física atende às normas sanitárias e se o espaço funciona bem para a atividade" },
+      { "id": "c", "text": "Somente a decoração interna do estabelecimento" },
+      { "id": "d", "text": "O histórico de propriedade do imóvel" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A avaliação físico-funcional verifica se a estrutura (paredes, instalações, ventilação, etc.) atende às normas e se o espaço funciona adequadamente para a atividade prevista."
+  },
+  {
+    "id": "q-projetos-3",
+    "topicId": "especificos-projetos-edificacoes",
+    "statement": "O Laudo Técnico de Avaliação costuma ser exigido como condição para:",
+    "options": [
+      { "id": "a", "text": "A liberação da licença de funcionamento do estabelecimento" },
+      { "id": "b", "text": "A abertura de uma conta bancária empresarial" },
+      { "id": "c", "text": "O registro de marca do estabelecimento" },
+      { "id": "d", "text": "A contratação de funcionários" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O LTA costuma ser exigido para a liberação da licença de funcionamento de estabelecimentos de interesse da saúde."
+  },
+  {
+    "id": "q-projetos-4",
+    "topicId": "especificos-projetos-edificacoes",
+    "statement": "A instauração do processo administrativo sanitário, quando uma irregularidade é encontrada, começa pela:",
+    "options": [
+      { "id": "a", "text": "Emissão imediata do Laudo Técnico de Avaliação" },
+      { "id": "b", "text": "Lavratura do auto de infração" },
+      { "id": "c", "text": "Publicação em diário oficial sem notificação prévia" },
+      { "id": "d", "text": "Interdição automática, sem possibilidade de defesa" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O processo administrativo sanitário se inicia com a lavratura do auto de infração, seguido de notificação, defesa e julgamento."
+  },
+  {
+    "id": "q-projetos-5",
+    "topicId": "especificos-projetos-edificacoes",
+    "statement": "Durante o processo administrativo sanitário decorrente de uma irregularidade encontrada em um projeto de edificação, deve ser sempre garantido ao autuado:",
+    "options": [
+      { "id": "a", "text": "O contraditório e a ampla defesa" },
+      { "id": "b", "text": "O sigilo absoluto sobre a irregularidade encontrada" },
+      { "id": "c", "text": "A isenção automática de qualquer penalidade" },
+      { "id": "d", "text": "A dispensa de qualquer notificação" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Assim como em qualquer processo administrativo sanitário, deve ser garantido ao autuado o direito ao contraditório e à ampla defesa antes da aplicação de penalidade definitiva."
+  }
+]

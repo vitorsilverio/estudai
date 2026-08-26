@@ -1,0 +1,21 @@
+<div class="page">
+  <h1>Revisão</h1>
+
+  @if (!finished() && reviewQuestions().length > 0) {
+    <p class="hint">Estas são as questões que mais precisam da sua atenção agora.</p>
+    <app-quiz-runner [questions]="reviewQuestions()" feedbackMode="immediate" (finished)="onFinished($event)" />
+  }
+
+  @if (!finished() && reviewQuestions().length === 0) {
+    <p>Nenhuma questão para revisar agora. Continue estudando novos tópicos! 🎉</p>
+    <a routerLink="/trilha" class="btn btn--primary btn--block">Ir para a trilha</a>
+  }
+
+  @if (finished()) {
+    <div class="done-card">
+      <p class="done-card__emoji">✅</p>
+      <h1>Revisão concluída!</h1>
+      <a routerLink="/" class="btn btn--primary btn--block">Voltar ao início</a>
+    </div>
+  }
+</div>

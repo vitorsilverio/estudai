@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-lei6437-1",
+    "topicId": "especificos-lei-6437",
+    "statement": "A lei federal que configura as infrações à legislação sanitária federal e define as penalidades correspondentes é a:",
+    "options": [
+      { "id": "a", "text": "Lei nº 9.782/99" },
+      { "id": "b", "text": "Lei nº 6.437/77" },
+      { "id": "c", "text": "Lei nº 12.305/2010" },
+      { "id": "d", "text": "Lei nº 11.445/2007" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Lei Federal nº 6.437/77 é a norma que configura as infrações à legislação sanitária federal e estabelece as respectivas sanções."
+  },
+  {
+    "id": "q-lei6437-2",
+    "topicId": "especificos-lei-6437",
+    "statement": "Dentre as penalidades sanitárias previstas em lei, a considerada mais leve, aplicada geralmente como um aviso formal, é:",
+    "options": [
+      { "id": "a", "text": "Cancelamento da licença do estabelecimento" },
+      { "id": "b", "text": "Interdição total do estabelecimento" },
+      { "id": "c", "text": "Advertência" },
+      { "id": "d", "text": "Apreensão do produto" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A advertência é a penalidade sanitária mais branda, funcionando como um aviso formal ao infrator."
+  },
+  {
+    "id": "q-lei6437-3",
+    "topicId": "especificos-lei-6437",
+    "statement": "Para que uma ação seja considerada infração sanitária, é necessário que:",
+    "options": [
+      { "id": "a", "text": "O dano à saúde já tenha efetivamente ocorrido" },
+      { "id": "b", "text": "Haja descumprimento de norma sanitária que gere risco, mesmo sem dano concretizado" },
+      { "id": "c", "text": "Exista decisão judicial prévia reconhecendo o dano" },
+      { "id": "d", "text": "O infrator tenha antecedentes criminais" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Não é necessário que o dano já tenha se concretizado: o simples descumprimento da norma sanitária que gera risco à saúde já caracteriza a infração."
+  },
+  {
+    "id": "q-lei6437-4",
+    "topicId": "especificos-lei-6437",
+    "statement": "A penalidade sanitária aplicada quando um estabelecimento representa risco grave à saúde e precisa parar de funcionar, mesmo que temporariamente, é a:",
+    "options": [
+      { "id": "a", "text": "Advertência" },
+      { "id": "b", "text": "Interdição" },
+      { "id": "c", "text": "Notificação simples" },
+      { "id": "d", "text": "Autorização condicional" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A interdição (parcial ou total) é a penalidade usada para impedir o funcionamento de um estabelecimento que representa risco grave à saúde."
+  },
+  {
+    "id": "q-lei6437-5",
+    "topicId": "especificos-lei-6437",
+    "statement": "Fatores que influenciam a escolha da penalidade sanitária a ser aplicada incluem:",
+    "options": [
+      { "id": "a", "text": "Apenas o valor do faturamento do estabelecimento" },
+      { "id": "b", "text": "A gravidade da infração, a intenção do infrator e a reincidência" },
+      { "id": "c", "text": "Somente o tempo de funcionamento do estabelecimento" },
+      { "id": "d", "text": "Exclusivamente a opinião pessoal do fiscal" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A escolha da penalidade considera a gravidade da infração, se houve dolo ou culpa, a reincidência e as consequências para a saúde da população."
+  }
+]

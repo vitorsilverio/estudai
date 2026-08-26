@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q-coloc-1",
+    "topicId": "portugues-colocacao-pronominal",
+    "statement": "Assinale a alternativa com colocação pronominal CORRETA para início de frase:",
+    "options": [
+      { "id": "a", "text": "Me chame quando terminar a vistoria." },
+      { "id": "b", "text": "Chame-me quando terminar a vistoria." },
+      { "id": "c", "text": "Chame me quando terminar a vistoria." },
+      { "id": "d", "text": "Me-chame quando terminar a vistoria." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Em início de frase, sem palavra atrativa antes do verbo, usa-se ênclise: verbo + hífen + pronome ('Chame-me')."
+  },
+  {
+    "id": "q-coloc-2",
+    "topicId": "portugues-colocacao-pronominal",
+    "statement": "Assinale a alternativa com colocação pronominal CORRETA:",
+    "options": [
+      { "id": "a", "text": "Não preocupe-se com o prazo." },
+      { "id": "b", "text": "Não se preocupe com o prazo." },
+      { "id": "c", "text": "Não preocupe se com o prazo." },
+      { "id": "d", "text": "Se não preocupe com o prazo." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A palavra 'não' é atrativa e exige próclise (pronome antes do verbo): 'Não SE preocupe'."
+  },
+  {
+    "id": "q-coloc-3",
+    "topicId": "portugues-colocacao-pronominal",
+    "statement": "Em 'O fiscal notificou o estabelecimento', o termo 'o estabelecimento' é classificado como:",
+    "options": [
+      { "id": "a", "text": "Objeto indireto" },
+      { "id": "b", "text": "Objeto direto" },
+      { "id": "c", "text": "Sujeito" },
+      { "id": "d", "text": "Predicativo" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O termo completa o verbo sem preposição ('notificou o quê?' → 'o estabelecimento') — isso é objeto direto."
+  },
+  {
+    "id": "q-coloc-4",
+    "topicId": "portugues-colocacao-pronominal",
+    "statement": "Em 'O estabelecimento obedeceu às normas sanitárias', o termo 'às normas sanitárias' é classificado como:",
+    "options": [
+      { "id": "a", "text": "Objeto direto" },
+      { "id": "b", "text": "Objeto indireto" },
+      { "id": "c", "text": "Sujeito composto" },
+      { "id": "d", "text": "Adjunto adnominal" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O termo completa o verbo com preposição obrigatória ('obedeceu a quê?' → 'às normas') — isso é objeto indireto."
+  },
+  {
+    "id": "q-coloc-5",
+    "topicId": "portugues-colocacao-pronominal",
+    "statement": "Assinale a alternativa com colocação pronominal CORRETA:",
+    "options": [
+      { "id": "a", "text": "Quem avisou-lhe sobre a vistoria?" },
+      { "id": "b", "text": "Quem lhe avisou sobre a vistoria?" },
+      { "id": "c", "text": "Quem avisou lhe sobre a vistoria?" },
+      { "id": "d", "text": "Lhe quem avisou sobre a vistoria?" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O pronome interrogativo 'quem' é palavra atrativa e exige próclise (pronome antes do verbo): 'Quem LHE avisou'."
+  }
+]

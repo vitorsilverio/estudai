@@ -1,0 +1,34 @@
+[
+  {
+    "id": "especificos-lei-6437-p1",
+    "topicId": "especificos-lei-6437",
+    "order": 1,
+    "title": "Lei Federal nº 6.437/77 — o que ela faz",
+    "blocks": [
+      { "type": "text", "value": "A Lei 6.437/77 é a lei federal que configura as infrações à legislação sanitária federal e define as penalidades. Ela é a base usada quando um fiscal precisa saber 'o que é considerado infração' e 'o que pode ser aplicado como punição'." },
+      { "type": "text", "value": "É uma lei antiga (de 1977), mas continua sendo a referência nacional sobre infrações e penalidades sanitárias, mesmo com leis mais novas tratando de temas específicos (como a Lei 9.782/99, sobre o Sistema Nacional de Vigilância Sanitária)." },
+      { "type": "tip", "value": "Se a prova perguntar qual lei trata das infrações sanitárias e suas sanções de forma geral, a resposta-padrão é a Lei 6.437/77." }
+    ]
+  },
+  {
+    "id": "especificos-lei-6437-p2",
+    "topicId": "especificos-lei-6437",
+    "order": 2,
+    "title": "As penalidades sanitárias",
+    "blocks": [
+      { "type": "text", "value": "A lei prevê várias penalidades que podem ser aplicadas, em ordem crescente de gravidade: advertência, multa, apreensão do produto, inutilização do produto, interdição (parcial ou total do estabelecimento), suspensão de vendas ou fabricação, cancelamento do registro do produto, e cancelamento da licença do estabelecimento." },
+      { "type": "text", "value": "A escolha da penalidade depende da gravidade da infração, se houve dolo (intenção) ou culpa, se é reincidência, e das consequências para a saúde da população." },
+      { "type": "tip", "value": "Pense numa escala: advertência é a penalidade mais leve (um aviso formal); interdição/cancelamento de licença são as mais graves, usadas quando o risco à saúde é sério ou o infrator reincide." }
+    ]
+  },
+  {
+    "id": "especificos-lei-6437-p3",
+    "topicId": "especificos-lei-6437",
+    "order": 3,
+    "title": "O que caracteriza uma infração sanitária",
+    "blocks": [
+      { "type": "text", "value": "De forma simples, é infração sanitária qualquer ação (ou omissão) que descumpra as normas sanitárias e que possa causar risco à saúde individual ou coletiva — por exemplo, vender alimento vencido, funcionar sem licença sanitária, ou não seguir normas de higiene." },
+      { "type": "text", "value": "Não é preciso que o dano já tenha acontecido: o simples descumprimento da norma que gera risco já é o suficiente para caracterizar a infração." }
+    ]
+  }
+]
