@@ -25,9 +25,9 @@
       }
     </div>
 
-    <a routerLink="/trilha" class="btn btn--primary btn--block back-btn">Voltar à trilha</a>
+    <a routerLink="/trilha" [replaceUrl]="true" class="btn btn--primary btn--block back-btn">Voltar à trilha</a>
   } @else {
     <p>Nenhum resultado disponível.</p>
-    <a routerLink="/" class="btn btn--secondary btn--block">Voltar ao início</a>
+    <a routerLink="/" [replaceUrl]="true" class="btn btn--secondary btn--block">Voltar ao início</a>
   }
 </div>

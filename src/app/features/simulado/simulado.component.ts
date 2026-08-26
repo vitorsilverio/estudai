@@ -47,6 +47,10 @@ export class SimuladoComponent {
       attempts: event.attempts,
       totalTimeMs: event.totalTimeMs,
     });
-    this.router.navigate(['/simulado', this.topicId, 'resultado']);
+    this.router.navigate(['/simulado', this.topicId, 'resultado'], { replaceUrl: true });
+  }
+
+  exitToTrilha(): void {
+    this.router.navigate(['/trilha'], { replaceUrl: true });
   }
 }

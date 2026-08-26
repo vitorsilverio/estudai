@@ -4,4 +4,7 @@
   <app-login />
 } @else {
   <router-outlet />
+  @if (showBottomNav()) {
+    <app-bottom-nav />
+  }
 }

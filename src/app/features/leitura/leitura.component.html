@@ -1,4 +1,8 @@
 <div class="page">
+  @if (stage() !== 'done') {
+    <button type="button" class="exit-link" (click)="goToTrilha()">← Sair para a trilha</button>
+  }
+
   @if (stage() === 'reading' && currentPage) {
     <div class="reading-header">
       <span class="reading-header__progress">Página {{ pageIndex() + 1 }} de {{ pages().length }}</span>

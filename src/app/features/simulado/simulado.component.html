@@ -1,4 +1,5 @@
 <div class="page">
+  <button type="button" class="exit-link" (click)="exitToTrilha()">← Sair para a trilha</button>
   <h1>Simulado</h1>
   <p class="hint">Responda com calma. O tempo está sendo contado e você só vai ver o resultado no final.</p>
   <app-quiz-runner [questions]="questions()" feedbackMode="deferred" (finished)="onFinished($event)" />

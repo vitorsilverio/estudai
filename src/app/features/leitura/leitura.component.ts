@@ -75,6 +75,6 @@ export class LeituraComponent {
   }
 
   goToTrilha(): void {
-    this.router.navigate(['/trilha']);
+    this.router.navigate(['/trilha'], { replaceUrl: true });
   }
 }
