@@ -34,6 +34,12 @@ export class ProgressService {
   readonly level = computed(() => 1 + Math.floor(this.state().points / 100));
   readonly streakCount = computed(() => this.state().streak.count);
 
+  constructor() {
+    // Best-effort: ask the browser not to evict this site's storage under pressure,
+    // so her progress survives even without the app being reinstalled/reopened often.
+    navigator.storage?.persist?.().catch(() => {});
+  }
+
   private load(): UserProgress {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
