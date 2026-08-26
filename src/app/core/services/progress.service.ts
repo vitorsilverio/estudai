@@ -178,12 +178,7 @@ export class ProgressService {
     return this.state().questionMastery[questionId] ?? 0;
   }
 
-  /** Full snapshot of the current progress, for export/backup purposes. */
-  exportSnapshot(): UserProgress {
-    return structuredClone(this.state());
-  }
-
-  /** Restores progress from a previously exported snapshot (e.g. after switching devices). */
+  /** Restores progress from a snapshot (used when pulling the remote copy from Firestore). */
   importSnapshot(data: UserProgress): void {
     const merged = { ...structuredClone(EMPTY_PROGRESS), ...data };
     this.persist(merged);

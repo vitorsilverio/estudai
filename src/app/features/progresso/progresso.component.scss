@@ -78,20 +78,8 @@
   color: var(--text-muted);
 }
 
-.backup-section {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-}
-
-.import-label {
-  display: block;
-  cursor: pointer;
-}
-
 .account-section {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;

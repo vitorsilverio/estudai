@@ -35,22 +35,6 @@
     <p class="hint">Continue estudando para desbloquear conquistas!</p>
   }
 
-  <div class="backup-section">
-    <h2>Backup dos dados</h2>
-    <p class="hint">
-      Exporte um arquivo com todo o seu progresso para enviar para quem está te ajudando a estudar,
-      ou para guardar antes de trocar de celular.
-    </p>
-    <button type="button" class="btn btn--secondary btn--block" (click)="exportProgress()">
-      ⬇️ Exportar meu progresso
-    </button>
-
-    <label class="import-label">
-      <span class="btn btn--secondary btn--block">⬆️ Importar progresso de um arquivo</span>
-      <input type="file" accept="application/json" (change)="importProgress($event)" hidden />
-    </label>
-  </div>
-
   @if (auth.currentUser(); as user) {
     <div class="account-section">
       <p class="hint">Conectada como {{ user.displayName || user.email }}</p>

@@ -37,33 +37,6 @@ export class ProgressoComponent {
   badges = computed(() => this.progress.progress().badges.map((b) => BADGE_LABELS[b] ?? b));
   simuladoCount = computed(() => this.progress.progress().simuladoResults.length);
 
-  exportProgress(): void {
-    const snapshot = this.progress.exportSnapshot();
-    const blob = new Blob([JSON.stringify(snapshot, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const date = new Date().toISOString().slice(0, 10);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `progresso-fiscal-sanitario-${date}.json`;
-    link.click();
-    URL.revokeObjectURL(url);
-  }
-
-  importProgress(event: Event): void {
-    const input = event.target as HTMLInputElement;
-    const file = input.files?.[0];
-    if (!file) return;
-    file
-      .text()
-      .then((text) => {
-        this.progress.importSnapshot(JSON.parse(text));
-        window.location.reload();
-      })
-      .finally(() => {
-        input.value = '';
-      });
-  }
-
   signOut(): void {
     this.auth.signOutUser();
   }
