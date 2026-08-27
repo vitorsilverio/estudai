@@ -1,33 +1,40 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable, inject } from '@angular/core';
-import { Observable, map, shareReplay } from 'rxjs';
+import { Injectable } from '@angular/core';
+import { collection, doc, getDoc, getDocs, query, orderBy } from 'firebase/firestore';
+import { Observable, from, map, shareReplay } from 'rxjs';
 import { ContentPage, Exam, Question, Subject, Topic } from '../../models/content.model';
+import { getDb } from '../firebase-app';
 
 const EXAM_ID = 'fiscal-sanitario-sao-roque-2026';
-const BASE = `content/${EXAM_ID}`;
 
 @Injectable({ providedIn: 'root' })
 export class ContentService {
-  private http = inject(HttpClient);
+  private db = getDb();
 
   private exam$?: Observable<Exam>;
   private subjects$?: Observable<Subject[]>;
   private topics$?: Observable<Topic[]>;
 
   getExam(): Observable<Exam> {
-    this.exam$ ??= this.http.get<Exam>(`${BASE}/exam.json`).pipe(shareReplay(1));
+    this.exam$ ??= from(getDoc(doc(this.db, 'exams', EXAM_ID))).pipe(
+      map((snap) => snap.data() as Exam),
+      shareReplay(1),
+    );
     return this.exam$;
   }
 
   getSubjects(): Observable<Subject[]> {
-    this.subjects$ ??= this.http
-      .get<Subject[]>(`${BASE}/subjects.json`)
-      .pipe(shareReplay(1));
+    this.subjects$ ??= from(getDocs(collection(this.db, 'exams', EXAM_ID, 'subjects'))).pipe(
+      map((snap) => snap.docs.map((d) => d.data() as Subject)),
+      shareReplay(1),
+    );
     return this.subjects$;
   }
 
   getTopics(): Observable<Topic[]> {
-    this.topics$ ??= this.http.get<Topic[]>(`${BASE}/topics.json`).pipe(shareReplay(1));
+    this.topics$ ??= from(getDocs(collection(this.db, 'exams', EXAM_ID, 'topics'))).pipe(
+      map((snap) => snap.docs.map((d) => d.data() as Topic)),
+      shareReplay(1),
+    );
     return this.topics$;
   }
 
@@ -38,12 +45,15 @@ export class ContentService {
   }
 
   getPages(topicId: string): Observable<ContentPage[]> {
-    return this.http
-      .get<ContentPage[]>(`${BASE}/pages/${topicId}.json`)
-      .pipe(map((pages) => [...pages].sort((a, b) => a.order - b.order)));
+    const pagesRef = query(
+      collection(this.db, 'exams', EXAM_ID, 'topics', topicId, 'pages'),
+      orderBy('order'),
+    );
+    return from(getDocs(pagesRef)).pipe(map((snap) => snap.docs.map((d) => d.data() as ContentPage)));
   }
 
   getQuestions(topicId: string): Observable<Question[]> {
-    return this.http.get<Question[]>(`${BASE}/questions/${topicId}.json`);
+    const questionsRef = collection(this.db, 'exams', EXAM_ID, 'topics', topicId, 'questions');
+    return from(getDocs(questionsRef)).pipe(map((snap) => snap.docs.map((d) => d.data() as Question)));
   }
 }

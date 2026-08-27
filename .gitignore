@@ -42,3 +42,8 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Firebase admin credentials — never commit, only used by local scripts/
+*serviceAccountKey*.json
+*service-account*.json
+scripts/*.key.json

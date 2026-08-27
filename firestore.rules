@@ -6,5 +6,16 @@ service cloud.firestore {
     match /progress/{uid} {
       allow read, write: if request.auth != null && request.auth.uid == uid;
     }
+
+    // Study content (exams/subjects/topics/pages/questions) is read-only for any
+    // signed-in user. It's only ever written by an admin script (Firebase Admin SDK,
+    // which bypasses these rules entirely), never by the app itself.
+    match /exams/{examId} {
+      allow read: if request.auth != null;
+
+      match /{document=**} {
+        allow read: if request.auth != null;
+      }
+    }
   }
 }

@@ -1,7 +1,7 @@
 import { Injectable, computed, signal } from '@angular/core';
-import { Firestore, doc, getDoc, getFirestore, setDoc } from 'firebase/firestore';
+import { Firestore, doc, getDoc, setDoc } from 'firebase/firestore';
 import { Attempt, ConfidenceLevel, EMPTY_PROGRESS, SimuladoResult, UserProgress } from '../../models/progress.model';
-import { getFirebaseApp } from '../firebase-app';
+import { getDb } from '../firebase-app';
 
 const STORAGE_KEY = 'efs.progress.v1';
 
@@ -36,7 +36,7 @@ export class ProgressService {
   readonly level = computed(() => 1 + Math.floor(this.state().points / 100));
   readonly streakCount = computed(() => this.state().streak.count);
 
-  private db: Firestore = getFirestore(getFirebaseApp());
+  private db: Firestore = getDb();
   private uid: string | null = null;
   private ownerMeta: { email: string | null; displayName: string | null } | null = null;
 
