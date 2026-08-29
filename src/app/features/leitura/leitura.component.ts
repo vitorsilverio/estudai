@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ContentService } from '../../core/services/content.service';
 import { ProgressService } from '../../core/services/progress.service';
+import { ProfileService } from '../../core/services/profile.service';
 import { SettingsService } from '../../core/services/settings.service';
 import { SpeechService } from '../../core/services/speech.service';
 import { ContentPage, Question } from '../../models/content.model';
@@ -23,13 +24,15 @@ export class LeituraComponent {
   private router = inject(Router);
   private content = inject(ContentService);
   private progress = inject(ProgressService);
+  private profile = inject(ProfileService);
   private speech = inject(SpeechService);
   settings = inject(SettingsService);
 
+  private examId = this.profile.activeExamId()!;
   topicId = this.route.snapshot.paramMap.get('topicId')!;
 
-  pages = toSignal(this.content.getPages(this.topicId), { initialValue: [] as ContentPage[] });
-  questions = toSignal(this.content.getQuestions(this.topicId), { initialValue: [] as Question[] });
+  pages = toSignal(this.content.getPages(this.examId, this.topicId), { initialValue: [] as ContentPage[] });
+  questions = toSignal(this.content.getQuestions(this.examId, this.topicId), { initialValue: [] as Question[] });
 
   stage = signal<Stage>('reading');
   pageIndex = signal(0);

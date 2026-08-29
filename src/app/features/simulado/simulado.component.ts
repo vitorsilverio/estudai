@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ContentService } from '../../core/services/content.service';
 import { ProgressService } from '../../core/services/progress.service';
+import { ProfileService } from '../../core/services/profile.service';
 import { SimuladoStateService } from '../../core/services/simulado-state.service';
 import { Question } from '../../models/content.model';
 import { SimuladoResult } from '../../models/progress.model';
@@ -21,18 +22,20 @@ export class SimuladoComponent {
   private router = inject(Router);
   private content = inject(ContentService);
   private progress = inject(ProgressService);
+  private profile = inject(ProfileService);
   private simuladoState = inject(SimuladoStateService);
 
+  private examId = this.profile.activeExamId()!;
   topicId = this.route.snapshot.paramMap.get('topicId')!;
 
-  questions = toSignal(this.content.getQuestions(this.topicId), { initialValue: [] as Question[] });
+  questions = toSignal(this.content.getQuestions(this.examId, this.topicId), { initialValue: [] as Question[] });
 
   onFinished(event: QuizFinishedEvent): void {
     const now = new Date().toISOString();
     const correctCount = event.attempts.filter((a) => a.correct).length;
     const result: SimuladoResult = {
       id: crypto.randomUUID(),
-      examId: 'fiscal-sanitario-sao-roque-2026',
+      examId: this.examId,
       topicIds: [this.topicId],
       startedAt: now,
       finishedAt: now,

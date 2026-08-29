@@ -5,6 +5,7 @@ import { catchError, forkJoin, map, of, switchMap } from 'rxjs';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ContentService } from '../../core/services/content.service';
 import { ProgressService } from '../../core/services/progress.service';
+import { ProfileService } from '../../core/services/profile.service';
 import { Question } from '../../models/content.model';
 import { QuizFinishedEvent, QuizRunnerComponent } from '../../shared/quiz/quiz-runner.component';
 
@@ -21,14 +22,19 @@ const REVIEW_SET_SIZE = 10;
 export class RevisaoComponent {
   private content = inject(ContentService);
   private progress = inject(ProgressService);
+  private profile = inject(ProfileService);
+
+  private examId = this.profile.activeExamId()!;
 
   finished = signal(false);
 
   reviewQuestions = toSignal(
-    this.content.getTopics().pipe(
+    this.content.getTopics(this.examId).pipe(
       switchMap((topics) =>
         forkJoin(
-          topics.map((t) => this.content.getQuestions(t.id).pipe(catchError(() => of([] as Question[])))),
+          topics.map((t) =>
+            this.content.getQuestions(this.examId, t.id).pipe(catchError(() => of([] as Question[]))),
+          ),
         ),
       ),
       map((questionLists) => {

@@ -1,6 +1,12 @@
 <div class="page page--with-bottom-nav">
   <h1>Meu progresso</h1>
 
+  <a routerLink="/trocar-concurso" class="exam-card-link">
+    <span class="exam-card-link__label">Concurso atual</span>
+    <span class="exam-card-link__name">{{ activeExam()?.name ?? '—' }}</span>
+    <span class="exam-card-link__cta">Trocar concurso →</span>
+  </a>
+
   <div class="progress-card">
     <p class="progress-card__percent">{{ overallPercent() }}%</p>
     <p class="progress-card__detail">{{ topicsCompletedCount() }} de {{ totalTopics() }} tópicos concluídos</p>

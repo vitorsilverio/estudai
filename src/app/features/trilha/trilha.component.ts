@@ -5,6 +5,7 @@ import { combineLatest, map } from 'rxjs';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ContentService } from '../../core/services/content.service';
 import { ProgressService } from '../../core/services/progress.service';
+import { ProfileService } from '../../core/services/profile.service';
 import { Subject, Topic } from '../../models/content.model';
 
 interface SubjectView extends Subject {
@@ -21,9 +22,12 @@ interface SubjectView extends Subject {
 export class TrilhaComponent {
   private content = inject(ContentService);
   private progress = inject(ProgressService);
+  private profile = inject(ProfileService);
+
+  private examId = this.profile.activeExamId()!;
 
   subjects = toSignal(
-    combineLatest([this.content.getSubjects(), this.content.getTopics()]).pipe(
+    combineLatest([this.content.getSubjects(this.examId), this.content.getTopics(this.examId)]).pipe(
       map(([subjects, topics]) =>
         [...subjects]
           .sort((a, b) => a.order - b.order)

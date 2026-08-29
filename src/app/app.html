@@ -2,6 +2,10 @@
   <div class="boot-loading">estudai</div>
 } @else if (!auth.currentUser()) {
   <app-login />
+} @else if (profile.isLoading()) {
+  <div class="boot-loading">estudai</div>
+} @else if (!profile.activeExamId()) {
+  <app-exam-picker mode="onboarding" />
 } @else {
   <router-outlet />
   @if (showBottomNav()) {

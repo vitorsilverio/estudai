@@ -1,0 +1,14 @@
+[
+  { "id": "gerais-etica", "examId": "tce-sp-auditor-ti-2026", "name": "Ética", "order": 1 },
+  { "id": "gerais-legislacao", "examId": "tce-sp-auditor-ti-2026", "name": "Legislação", "order": 2 },
+  { "id": "gerais-portugues", "examId": "tce-sp-auditor-ti-2026", "name": "Português", "order": 3 },
+  { "id": "gerais-raciocinio-logico", "examId": "tce-sp-auditor-ti-2026", "name": "Raciocínio Lógico", "order": 4 },
+  { "id": "especificos-contratacoes-ti", "examId": "tce-sp-auditor-ti-2026", "name": "Contratações de TI", "order": 5 },
+  { "id": "especificos-governanca-ti", "examId": "tce-sp-auditor-ti-2026", "name": "Governança de TI", "order": 6 },
+  { "id": "especificos-bd-dados", "examId": "tce-sp-auditor-ti-2026", "name": "Banco de Dados", "order": 7 },
+  { "id": "especificos-infra-so-cloud", "examId": "tce-sp-auditor-ti-2026", "name": "Infraestrutura, SO e Cloud", "order": 8 },
+  { "id": "especificos-containers-devops", "examId": "tce-sp-auditor-ti-2026", "name": "Containers e DevOps", "order": 9 },
+  { "id": "especificos-programacao", "examId": "tce-sp-auditor-ti-2026", "name": "Programação", "order": 10 },
+  { "id": "especificos-seguranca", "examId": "tce-sp-auditor-ti-2026", "name": "Segurança", "order": 11 },
+  { "id": "especificos-ia-processos", "examId": "tce-sp-auditor-ti-2026", "name": "IA e Processos", "order": 12 }
+]

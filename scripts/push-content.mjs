@@ -4,7 +4,7 @@
 // redeploy — edit the JSON, run this script, done.
 //
 // Usage:
-//   node scripts/push-content.mjs path/to/serviceAccountKey.json
+//   node scripts/push-content.mjs path/to/serviceAccountKey.json <examId>
 //
 // The service account key is never committed — see .gitignore.
 
@@ -15,12 +15,17 @@ import { cert, initializeApp } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const EXAM_ID = 'fiscal-sanitario-sao-roque-2026';
-const CONTENT_DIR = path.join(__dirname, '..', 'public', 'content', EXAM_ID);
 
 const keyPath = process.argv[2];
-if (!keyPath) {
-  console.error('Uso: node scripts/push-content.mjs <caminho-da-chave-de-servico.json>');
+const examId = process.argv[3];
+if (!keyPath || !examId) {
+  console.error('Uso: node scripts/push-content.mjs <caminho-da-chave-de-servico.json> <examId>');
+  process.exit(1);
+}
+
+const CONTENT_DIR = path.join(__dirname, '..', 'public', 'content', examId);
+if (!existsSync(CONTENT_DIR)) {
+  console.error(`Pasta de conteúdo não encontrada: ${CONTENT_DIR}`);
   process.exit(1);
 }
 
@@ -36,25 +41,25 @@ async function main() {
   let writes = 0;
 
   const exam = readJson('exam.json');
-  await db.doc(`exams/${EXAM_ID}`).set(exam);
+  await db.doc(`exams/${examId}`).set(exam);
   writes++;
 
   const subjects = readJson('subjects.json');
   for (const subject of subjects) {
-    await db.doc(`exams/${EXAM_ID}/subjects/${subject.id}`).set(subject);
+    await db.doc(`exams/${examId}/subjects/${subject.id}`).set(subject);
     writes++;
   }
 
   const topics = readJson('topics.json');
   for (const topic of topics) {
-    await db.doc(`exams/${EXAM_ID}/topics/${topic.id}`).set(topic);
+    await db.doc(`exams/${examId}/topics/${topic.id}`).set(topic);
     writes++;
 
     const pagesPath = path.join(CONTENT_DIR, 'pages', `${topic.id}.json`);
     if (existsSync(pagesPath)) {
       const pages = JSON.parse(readFileSync(pagesPath, 'utf8'));
       for (const page of pages) {
-        await db.doc(`exams/${EXAM_ID}/topics/${topic.id}/pages/${page.id}`).set(page);
+        await db.doc(`exams/${examId}/topics/${topic.id}/pages/${page.id}`).set(page);
         writes++;
       }
     }
@@ -63,13 +68,13 @@ async function main() {
     if (existsSync(questionsPath)) {
       const questions = JSON.parse(readFileSync(questionsPath, 'utf8'));
       for (const question of questions) {
-        await db.doc(`exams/${EXAM_ID}/topics/${topic.id}/questions/${question.id}`).set(question);
+        await db.doc(`exams/${examId}/topics/${topic.id}/questions/${question.id}`).set(question);
         writes++;
       }
     }
   }
 
-  console.log(`Concluído: ${writes} documentos escritos em exams/${EXAM_ID}.`);
+  console.log(`Concluído: ${writes} documentos escritos em exams/${examId}.`);
 }
 
 main().catch((err) => {

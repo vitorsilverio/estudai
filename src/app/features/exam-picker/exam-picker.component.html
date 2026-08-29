@@ -1,0 +1,27 @@
+<div class="page exam-picker">
+  @if (mode === 'switch') {
+    <button type="button" class="exit-link" (click)="goBack()">← Voltar</button>
+  }
+
+  <h1>{{ mode === 'onboarding' ? 'Qual concurso você vai estudar?' : 'Trocar concurso' }}</h1>
+  <p class="hint">
+    Seu progresso de cada concurso fica salvo separadamente — trocar aqui não apaga nada, só
+    muda qual trilha aparece agora.
+  </p>
+
+  <div class="exam-list">
+    @for (exam of exams(); track exam.id) {
+      <div class="exam-card" [class.exam-card--active]="exam.id === activeExamId()">
+        <div>
+          <p class="exam-card__name">{{ exam.name }}</p>
+          <p class="exam-card__date">Prova: {{ exam.examDate }}</p>
+        </div>
+        @if (exam.id === activeExamId()) {
+          <span class="exam-card__badge">Atual</span>
+        } @else {
+          <button type="button" class="btn btn--primary" (click)="choose(exam.id)">Escolher</button>
+        }
+      </div>
+    }
+  </div>
+</div>

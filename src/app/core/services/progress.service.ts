@@ -3,7 +3,7 @@ import { Firestore, doc, getDoc, setDoc } from 'firebase/firestore';
 import { Attempt, ConfidenceLevel, EMPTY_PROGRESS, SimuladoResult, UserProgress } from '../../models/progress.model';
 import { getDb } from '../firebase-app';
 
-const STORAGE_KEY = 'efs.progress.v1';
+const STORAGE_KEY_PREFIX = 'efs.progress.v2';
 
 const MASTERY_DELTA: Record<ConfidenceLevel, { correct: number; wrong: number }> = {
   certeza: { correct: 2, wrong: -2 },
@@ -29,7 +29,7 @@ function daysBetween(a: string, b: string): number {
 
 @Injectable({ providedIn: 'root' })
 export class ProgressService {
-  private readonly state = signal<UserProgress>(this.load());
+  private readonly state = signal<UserProgress>(structuredClone(EMPTY_PROGRESS));
 
   readonly progress = this.state.asReadonly();
   readonly points = computed(() => this.state().points);
@@ -38,27 +38,35 @@ export class ProgressService {
 
   private db: Firestore = getDb();
   private uid: string | null = null;
+  private examId: string | null = null;
   private ownerMeta: { email: string | null; displayName: string | null } | null = null;
 
   constructor() {
     // Best-effort: ask the browser not to evict this site's storage under pressure,
-    // so her progress survives even without the app being reinstalled/reopened often.
+    // so progress survives even without the app being reinstalled/reopened often.
     navigator.storage?.persist?.().catch(() => {});
   }
 
   /**
-   * Called once after login. Reconciles local (offline) progress with the remote copy:
-   * remote wins if it already exists (cross-device continuity); otherwise the local
-   * snapshot is uploaded as the first copy in Firestore.
+   * Called after login and whenever the active exam changes. Loads the local (offline) copy
+   * for that specific exam first for instant UI, then reconciles with the remote copy: remote
+   * wins if it already exists (cross-device continuity); otherwise the local snapshot is
+   * uploaded as the first copy in Firestore.
    */
-  async syncWithRemote(uid: string, owner: { email: string | null; displayName: string | null }): Promise<void> {
+  async bindToUser(
+    uid: string,
+    examId: string,
+    owner: { email: string | null; displayName: string | null },
+  ): Promise<void> {
     this.uid = uid;
+    this.examId = examId;
     this.ownerMeta = owner;
+    this.state.set(this.loadLocal(examId));
+
     try {
-      const snap = await getDoc(doc(this.db, 'progress', uid));
+      const snap = await getDoc(doc(this.db, 'users', uid, 'examProgress', examId));
       if (snap.exists()) {
-        const { _owner, ...data } = snap.data() as UserProgress & { _owner?: unknown };
-        this.importSnapshot(data as UserProgress);
+        this.importSnapshot(snap.data() as UserProgress);
       } else {
         await this.pushToRemote(this.state());
       }
@@ -70,13 +78,14 @@ export class ProgressService {
   /** Called on logout: stop syncing writes to remote, keep the local copy intact. */
   detachFromRemote(): void {
     this.uid = null;
+    this.examId = null;
     this.ownerMeta = null;
   }
 
   private async pushToRemote(data: UserProgress): Promise<void> {
-    if (!this.uid) return;
+    if (!this.uid || !this.examId) return;
     try {
-      await setDoc(doc(this.db, 'progress', this.uid), {
+      await setDoc(doc(this.db, 'users', this.uid, 'examProgress', this.examId), {
         ...data,
         // Metadata only, so it's easy to tell whose document is whose in the Firestore console.
         _owner: {
@@ -90,9 +99,13 @@ export class ProgressService {
     }
   }
 
-  private load(): UserProgress {
+  private storageKey(examId: string | null): string {
+    return `${STORAGE_KEY_PREFIX}.${examId ?? 'unknown'}`;
+  }
+
+  private loadLocal(examId: string): UserProgress {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(this.storageKey(examId));
       if (!raw) return structuredClone(EMPTY_PROGRESS);
       return { ...structuredClone(EMPTY_PROGRESS), ...JSON.parse(raw) };
     } catch {
@@ -102,7 +115,7 @@ export class ProgressService {
 
   private persist(next: UserProgress): void {
     this.state.set(next);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+    localStorage.setItem(this.storageKey(this.examId), JSON.stringify(next));
     void this.pushToRemote(next);
   }
 
@@ -180,7 +193,8 @@ export class ProgressService {
 
   /** Restores progress from a snapshot (used when pulling the remote copy from Firestore). */
   importSnapshot(data: UserProgress): void {
-    const merged = { ...structuredClone(EMPTY_PROGRESS), ...data };
+    const { _owner, ...clean } = data as UserProgress & { _owner?: unknown };
+    const merged = { ...structuredClone(EMPTY_PROGRESS), ...clean };
     this.persist(merged);
   }
 

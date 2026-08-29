@@ -30,5 +30,9 @@ export const routes: Routes = [
     path: 'progresso',
     loadComponent: () => import('./features/progresso/progresso.component').then((m) => m.ProgressoComponent),
   },
+  {
+    path: 'trocar-concurso',
+    loadComponent: () => import('./features/exam-picker/exam-picker.component').then((m) => m.ExamPickerComponent),
+  },
   { path: '**', redirectTo: '' },
 ];
