@@ -47,3 +47,10 @@ export interface Question {
   correctOptionId: string;
   explanation: string;
 }
+
+export interface Flashcard {
+  id: string;
+  topicId: string;
+  front: string;
+  back: string;
+}

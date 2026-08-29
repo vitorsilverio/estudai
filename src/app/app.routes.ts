@@ -23,6 +23,10 @@ export const routes: Routes = [
     loadComponent: () => import('./features/simulado/simulado.component').then((m) => m.SimuladoComponent),
   },
   {
+    path: 'flashcards/:topicId',
+    loadComponent: () => import('./features/flashcards/flashcards.component').then((m) => m.FlashcardsComponent),
+  },
+  {
     path: 'revisao',
     loadComponent: () => import('./features/revisao/revisao.component').then((m) => m.RevisaoComponent),
   },

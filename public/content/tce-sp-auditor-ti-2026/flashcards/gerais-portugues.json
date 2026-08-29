@@ -1,0 +1,236 @@
+[
+  {
+    "id": "gerais-portugues-fc-1",
+    "topicId": "gerais-portugues",
+    "front": "Qual o teste universal da crase?",
+    "back": "Trocar a palavra feminina por uma masculina equivalente: virou \"ao\" → crase; virou \"o\" → sem crase"
+  },
+  {
+    "id": "gerais-portugues-fc-2",
+    "topicId": "gerais-portugues",
+    "front": "Há crase antes de verbo?",
+    "back": "Nunca"
+  },
+  {
+    "id": "gerais-portugues-fc-3",
+    "topicId": "gerais-portugues",
+    "front": "Há crase antes de palavra masculina?",
+    "back": "Nunca — exceto na locução \"à moda de\" elíptica (bife à milanesa)"
+  },
+  {
+    "id": "gerais-portugues-fc-4",
+    "topicId": "gerais-portugues",
+    "front": "Há crase antes de pronome pessoal?",
+    "back": "Não: refiro-me a ela, a você, a Vossa Senhoria"
+  },
+  {
+    "id": "gerais-portugues-fc-5",
+    "topicId": "gerais-portugues",
+    "front": "Há crase antes de artigo indefinido?",
+    "back": "Não: refiro-me a uma norma"
+  },
+  {
+    "id": "gerais-portugues-fc-6",
+    "topicId": "gerais-portugues",
+    "front": "Há crase entre palavras repetidas?",
+    "back": "Não: cara a cara, gota a gota, dia a dia"
+  },
+  {
+    "id": "gerais-portugues-fc-7",
+    "topicId": "gerais-portugues",
+    "front": "\"Daqui a pouco\" tem crase?",
+    "back": "Não — tempo futuro indeterminado"
+  },
+  {
+    "id": "gerais-portugues-fc-8",
+    "topicId": "gerais-portugues",
+    "front": "\"Daqui a três dias\" tem crase?",
+    "back": "Não — mesma regra do tempo futuro"
+  },
+  {
+    "id": "gerais-portugues-fc-9",
+    "topicId": "gerais-portugues",
+    "front": "\"À distância\" leva crase?",
+    "back": "Só quando especificada: à distância de 50 metros"
+  },
+  {
+    "id": "gerais-portugues-fc-10",
+    "topicId": "gerais-portugues",
+    "front": "\"Voltou a casa\" ou \"à casa\"?",
+    "back": "\"a casa\" se genérica; \"à casa dos pais\" se especificada"
+  },
+  {
+    "id": "gerais-portugues-fc-11",
+    "topicId": "gerais-portugues",
+    "front": "\"Desceu a terra\" ou \"à terra\"?",
+    "back": "\"a terra\" quando é terra firme; \"à terra natal\" quando especificada"
+  },
+  {
+    "id": "gerais-portugues-fc-12",
+    "topicId": "gerais-portugues",
+    "front": "Quando a crase é facultativa?",
+    "back": "Antes de nome próprio feminino; antes de pronome possessivo feminino; depois da preposição \"até\""
+  },
+  {
+    "id": "gerais-portugues-fc-13",
+    "topicId": "gerais-portugues",
+    "front": "Crase em locuções adverbiais femininas?",
+    "back": "Sempre: à noite, à tarde, às pressas, à toa, às vezes, à revelia, à risca"
+  },
+  {
+    "id": "gerais-portugues-fc-14",
+    "topicId": "gerais-portugues",
+    "front": "Crase em locuções prepositivas femininas?",
+    "back": "Sim: à frente de, à custa de, à procura de, à espera de, à base de"
+  },
+  {
+    "id": "gerais-portugues-fc-15",
+    "topicId": "gerais-portugues",
+    "front": "Crase em locuções conjuntivas femininas?",
+    "back": "Sim: à medida que, à proporção que"
+  },
+  {
+    "id": "gerais-portugues-fc-16",
+    "topicId": "gerais-portugues",
+    "front": "\"À medida que\" x \"na medida em que\"",
+    "back": "À medida que = proporção; na medida em que = causa. \"Na medida que\" não existe"
+  },
+  {
+    "id": "gerais-portugues-fc-17",
+    "topicId": "gerais-portugues",
+    "front": "Crase antes de horas?",
+    "back": "Sim, em horas determinadas: às 15h, à uma hora. Mas \"a partir de uma hora\" não leva"
+  },
+  {
+    "id": "gerais-portugues-fc-18",
+    "topicId": "gerais-portugues",
+    "front": "Crase antes de aquele/aquela/aquilo?",
+    "back": "Sim, se o termo anterior exigir \"a\": refiro-me àquele processo"
+  },
+  {
+    "id": "gerais-portugues-fc-19",
+    "topicId": "gerais-portugues",
+    "front": "Como testar o \"àquele\"?",
+    "back": "Troque por \"a este\" — se couber, é àquele"
+  },
+  {
+    "id": "gerais-portugues-fc-20",
+    "topicId": "gerais-portugues",
+    "front": "Crase antes de numeral cardinal?",
+    "back": "Não: de 10 a 20 processos"
+  },
+  {
+    "id": "gerais-portugues-fc-21",
+    "topicId": "gerais-portugues",
+    "front": "Crase antes de plural quando o \"a\" está no singular?",
+    "back": "Não: refiro-me a decisões anteriores (sem artigo)"
+  },
+  {
+    "id": "gerais-portugues-fc-22",
+    "topicId": "gerais-portugues",
+    "front": "\"A norma à qual me referi\" ou \"a que me referi\"?",
+    "back": "Ambas corretas: \"à qual\" leva crase; antes de \"que\" não há crase"
+  },
+  {
+    "id": "gerais-portugues-fc-23",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"assistir\" no sentido de ver",
+    "back": "Indireta, exige \"a\": assisti ao filme, assisti à sessão"
+  },
+  {
+    "id": "gerais-portugues-fc-24",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"assistir\" no sentido de ajudar",
+    "back": "Direta: o médico assistiu o paciente"
+  },
+  {
+    "id": "gerais-portugues-fc-25",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"aspirar\" no sentido de desejar",
+    "back": "Exige \"a\": aspirava ao cargo"
+  },
+  {
+    "id": "gerais-portugues-fc-26",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"aspirar\" no sentido de sorver",
+    "back": "Direta: aspirou o ar"
+  },
+  {
+    "id": "gerais-portugues-fc-27",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"visar\" no sentido de almejar",
+    "back": "Exige \"a\": o projeto visa à eficiência"
+  },
+  {
+    "id": "gerais-portugues-fc-28",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"visar\" no sentido de mirar ou dar visto",
+    "back": "Direta: visou o alvo; visou o documento"
+  },
+  {
+    "id": "gerais-portugues-fc-29",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"proceder\" no sentido de dar início",
+    "back": "Exige \"a\": procedeu à análise"
+  },
+  {
+    "id": "gerais-portugues-fc-30",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"proceder\" no sentido de ter fundamento",
+    "back": "Direta: a alegação não procede"
+  },
+  {
+    "id": "gerais-portugues-fc-31",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"implicar\" no sentido de acarretar",
+    "back": "Direta, sem preposição: a omissão implica responsabilização"
+  },
+  {
+    "id": "gerais-portugues-fc-32",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"obedecer\" e \"desobedecer\"",
+    "back": "Exigem \"a\": obedeceu às normas"
+  },
+  {
+    "id": "gerais-portugues-fc-33",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"preferir\"",
+    "back": "Algo a algo — nunca \"do que\": prefiro auditoria a consultoria"
+  },
+  {
+    "id": "gerais-portugues-fc-34",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"pagar\" e \"perdoar\"",
+    "back": "Coisa: direto (paguei a conta). Pessoa: indireto (paguei ao fornecedor)"
+  },
+  {
+    "id": "gerais-portugues-fc-35",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"esquecer\" e \"lembrar\"",
+    "back": "Sem pronome: direto (esqueci o prazo). Com pronome: exige \"de\" (esqueci-me do prazo)"
+  },
+  {
+    "id": "gerais-portugues-fc-36",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"informar\"",
+    "back": "Duas construções: informar algo a alguém / informar alguém de algo"
+  },
+  {
+    "id": "gerais-portugues-fc-37",
+    "topicId": "gerais-portugues",
+    "front": "Regência de \"chegar\" e \"ir\" na norma culta",
+    "back": "Exigem \"a\": cheguei à repartição (não \"cheguei em\")"
+  },
+  {
+    "id": "gerais-portugues-fc-38",
+    "topicId": "gerais-portugues",
+    "front": "Nomes que exigem a preposição \"a\"",
+    "back": "Favorável, contrário, útil, nocivo, acessível, inerente, alusão, referente, semelhante, anterior, posterior, relativo"
+  },
+  {
+    "id": "gerais-portugues-fc-39",
+    "topicId": "gerais-portugues",
+    "front": "Como testar crase em nome de cidade?",
+    "back": "Use \"volto de/da\": volto da Bahia → vou à Bahia; volto de Brasília → vou a Brasília"
+  }
+]

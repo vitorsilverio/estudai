@@ -3,9 +3,18 @@
     <button type="button" class="exit-link" (click)="goToTrilha()">← Sair para a trilha</button>
   }
 
+  @if (stage() === 'reading' && pages()?.length === 0) {
+    <div class="empty-state">
+      <p class="empty-state__emoji">📄</p>
+      <h1>Ainda não há leitura aqui</h1>
+      <p class="hint">Esse tópico ainda não tem conteúdo de leitura, mas já dá pra revisar com flashcards.</p>
+      <a [routerLink]="['/flashcards', topicId]" class="btn btn--primary btn--block">Ir para os flashcards</a>
+    </div>
+  }
+
   @if (stage() === 'reading' && currentPage) {
     <div class="reading-header">
-      <span class="reading-header__progress">Página {{ pageIndex() + 1 }} de {{ pages().length }}</span>
+      <span class="reading-header__progress">Página {{ pageIndex() + 1 }} de {{ pages()?.length }}</span>
       <div class="reading-header__actions">
         <button type="button" class="icon-btn" (click)="settings.decreaseFontSize()">A-</button>
         <button type="button" class="icon-btn" (click)="settings.increaseFontSize()">A+</button>

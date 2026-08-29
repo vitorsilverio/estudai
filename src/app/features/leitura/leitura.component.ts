@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ContentService } from '../../core/services/content.service';
 import { ProgressService } from '../../core/services/progress.service';
@@ -15,7 +15,7 @@ type Stage = 'loading' | 'reading' | 'quiz' | 'done';
 @Component({
   selector: 'app-leitura',
   standalone: true,
-  imports: [CommonModule, QuizRunnerComponent],
+  imports: [CommonModule, RouterLink, QuizRunnerComponent],
   templateUrl: './leitura.component.html',
   styleUrl: './leitura.component.scss',
 })
@@ -31,7 +31,7 @@ export class LeituraComponent {
   private examId = this.profile.activeExamId()!;
   topicId = this.route.snapshot.paramMap.get('topicId')!;
 
-  pages = toSignal(this.content.getPages(this.examId, this.topicId), { initialValue: [] as ContentPage[] });
+  pages = toSignal(this.content.getPages(this.examId, this.topicId));
   questions = toSignal(this.content.getQuestions(this.examId, this.topicId), { initialValue: [] as Question[] });
 
   stage = signal<Stage>('reading');
@@ -39,11 +39,11 @@ export class LeituraComponent {
   pointsEarned = signal(0);
 
   get currentPage(): ContentPage | null {
-    return this.pages()[this.pageIndex()] ?? null;
+    return this.pages()?.[this.pageIndex()] ?? null;
   }
 
   get isLastPage(): boolean {
-    return this.pageIndex() + 1 >= this.pages().length;
+    return this.pageIndex() + 1 >= (this.pages()?.length ?? 0);
   }
 
   get speechSupported(): boolean {

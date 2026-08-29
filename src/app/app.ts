@@ -8,7 +8,7 @@ import { LoginComponent } from './features/login/login.component';
 import { ExamPickerComponent } from './features/exam-picker/exam-picker.component';
 import { BottomNavComponent } from './shared/nav/bottom-nav.component';
 
-const IMMERSIVE_ROUTE_PREFIXES = ['/trilha/', '/simulado/'];
+const IMMERSIVE_ROUTE_PREFIXES = ['/trilha/', '/simulado/', '/flashcards/'];
 
 @Component({
   imports: [CommonModule, RouterOutlet, LoginComponent, ExamPickerComponent, BottomNavComponent],

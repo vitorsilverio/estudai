@@ -1,1 +1,5 @@
-[]
+[
+  { "id": "gerais-portugues", "subjectId": "gerais-portugues", "name": "Português (flashcards gerais)", "order": 1 },
+  { "id": "gerais-legislacao", "subjectId": "gerais-legislacao", "name": "Legislação TCESP (flashcards gerais)", "order": 1 },
+  { "id": "especificos-contratacoes-ti", "subjectId": "especificos-contratacoes-ti", "name": "Contratações de TI (flashcards gerais)", "order": 1 }
+]

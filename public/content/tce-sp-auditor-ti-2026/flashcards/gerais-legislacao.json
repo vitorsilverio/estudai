@@ -1,0 +1,200 @@
+[
+  {
+    "id": "gerais-legislacao-fc-1",
+    "topicId": "gerais-legislacao",
+    "front": "Quantos Conselheiros compõem o TCESP?",
+    "back": "7 Conselheiros (TCU tem 9 Ministros)"
+  },
+  {
+    "id": "gerais-legislacao-fc-2",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo e efeito do recurso ordinário (LC 709/93)?",
+    "back": "15 dias, COM efeito suspensivo"
+  },
+  {
+    "id": "gerais-legislacao-fc-3",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo e efeito do pedido de reconsideração?",
+    "back": "15 dias, com efeito suspensivo, uma única vez, contra decisão do Pleno"
+  },
+  {
+    "id": "gerais-legislacao-fc-4",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo e efeito do agravo?",
+    "back": "5 dias, SEM efeito suspensivo (o único sem)"
+  },
+  {
+    "id": "gerais-legislacao-fc-5",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo dos embargos de declaração e seu efeito?",
+    "back": "5 dias; suspendem/interrompem o prazo dos demais recursos"
+  },
+  {
+    "id": "gerais-legislacao-fc-6",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo do pedido de reexame e o que ele ataca?",
+    "back": "30 dias, uma única vez, contra PARECER PRÉVIO (contas do Governador ou de Municípios)"
+  },
+  {
+    "id": "gerais-legislacao-fc-7",
+    "topicId": "gerais-legislacao",
+    "front": "Quais são os 5 recursos da LC 709/93?",
+    "back": "Ordinário, Reconsideração, Agravo, Embargos de declaração, Reexame (embargos INFRINGENTES não existem)"
+  },
+  {
+    "id": "gerais-legislacao-fc-8",
+    "topicId": "gerais-legislacao",
+    "front": "Mnemônico dos prazos recursais da LC 709/93",
+    "back": "5-5-15-15-30: Agravo e Embargos (5); Ordinário e Reconsideração (15); Reexame (30)"
+  },
+  {
+    "id": "gerais-legislacao-fc-9",
+    "topicId": "gerais-legislacao",
+    "front": "Quais os três resultados do julgamento de contas?",
+    "back": "Regulares; Regulares com ressalva; Irregulares"
+  },
+  {
+    "id": "gerais-legislacao-fc-10",
+    "topicId": "gerais-legislacao",
+    "front": "Quando as contas são \"regulares com ressalva\"?",
+    "back": "Impropriedade FORMAL de que NÃO resulte dano ao erário"
+  },
+  {
+    "id": "gerais-legislacao-fc-11",
+    "topicId": "gerais-legislacao",
+    "front": "Quando as contas são irregulares?",
+    "back": "Omissão no dever de prestar contas; infração a norma legal/regulamentar; dano ao erário; desfalque ou desvio"
+  },
+  {
+    "id": "gerais-legislacao-fc-12",
+    "topicId": "gerais-legislacao",
+    "front": "O que é decisão terminativa?",
+    "back": "Trancamento das contas consideradas iliquidáveis (impossível apurar)"
+  },
+  {
+    "id": "gerais-legislacao-fc-13",
+    "topicId": "gerais-legislacao",
+    "front": "Limite da multa proporcional ao dano",
+    "back": "Até 100% do valor atualizado do dano ao erário"
+  },
+  {
+    "id": "gerais-legislacao-fc-14",
+    "topicId": "gerais-legislacao",
+    "front": "Limite da multa por infração sem débito",
+    "back": "Até 2.000 UFESPs"
+  },
+  {
+    "id": "gerais-legislacao-fc-15",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo de inabilitação para cargo em comissão ou função de confiança",
+    "back": "5 a 8 anos"
+  },
+  {
+    "id": "gerais-legislacao-fc-16",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo da declaração de inidoneidade para licitar e contratar",
+    "back": "Até 5 anos"
+  },
+  {
+    "id": "gerais-legislacao-fc-17",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo para ação de revisão e de rescisão de julgado",
+    "back": "5 anos"
+  },
+  {
+    "id": "gerais-legislacao-fc-18",
+    "topicId": "gerais-legislacao",
+    "front": "Quem pode denunciar irregularidades ao Tribunal de Contas?",
+    "back": "Qualquer cidadão, partido político, associação ou sindicato — identificados"
+  },
+  {
+    "id": "gerais-legislacao-fc-19",
+    "topicId": "gerais-legislacao",
+    "front": "A denúncia ao Tribunal pode ser anônima?",
+    "back": "Não. Exige nome, qualificação e endereço; o que é sigiloso é a APURAÇÃO"
+  },
+  {
+    "id": "gerais-legislacao-fc-20",
+    "topicId": "gerais-legislacao",
+    "front": "Contas do Governador e do Prefeito: o Tribunal julga ou emite parecer?",
+    "back": "Emite PARECER PRÉVIO (julgamento é do Legislativo)"
+  },
+  {
+    "id": "gerais-legislacao-fc-21",
+    "topicId": "gerais-legislacao",
+    "front": "Quórum para a Câmara Municipal rejeitar o parecer prévio do TCESP",
+    "back": "2/3 dos membros"
+  },
+  {
+    "id": "gerais-legislacao-fc-22",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo do TCESP para emitir parecer sobre contas municipais",
+    "back": "Até o último dia do ano seguinte ao do recebimento (balanço enviado até 31 de março)"
+  },
+  {
+    "id": "gerais-legislacao-fc-23",
+    "topicId": "gerais-legislacao",
+    "front": "Quais as 5 naturezas de fiscalização do art. 70 da CF?",
+    "back": "Contábil, financeira, orçamentária, operacional e patrimonial"
+  },
+  {
+    "id": "gerais-legislacao-fc-24",
+    "topicId": "gerais-legislacao",
+    "front": "Quais os 3 critérios de exame do art. 70 da CF?",
+    "back": "Legalidade, legitimidade e economicidade"
+  },
+  {
+    "id": "gerais-legislacao-fc-25",
+    "topicId": "gerais-legislacao",
+    "front": "Quem deve prestar contas segundo o art. 70, parágrafo único, da CF?",
+    "back": "Qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos"
+  },
+  {
+    "id": "gerais-legislacao-fc-26",
+    "topicId": "gerais-legislacao",
+    "front": "Prazo do TCU para o parecer prévio sobre as contas do Presidente (art. 71, I, CF)",
+    "back": "60 dias do recebimento"
+  },
+  {
+    "id": "gerais-legislacao-fc-27",
+    "topicId": "gerais-legislacao",
+    "front": "Quem susta a execução de um CONTRATO irregular segundo a CF?",
+    "back": "O Congresso Nacional/Legislativo; o Tribunal só age se Legislativo e Executivo não o fizerem em 90 dias"
+  },
+  {
+    "id": "gerais-legislacao-fc-28",
+    "topicId": "gerais-legislacao",
+    "front": "Qual artigo da CF estende as normas dos arts. 70-74 aos Tribunais de Contas dos Estados?",
+    "back": "Art. 75"
+  },
+  {
+    "id": "gerais-legislacao-fc-29",
+    "topicId": "gerais-legislacao",
+    "front": "O que diz o art. 74, §1º, da CF?",
+    "back": "Responsabilidade solidária de quem, tomando conhecimento de irregularidade, dela não der ciência ao Tribunal de Contas"
+  },
+  {
+    "id": "gerais-legislacao-fc-30",
+    "topicId": "gerais-legislacao",
+    "front": "Órgãos de deliberação do TCESP",
+    "back": "Tribunal Pleno, Câmaras e Conselheiro Singular (relator)"
+  },
+  {
+    "id": "gerais-legislacao-fc-31",
+    "topicId": "gerais-legislacao",
+    "front": "Recurso ordinário contra decisão de Câmara é julgado por quem?",
+    "back": "Pelo Tribunal Pleno"
+  },
+  {
+    "id": "gerais-legislacao-fc-32",
+    "topicId": "gerais-legislacao",
+    "front": "Recurso ordinário contra decisão de Conselheiro Singular é julgado por quem?",
+    "back": "Pela Câmara"
+  },
+  {
+    "id": "gerais-legislacao-fc-33",
+    "topicId": "gerais-legislacao",
+    "front": "Fundamentos da ação de revisão (LC 709/93)",
+    "back": "Erro de cálculo; omissão ou erro de classificação; falsidade de documentos; superveniência de documentos novos"
+  }
+]

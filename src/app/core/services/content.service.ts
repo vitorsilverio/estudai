@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { collection, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore';
 import { Observable, from, map, shareReplay } from 'rxjs';
-import { ContentPage, Exam, Question, Subject, Topic } from '../../models/content.model';
+import { ContentPage, Exam, Flashcard, Question, Subject, Topic } from '../../models/content.model';
 import { getDb } from '../firebase-app';
 
 @Injectable({ providedIn: 'root' })
@@ -77,5 +77,10 @@ export class ContentService {
   getQuestions(examId: string, topicId: string): Observable<Question[]> {
     const questionsRef = collection(this.db, 'exams', examId, 'topics', topicId, 'questions');
     return from(getDocs(questionsRef)).pipe(map((snap) => snap.docs.map((d) => d.data() as Question)));
+  }
+
+  getFlashcards(examId: string, topicId: string): Observable<Flashcard[]> {
+    const flashcardsRef = collection(this.db, 'exams', examId, 'topics', topicId, 'flashcards');
+    return from(getDocs(flashcardsRef)).pipe(map((snap) => snap.docs.map((d) => d.data() as Flashcard)));
   }
 }

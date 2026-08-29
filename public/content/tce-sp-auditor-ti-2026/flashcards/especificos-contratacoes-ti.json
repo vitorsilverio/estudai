@@ -1,0 +1,290 @@
+[
+  {
+    "id": "especificos-contratacoes-ti-fc-1",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais são as 5 modalidades de licitação da Lei 14.133/2021?",
+    "back": "Pregão, Concorrência, Concurso, Leilão e Diálogo competitivo (convite, tomada de preços e RDC foram extintos)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-2",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais são os 6 critérios de julgamento da Lei 14.133?",
+    "back": "Menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance (leilão), maior retorno econômico"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-3",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Qual critério de julgamento é exclusivo do contrato de eficiência?",
+    "back": "Maior retorno econômico"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-4",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais critérios de julgamento são admitidos no pregão?",
+    "back": "Menor preço ou maior desconto"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-5",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Para que serve o pregão na Lei 14.133?",
+    "back": "Bens e serviços COMUNS (padrões de desempenho e qualidade objetivamente definidos no edital)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-6",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Para que serve a concorrência?",
+    "back": "Bens e serviços especiais, obras e serviços de engenharia; admite todos os critérios exceto maior lance"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-7",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quando cabe o diálogo competitivo?",
+    "back": "Inovação tecnológica ou técnica; impossibilidade de a Administração definir a solução; necessidade de definir a solução em diálogo com o mercado"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-8",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais as 3 fases do diálogo competitivo?",
+    "back": "Pré-seleção, diálogo, competição (propostas finais)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-9",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais são as 7 fases da licitação (art. 17)?",
+    "back": "Preparatória, divulgação do edital, apresentação de propostas e lances, julgamento, habilitação, recursal, homologação"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-10",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Na Lei 14.133, o julgamento vem antes ou depois da habilitação?",
+    "back": "Antes. A inversão é exceção: exige ato motivado e previsão expressa no edital"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-11",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quantos momentos recursais existem na Lei 14.133?",
+    "back": "Um só — fase recursal única"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-12",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais incisos do ETP são obrigatórios em qualquer caso (art. 18, §2º)?",
+    "back": "I (necessidade), IV (quantidades), VI (valor), VIII (parcelamento) e XIII (posicionamento conclusivo)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-13",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "O que é o ETP (art. 6º, XX)?",
+    "back": "Documento da primeira etapa do planejamento que caracteriza o interesse público e a melhor solução, e fundamenta o TR quando conclui pela viabilidade"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-14",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais os 10 elementos do Termo de Referência (art. 6º, XXIII)?",
+    "back": "Objeto, fundamentação, solução como um todo, requisitos, modelo de execução, modelo de gestão, critérios de medição e pagamento, seleção do fornecedor, estimativas de valor, adequação orçamentária"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-15",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Qual é a ordem preferencial dos parâmetros de pesquisa de preços (art. 23)?",
+    "back": "PNCP/painel de preços; contratações similares de outros entes; mídia especializada e tabelas de referência; pesquisa direta com no mínimo 3 fornecedores; base nacional de NF-e"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-16",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quantos fornecedores no mínimo na pesquisa direta de preços?",
+    "back": "3"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-17",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quem é o agente de contratação e qual seu nome no pregão?",
+    "back": "Servidor efetivo ou empregado público do quadro permanente designado; no pregão é chamado pregoeiro"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-18",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quando a comissão de contratação é obrigatória?",
+    "back": "No diálogo competitivo (mínimo de 3 membros); é facultativa em bens e serviços especiais"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-19",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Qual artigo trata da margem de preferência para bens de informática?",
+    "back": "Art. 26 (o §2º remete aos critérios da Lei 8.248/1991)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-20",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Qual artigo trata da indicação de marca?",
+    "back": "Art. 41"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-21",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Em que hipóteses a indicação de marca é admitida?",
+    "back": "Padronização; marca única capaz de atender; compatibilidade com plataformas e padrões já adotados; uso apenas como referência"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-22",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Diferença entre dispensa e inexigibilidade",
+    "back": "Inexigibilidade = inviabilidade de competição (rol exemplificativo, art. 74). Dispensa = competição é possível mas a lei permite não licitar (rol taxativo, art. 75)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-23",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Valores-base de dispensa da Lei 14.133",
+    "back": "R$ 100.000 para obras e serviços de engenharia/manutenção de veículos; R$ 50.000 para outros serviços e compras — atualizados anualmente por decreto"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-24",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quando os valores de dispensa dobram?",
+    "back": "Consórcios públicos e autarquias/fundações qualificadas como agências executivas"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-25",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Prazo de duração dos contratos de serviços e fornecimentos contínuos",
+    "back": "Até 5 anos (art. 106), prorrogáveis até o limite de 10 anos (art. 107)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-26",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Sanções do art. 156 da Lei 14.133",
+    "back": "Advertência; multa; impedimento de licitar e contratar; declaração de inidoneidade"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-27",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Limites da multa do art. 156",
+    "back": "Não inferior a 0,5% nem superior a 30% do valor do contrato licitado ou celebrado"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-28",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Prazo e abrangência do impedimento de licitar e contratar",
+    "back": "Até 3 anos, no âmbito do ente federativo sancionador"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-29",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Prazo e abrangência da declaração de inidoneidade",
+    "back": "De 3 a 6 anos, com efeitos em toda a Administração Pública"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-30",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais os objetivos do processo licitatório (art. 11)?",
+    "back": "Melhor proposta considerando o ciclo de vida; tratamento isonômico e justa competição; evitar sobrepreço/superfaturamento/inexecução; incentivar inovação e desenvolvimento nacional sustentável"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-31",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quem responde pela governança das contratações (art. 11, p. único)?",
+    "back": "A alta administração do órgão, implantando gestão de riscos e controles internos"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-32",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais leis a 14.133 revogou?",
+    "back": "Lei 8.666/93, Lei 10.520/02 (pregão) e os arts. 1º a 47-A da Lei 12.462/11 (RDC)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-33",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "A Lei 14.133 se aplica às empresas estatais?",
+    "back": "Não — estatais seguem a Lei 13.303/2016"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-34",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quais são as 3 fases da IN SGD/ME 94/2022?",
+    "back": "Planejamento da Contratação; Seleção do Fornecedor; Gestão do Contrato"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-35",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Onde se encaixa o gerenciamento de riscos na IN 94?",
+    "back": "Em paralelo às três fases — não é uma quarta fase"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-36",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quem compõe a Equipe de Planejamento da Contratação (IN 94)?",
+    "back": "Integrante requisitante, integrante técnico e integrante administrativo"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-37",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Qual artefato inicia a contratação de TIC na IN 94?",
+    "back": "DFD — Documento de Formalização da Demanda, elaborado pela área requisitante"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-38",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "O que define o Modelo de Execução do objeto (IN 94)?",
+    "back": "Como o objeto será entregue: rotinas, ordens de serviço (OS/OFB), prazos, papéis, transição"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-39",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "O que define o Modelo de Gestão do Contrato (IN 94)?",
+    "back": "Como se afere e paga: níveis mínimos de serviço, indicadores, glosas, recebimento e sanções"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-40",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quem faz o recebimento provisório e quem faz o definitivo (IN 94)?",
+    "back": "Provisório: fiscais técnico e requisitante. Definitivo: gestor do contrato — só então se paga"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-41",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Papel do fiscal técnico x fiscal requisitante",
+    "back": "Técnico avalia a qualidade técnica e os níveis de serviço; requisitante avalia o atendimento à necessidade de negócio"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-42",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quem é o preposto?",
+    "back": "Representante da CONTRATADA e canal formal de comunicação; nunca servidor do órgão"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-43",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "É permitido remunerar contrato de TI por posto de trabalho alocado?",
+    "back": "Não — vedado remunerar por posto/homem-hora desvinculado de resultado"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-44",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Pode-se exigir certificação dos profissionais como requisito de habilitação?",
+    "back": "Não — só se exige no momento da execução contratual"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-45",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Quantas soluções de TIC podem ser contratadas em um único contrato?",
+    "back": "Uma — vedada a contratação de mais de uma solução no mesmo contrato"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-46",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Definição de Solução de TIC (IN 94, art. 2º, VII)",
+    "back": "Conjunto de bens e/ou serviços que apoiam processos de negócio mediante a conjugação de recursos de TIC"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-47",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "Data de vigência da IN SGD/ME 94/2022",
+    "back": "1º de fevereiro de 2023 (art. 45)"
+  },
+  {
+    "id": "especificos-contratacoes-ti-fc-48",
+    "topicId": "especificos-contratacoes-ti",
+    "front": "A quem se aplica a IN 94/2022?",
+    "back": "Órgãos e entidades integrantes do SISP, no Poder Executivo Federal"
+  }
+]

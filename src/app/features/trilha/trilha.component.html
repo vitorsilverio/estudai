@@ -11,9 +11,12 @@
               <span class="topic-link__check">{{ topic.completed ? '✅' : '⬜️' }}</span>
               <span>{{ topic.name }}</span>
             </a>
-            @if (topic.completed) {
-              <a [routerLink]="['/simulado', topic.id]" class="topic-quiz-link">Simulado</a>
-            }
+            <div class="topic-row__actions">
+              <a [routerLink]="['/flashcards', topic.id]" class="topic-quiz-link">Flashcards</a>
+              @if (topic.completed) {
+                <a [routerLink]="['/simulado', topic.id]" class="topic-quiz-link">Simulado</a>
+              }
+            </div>
           </div>
         }
       </div>

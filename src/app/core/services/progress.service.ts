@@ -1,6 +1,13 @@
 import { Injectable, computed, signal } from '@angular/core';
 import { Firestore, doc, getDoc, setDoc } from 'firebase/firestore';
-import { Attempt, ConfidenceLevel, EMPTY_PROGRESS, SimuladoResult, UserProgress } from '../../models/progress.model';
+import {
+  Attempt,
+  ConfidenceLevel,
+  EMPTY_PROGRESS,
+  FlashcardRating,
+  SimuladoResult,
+  UserProgress,
+} from '../../models/progress.model';
 import { getDb } from '../firebase-app';
 
 const STORAGE_KEY_PREFIX = 'efs.progress.v2';
@@ -11,12 +18,19 @@ const MASTERY_DELTA: Record<ConfidenceLevel, { correct: number; wrong: number }>
   chute: { correct: 0, wrong: -1 },
 };
 
+const FLASHCARD_MASTERY_DELTA: Record<FlashcardRating, number> = {
+  esqueci: -2,
+  quase: 1,
+  facil: 2,
+};
+
 const MASTERY_MIN = 0;
 const MASTERY_MAX = 5;
 
 const POINTS_PER_TOPIC_COMPLETED = 10;
 const POINTS_PER_CORRECT_PRACTICE = 5;
 const POINTS_PER_CORRECT_SIMULADO = 2;
+const POINTS_PER_FLASHCARD_REVIEWED = 2;
 
 function todayIso(): string {
   return new Date().toISOString().slice(0, 10);
@@ -189,6 +203,29 @@ export class ProgressService {
 
   masteryFor(questionId: string): number {
     return this.state().questionMastery[questionId] ?? 0;
+  }
+
+  recordFlashcardReview(flashcardId: string, rating: FlashcardRating): void {
+    let p = this.state();
+    p = this.touchStreak(p);
+    const current = p.flashcardMastery[flashcardId] ?? 0;
+    const next = Math.min(MASTERY_MAX, Math.max(MASTERY_MIN, current + FLASHCARD_MASTERY_DELTA[rating]));
+    p = {
+      ...p,
+      points: p.points + POINTS_PER_FLASHCARD_REVIEWED,
+      flashcardMastery: { ...p.flashcardMastery, [flashcardId]: next },
+    };
+    this.persist(this.awardBadges(p));
+  }
+
+  flashcardMasteryFor(flashcardId: string): number {
+    return this.state().flashcardMastery[flashcardId] ?? 0;
+  }
+
+  /** Sorts flashcard ids ascending by mastery — lowest mastery reviewed first. */
+  sortFlashcardsByReviewPriority(flashcardIds: string[]): string[] {
+    const mastery = this.state().flashcardMastery;
+    return [...flashcardIds].sort((a, b) => (mastery[a] ?? 0) - (mastery[b] ?? 0));
   }
 
   /** Restores progress from a snapshot (used when pulling the remote copy from Firestore). */

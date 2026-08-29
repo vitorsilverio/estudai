@@ -61,12 +61,19 @@
   line-height: 1.6;
 }
 
-.done-card {
+.done-card,
+.empty-state {
   text-align: center;
   padding-top: 3rem;
 }
 
-.done-card__emoji {
+.done-card__emoji,
+.empty-state__emoji {
   font-size: 3rem;
   margin: 0;
+}
+
+.hint {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
 }

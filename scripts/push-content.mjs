@@ -72,6 +72,15 @@ async function main() {
         writes++;
       }
     }
+
+    const flashcardsPath = path.join(CONTENT_DIR, 'flashcards', `${topic.id}.json`);
+    if (existsSync(flashcardsPath)) {
+      const flashcards = JSON.parse(readFileSync(flashcardsPath, 'utf8'));
+      for (const flashcard of flashcards) {
+        await db.doc(`exams/${examId}/topics/${topic.id}/flashcards/${flashcard.id}`).set(flashcard);
+        writes++;
+      }
+    }
   }
 
   console.log(`Concluído: ${writes} documentos escritos em exams/${examId}.`);

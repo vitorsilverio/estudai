@@ -19,6 +19,8 @@ export interface SimuladoResult {
   score: number; // 0-1
 }
 
+export type FlashcardRating = 'esqueci' | 'quase' | 'facil';
+
 export interface StreakState {
   count: number;
   lastStudyDate: string | null; // yyyy-mm-dd
@@ -29,6 +31,7 @@ export interface UserProgress {
   streak: StreakState;
   completedTopicIds: string[];
   questionMastery: Record<string, number>; // 0..5
+  flashcardMastery: Record<string, number>; // 0..5
   badges: string[];
   simuladoResults: SimuladoResult[];
 }
@@ -38,6 +41,7 @@ export const EMPTY_PROGRESS: UserProgress = {
   streak: { count: 0, lastStudyDate: null },
   completedTopicIds: [],
   questionMastery: {},
+  flashcardMastery: {},
   badges: [],
   simuladoResults: [],
 };

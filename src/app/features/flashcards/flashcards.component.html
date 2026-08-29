@@ -1,0 +1,41 @@
+<div class="page">
+  <button type="button" class="exit-link" (click)="exitToTrilha()">← Sair para a trilha</button>
+
+  @if (allCards().length === 0) {
+    <div class="empty-state">
+      <p class="empty-state__emoji">🗂️</p>
+      <h1>Ainda não há flashcards aqui</h1>
+      <p class="hint">Esse tópico ainda não tem flashcards cadastrados.</p>
+    </div>
+  } @else if (!isDone) {
+    <p class="counter">Cartão {{ currentIndex() + 1 }} de {{ sessionCards().length }}</p>
+
+    <div class="flashcard" (click)="!flipped() && flip()">
+      <div class="flashcard__side">
+        <p class="flashcard__label">{{ flipped() ? 'Resposta' : 'Pergunta' }}</p>
+        <p class="flashcard__text">{{ flipped() ? currentCard?.back : currentCard?.front }}</p>
+      </div>
+      @if (speechSupported) {
+        <button type="button" class="icon-btn flashcard__speak" (click)="$event.stopPropagation(); readAloud()">🔊</button>
+      }
+    </div>
+
+    @if (!flipped()) {
+      <button type="button" class="btn btn--primary btn--block" (click)="flip()">Virar cartão</button>
+    } @else {
+      <p class="rate-label">Você lembrou?</p>
+      <div class="rate-buttons">
+        <button type="button" class="rate rate--esqueci" (click)="rate('esqueci')">😓 Esqueci</button>
+        <button type="button" class="rate rate--quase" (click)="rate('quase')">🤔 Quase</button>
+        <button type="button" class="rate rate--facil" (click)="rate('facil')">😎 Fácil</button>
+      </div>
+    }
+  } @else {
+    <div class="done-card">
+      <p class="done-card__emoji">🎉</p>
+      <h1>Sessão concluída!</h1>
+      <p>Você revisou {{ reviewedCount() }} flashcard(s).</p>
+      <button type="button" class="btn btn--primary btn--block" (click)="exitToTrilha()">Voltar à trilha</button>
+    </div>
+  }
+</div>
