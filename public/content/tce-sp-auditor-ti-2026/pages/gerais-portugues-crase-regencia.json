@@ -1,0 +1,75 @@
+[
+  {
+    "id": "gerais-portugues-crase-regencia-p1",
+    "topicId": "gerais-portugues-crase-regencia",
+    "order": 1,
+    "title": "Mapa mental — Crase e Regência",
+    "blocks": [
+      { "type": "text", "value": "Crase e regência são o assunto gramatical mais recorrente da VUNESP e são interdependentes — não existe crase sem regência. Juntos costumam valer 2 a 4 das 12 questões de Português. Como o corte dos Gerais é 12/20, isso é dinheiro na mesa." },
+      {
+        "type": "mindmap",
+        "value": "Regência (o verbo/nome exige preposição?)\n- Não exige preposição — nunca há crase\n- Exige a preposição 'a'\n  - A palavra seguinte admite o artigo a(s)?\n    - Sim: a + a = à — crase\n    - Não: sem crase"
+      },
+      { "type": "tip", "value": "Crase = fusão de duas vogais idênticas. Na prova, quase sempre: preposição 'a' + artigo 'a(s)', ou preposição 'a' + pronome demonstrativo 'aquele/aquela/aquilo'. Não é regra de acento, é regra de encontro: se faltar uma das duas peças, não há crase." }
+    ]
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-p2",
+    "topicId": "gerais-portugues-crase-regencia",
+    "order": 2,
+    "title": "Regência verbal e nominal — os campeões da banca",
+    "blocks": [
+      { "type": "text", "value": "Assistir (=ver): indireto, exige 'a' — 'assisti ao filme'. Assistir (=ajudar): direto — 'o médico assistiu o paciente'." },
+      { "type": "text", "value": "Aspirar (=desejar): exige 'a' — 'aspirava ao cargo'. Aspirar (=sorver): direto — 'aspirou o ar puro'." },
+      { "type": "text", "value": "Visar (=almejar): exige 'a' — 'o plano visa à eficiência'. Visar (=mirar/dar visto): direto — 'visou o documento'." },
+      { "type": "text", "value": "Proceder (=ter fundamento): direto — 'a alegação não procede'. Proceder (=dar início): exige 'a' — 'procedeu à análise'." },
+      { "type": "text", "value": "Implicar (=acarretar): direto, sem preposição — 'a omissão implica responsabilização'." },
+      { "type": "text", "value": "Obedecer/desobedecer, chegar/ir, responder, referir-se/dirigir-se: todos exigem 'a' — 'obedeceu às normas', 'cheguei à repartição', 'respondeu ao ofício', 'referiu-se à decisão'." },
+      { "type": "text", "value": "Regência nominal: favorável, contrário, útil, acessível, inerente, alusão, referente, semelhante, anterior, posterior e relativo pedem 'a' — por isso levam crase diante de palavra feminina: 'documento anterior à decisão', 'alusão à norma revogada'." },
+      { "type": "tip", "value": "Visar, aspirar, assistir, proceder e implicar são os cinco campeões da VUNESP — mudam de regência (e, portanto, de crase) conforme o sentido." }
+    ]
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-p3",
+    "topicId": "gerais-portugues-crase-regencia",
+    "order": 3,
+    "title": "Os três testes que resolvem qualquer questão de crase",
+    "blocks": [
+      { "type": "text", "value": "TESTE 1 — Troca por palavra masculina: substitua a palavra feminina por uma masculina equivalente. Virou 'ao' → tem crase. Virou 'o' → não tem crase. Exemplo: 'refiro-me à decisão' → 'refiro-me ao acórdão' (crase); 'conheço a decisão' → 'conheço o acórdão' (sem crase). Sozinho resolve a maioria das questões." },
+      { "type": "text", "value": "TESTE 2 — Troca por 'para a': em locuções e nomes de lugar. 'Vou à Bahia' → 'vou para a Bahia' (crase). 'Vou a Brasília' → 'vou para Brasília', sem 'a' no meio (sem crase, Brasília não tem artigo). Regra prática: 'volto da' → 'vou à'; 'volto de' → 'vou a'." },
+      { "type": "text", "value": "TESTE 3 — Antes de 'aquele/aquela/aquilo': se o verbo exige 'a' e o próximo termo é 'aquele(s)/aquela(s)/aquilo', há crase: àquele, àquela, àquilo. Teste: troque por 'a este' — se couber, é 'àquele'." },
+      {
+        "type": "mindmap",
+        "value": "Algoritmo de 15 segundos\n- 1. Há um 'a' antes de palavra feminina? Se não, pare: sem crase\n- 2. Antes de verbo, masculino, pronome pessoal ou artigo indefinido? Pare: sem crase\n- 3. É locução adverbial/prepositiva/conjuntiva feminina, ou hora determinada? Crase, sem mais análise\n- 4. Aplique o teste 1 (troca por masculino): virou 'ao' → crase; virou 'o' → sem crase\n- 5. É 'aquele/aquela/aquilo' com verbo que exige 'a'? Àquele/àquela/àquilo"
+      }
+    ]
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-p4",
+    "topicId": "gerais-portugues-crase-regencia",
+    "order": 4,
+    "title": "Sempre tem crase / nunca tem crase / facultativa",
+    "blocks": [
+      { "type": "text", "value": "SEMPRE tem crase: locuções adverbiais femininas (à noite, à tarde, à vista, à toa, às pressas, às vezes, à força); locuções prepositivas femininas (à frente de, à custa de, à procura de, à espera de); locuções conjuntivas femininas (à medida que, à proporção que); horas determinadas (às 15h, à uma hora); 'à moda de' mesmo elíptica (bife à milanesa); antes de aquele/aquela/aquilo quando o termo anterior exige 'a'." },
+      { "type": "text", "value": "NUNCA tem crase: antes de palavra masculina (a pé, a lápis); antes de verbo (começou a trabalhar); antes da maioria dos pronomes (a ela, a você, a quem); antes de artigo indefinido (a uma norma); entre palavras repetidas (cara a cara, dia a dia); antes de nome de cidade sem artigo (a São Paulo); antes de 'casa'/'terra'/'distância' sem especificação (voltou a casa; desceu a terra; ficou a distância); antes de numeral cardinal (de 10 a 20); 'daqui a pouco'/'daqui a três dias' (tempo futuro, nunca tem crase)." },
+      { "type": "text", "value": "Crase FACULTATIVA (a banca cobra sabendo que é facultativa): antes de nome próprio feminino ('entreguei a Maria / à Maria'); antes de pronome possessivo feminino ('referiu-se a sua chefia / à sua chefia'); depois da preposição 'até' ('foi até a porta / até à porta')." },
+      { "type": "tip", "value": "Casa, terra e distância são as três palavras-armadilha: sem especificação, sem crase; com especificação, com crase ('voltou à casa dos pais', 'à distância de 50 metros')." }
+    ]
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-p5",
+    "topicId": "gerais-portugues-crase-regencia",
+    "order": 5,
+    "title": "Pontos de atenção",
+    "blocks": [
+      { "type": "trap", "value": "Crase depende da REGÊNCIA, não do som. Se o verbo/nome não pede 'a', não há crase, por mais 'natural' que soe. Sempre pergunte primeiro: quem exige esse 'a'?" },
+      { "type": "trap", "value": "Nunca antes de verbo, masculino, pronome pessoal ou artigo indefinido. 'Começou à trabalhar' está automaticamente errado." },
+      { "type": "trap", "value": "'Daqui a pouco / daqui a três dias' não tem crase; 'à distância de X metros' tem. Distância e tempo especificados levam crase; indeterminados, não." },
+      { "type": "trap", "value": "Antes de plural sem artigo não há crase: 'referiu-se a normas antigas'. Mas 'referiu-se às normas antigas' (com artigo) está certo — a banca põe as duas e pede a correta." },
+      { "type": "trap", "value": "Visar, aspirar, assistir e proceder mudam de regência com o sentido — e a crase muda junto. 'O projeto visa à economicidade' (almejar) x 'visou o documento' (dar visto)." },
+      { "type": "trap", "value": "Nomes de cidade: teste com 'volto de/da'. Cidades com artigo (a Bahia, o Rio) levam crase; sem artigo (São Paulo, Brasília), não." },
+      { "type": "trap", "value": "'À medida que' (proporção) é diferente de 'na medida em que' (causa). 'Na medida que' não existe." },
+      { "type": "trap", "value": "Pronomes relativos: 'a norma à qual me referi' (com crase, porque 'referir-se a') x 'a norma a que me referi' (sem crase antes de 'que')." }
+    ]
+  }
+]

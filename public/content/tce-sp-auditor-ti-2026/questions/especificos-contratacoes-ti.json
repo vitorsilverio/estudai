@@ -1,0 +1,198 @@
+[
+  {
+    "id": "especificos-contratacoes-ti-q1",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "Segundo a Lei 14.133/2021, constituem modalidades de licitação:",
+    "options": [
+      { "id": "a", "text": "concorrência, tomada de preços, convite, concurso e leilão" },
+      { "id": "b", "text": "pregão, concorrência, concurso, leilão e diálogo competitivo" },
+      { "id": "c", "text": "pregão, concorrência, tomada de preços, leilão e diálogo competitivo" },
+      { "id": "d", "text": "pregão, concorrência, concurso, leilão e regime diferenciado de contratações" },
+      { "id": "e", "text": "pregão, concorrência, consulta, concurso e leilão" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "As cinco modalidades do art. 28. A e C trazem tomada de preços/convite, extintos. D traz o RDC, revogado. E traz 'consulta', modalidade de agências reguladoras na legislação anterior — distrator clássico."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q2",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "Sobre a ordem das fases do processo licitatório na Lei 14.133/2021, é correto afirmar:",
+    "options": [
+      { "id": "a", "text": "a habilitação sempre antecede o julgamento das propostas" },
+      { "id": "b", "text": "o julgamento antecede a habilitação, admitida a inversão mediante ato motivado e previsão no edital" },
+      { "id": "c", "text": "a fase recursal ocorre duas vezes: após a habilitação e após o julgamento" },
+      { "id": "d", "text": "a divulgação do edital é a primeira fase do processo" },
+      { "id": "e", "text": "a homologação antecede a adjudicação em todos os casos" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Art. 17 e §1º. A inverte a regra. C erra: a fase recursal é única. D erra: a primeira fase é a preparatória. E é afirmação genérica não amparada no artigo."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q3",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "Na contratação de solução de TI, a Administração pretende indicar marca específica de software para garantir compatibilidade com a plataforma já em operação. À luz da Lei 14.133/2021:",
+    "options": [
+      { "id": "a", "text": "a indicação é vedada em qualquer hipótese, por violar a competitividade" },
+      { "id": "b", "text": "a indicação é livre, bastando a decisão do setor requisitante" },
+      { "id": "c", "text": "a indicação é admitida, entre outras hipóteses, quando necessária à compatibilidade com plataformas e padrões já adotados pela Administração" },
+      { "id": "d", "text": "a indicação só é admitida em contratações por inexigibilidade" },
+      { "id": "e", "text": "a indicação depende de autorização prévia do Tribunal de Contas" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Art. 41. A indicação de marca é excepcional e motivada, e a compatibilidade com plataforma já adotada é hipótese expressa. A é o extremo 'sempre vedado' (errado); B é o extremo oposto; D confunde institutos; E inventa competência."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q4",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "São obrigatórios, em qualquer caso, no Estudo Técnico Preliminar:",
+    "options": [
+      { "id": "a", "text": "o levantamento de mercado e a análise de alternativas" },
+      { "id": "b", "text": "a descrição da necessidade, as estimativas de quantidades, a estimativa do valor, as justificativas para o parcelamento e o posicionamento conclusivo" },
+      { "id": "c", "text": "a matriz de riscos e o modelo de gestão do contrato" },
+      { "id": "d", "text": "o cronograma físico-financeiro e o projeto executivo" },
+      { "id": "e", "text": "os requisitos da contratação e os impactos ambientais" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Art. 18, §2º: incisos I, IV, VI, VIII e XIII. A e E são elementos do ETP, mas não obrigatórios. C mistura elementos do TR/contrato. D é de obras."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q5",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "A respeito das sanções do art. 156 da Lei 14.133/2021:",
+    "options": [
+      { "id": "a", "text": "a multa será de, no mínimo, 5% e, no máximo, 20% do valor do contrato" },
+      { "id": "b", "text": "o impedimento de licitar e contratar terá prazo máximo de 5 anos e alcançará toda a Administração Pública" },
+      { "id": "c", "text": "a declaração de inidoneidade terá prazo mínimo de 3 e máximo de 6 anos" },
+      { "id": "d", "text": "a advertência é aplicável apenas a contratos de grande vulto" },
+      { "id": "e", "text": "as sanções não admitem aplicação cumulativa com a multa" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A erra os percentuais (é 0,5% a 30%). B erra prazo e abrangência (impedimento: até 3 anos, no âmbito do ente federativo). D inventa restrição. E erra: a multa pode ser aplicada cumulativamente com as demais sanções."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q6",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "Órgão público realizou pesquisa de preços para aquisição de licenças de software exclusivamente por meio de três orçamentos solicitados diretamente a fornecedores. Sobre o procedimento, à luz do art. 23 da Lei 14.133/2021:",
+    "options": [
+      { "id": "a", "text": "está correto, pois a lei exige exatamente três orçamentos de fornecedores" },
+      { "id": "b", "text": "está incorreto, pois a pesquisa direta com fornecedores é parâmetro subsidiário, devendo ser priorizadas fontes como o PNCP/painel de preços e contratações similares de outros entes" },
+      { "id": "c", "text": "está incorreto, pois a pesquisa de preços é dispensável em aquisições de software" },
+      { "id": "d", "text": "está correto, desde que os fornecedores sejam do mesmo ramo de atividade" },
+      { "id": "e", "text": "está incorreto, pois só se admite tabela de referência oficial" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A ordem dos parâmetros é preferencial e a cotação direta com fornecedores é a última das alternativas. É também um dos achados de auditoria mais frequentes em contratações de TI."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q7",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "O processo de contratação de soluções de TIC previsto na IN SGD/ME nº 94/2022 compreende:",
+    "options": [
+      { "id": "a", "text": "quatro fases: planejamento, gerenciamento de riscos, seleção do fornecedor e gestão do contrato" },
+      { "id": "b", "text": "três fases sequenciais — planejamento da contratação, seleção do fornecedor e gestão do contrato —, ocorrendo o gerenciamento de riscos em paralelo a elas" },
+      { "id": "c", "text": "duas fases: planejamento e execução" },
+      { "id": "d", "text": "três fases, sendo o gerenciamento de riscos a primeira delas" },
+      { "id": "e", "text": "cinco fases, incluindo a fase recursal e a homologação" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O gerenciamento de riscos permeia todo o processo, não é fase autônoma. E confunde fases do processo de contratação com fases da licitação (art. 17 da Lei 14.133)."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q8",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "Compete ao fiscal requisitante do contrato de solução de TIC:",
+    "options": [
+      { "id": "a", "text": "verificar a regularidade fiscal e trabalhista da contratada" },
+      { "id": "b", "text": "avaliar a qualidade técnica dos produtos entregues e aplicar os níveis mínimos de serviço" },
+      { "id": "c", "text": "avaliar se os resultados entregues atendem à necessidade de negócio da área demandante" },
+      { "id": "d", "text": "representar a contratada perante a Administração" },
+      { "id": "e", "text": "autorizar o pagamento após o recebimento definitivo" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A é do fiscal administrativo; B é do fiscal técnico; D é o preposto (papel da contratada); E é do gestor do contrato."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q9",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "É vedado, nas contratações de soluções de TIC:",
+    "options": [
+      { "id": "a", "text": "exigir níveis mínimos de serviço no termo de referência" },
+      { "id": "b", "text": "remunerar a contratada com base em postos de trabalho alocados, desvinculados de resultados" },
+      { "id": "c", "text": "prever recebimento provisório e definitivo" },
+      { "id": "d", "text": "realizar prova de conceito da solução ofertada" },
+      { "id": "e", "text": "exigir transferência de conhecimento ao final do contrato" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "As demais são práticas exigidas ou permitidas pela norma. A remuneração por posto/hora sem vínculo a resultado impede a aferição objetiva e aproxima o contrato da terceirização de mão de obra, com risco de pessoalidade e subordinação."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q10",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "A demanda por uma solução de TIC deve ser formalizada:",
+    "options": [
+      { "id": "a", "text": "pela área de TIC, por meio do Estudo Técnico Preliminar" },
+      { "id": "b", "text": "pela área requisitante, por meio do Documento de Formalização da Demanda, com base na necessidade de negócio e no alinhamento ao planejamento" },
+      { "id": "c", "text": "pelo agente de contratação, por meio do termo de referência" },
+      { "id": "d", "text": "pela autoridade máxima do órgão, por meio do plano de contratações anual" },
+      { "id": "e", "text": "pelo fornecedor interessado, por meio de manifestação de interesse" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A necessidade nasce no negócio; a área de TIC entra como integrante técnico da equipe de planejamento. A inverte a origem da demanda e o artefato."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q11",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "Sobre o modelo de gestão do contrato no termo de referência de solução de TIC:",
+    "options": [
+      { "id": "a", "text": "descreve as rotinas de execução e a forma de emissão das ordens de serviço" },
+      { "id": "b", "text": "define os níveis mínimos de serviço, os indicadores, as formas de aferição e as glosas aplicáveis" },
+      { "id": "c", "text": "é facultativo quando a contratação for de bens" },
+      { "id": "d", "text": "substitui o estudo técnico preliminar" },
+      { "id": "e", "text": "é elaborado exclusivamente pela contratada, após a assinatura do contrato" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A descreve o modelo de execução. D e E são incompatíveis com a lógica de planejamento prévio pela Administração."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q12",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "O Guia de boas práticas em contratação de soluções de TI do TCU organiza a fase de planejamento nas seguintes etapas:",
+    "options": [
+      { "id": "a", "text": "análise de viabilidade, plano de sustentação, estratégia da contratação, análise de riscos e termo de referência" },
+      { "id": "b", "text": "planejamento, seleção do fornecedor e gestão do contrato" },
+      { "id": "c", "text": "estudo técnico preliminar, termo de referência e edital" },
+      { "id": "d", "text": "análise de riscos, análise de viabilidade, estratégia e execução contratual" },
+      { "id": "e", "text": "documento de oficialização da demanda, projeto básico e ordem de serviço" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "B são as fases da IN 94/2022, não as etapas do guia. D inverte a ordem e inclui execução, fora do escopo do guia. C e E misturam artefatos de normas diferentes."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q13",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "A contratação de fábrica de software remunerada por posto de trabalho alocado, sem métrica de entrega, configura, segundo o guia do TCU:",
+    "options": [
+      { "id": "a", "text": "boa prática, por facilitar a gestão da equipe" },
+      { "id": "b", "text": "risco de pagamento sem aferição de resultados e de caracterização de mão de obra, mitigado pela remuneração vinculada a entregas e níveis de serviço" },
+      { "id": "c", "text": "irregularidade sanável apenas na fase de execução contratual" },
+      { "id": "d", "text": "hipótese de inexigibilidade de licitação" },
+      { "id": "e", "text": "risco exclusivamente orçamentário" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "É o achado clássico de auditoria. O controle está na etapa de estratégia da contratação (forma de pagamento) e se materializa no modelo de gestão do TR."
+  },
+  {
+    "id": "especificos-contratacoes-ti-q14",
+    "topicId": "especificos-contratacoes-ti",
+    "statement": "O risco de dependência excessiva do fornecedor (lock-in) é mitigado principalmente por:",
+    "options": [
+      { "id": "a", "text": "exigência de certificações da licitante na habilitação" },
+      { "id": "b", "text": "adoção do critério de menor preço" },
+      { "id": "c", "text": "plano de sustentação prevendo transferência de conhecimento, documentação, código-fonte e direitos de propriedade intelectual" },
+      { "id": "d", "text": "fracionamento do objeto em várias dispensas de licitação" },
+      { "id": "e", "text": "contratação por inexigibilidade junto ao fornecedor exclusivo" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A é vedada como requisito de habilitação (IN 94). D é irregularidade. E agrava o lock-in em vez de mitigá-lo."
+  }
+]

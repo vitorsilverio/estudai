@@ -1,0 +1,72 @@
+[
+  {
+    "id": "gerais-portugues-crase-regencia-q1",
+    "topicId": "gerais-portugues-crase-regencia",
+    "statement": "Assinale a alternativa em que o sinal indicativo de crase está empregado corretamente.",
+    "options": [
+      { "id": "a", "text": "O relatório faz referência à todos os contratos." },
+      { "id": "b", "text": "O auditor procedeu à análise dos documentos apresentados." },
+      { "id": "c", "text": "Os prazos começaram à correr na data da publicação." },
+      { "id": "d", "text": "A decisão foi entregue à ele na sessão." },
+      { "id": "e", "text": "O tribunal decidiu à partir das provas juntadas." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Proceder no sentido de 'dar início' exige a preposição 'a'; 'análise' é feminina e admite artigo, então a+a=à. Teste: 'procedeu ao exame' funciona. A: 'todos' é masculino. C: antes de verbo, nunca. D: antes de pronome pessoal, nunca. E: 'a partir de' nunca leva crase."
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-q2",
+    "topicId": "gerais-portugues-crase-regencia",
+    "statement": "\"O programa visa ___ modernização dos sistemas e atende ___ diretrizes fixadas pelo órgão, inclusive ___ que foram publicadas no ano passado.\" Assinale a alternativa que completa correta e respectivamente as lacunas.",
+    "options": [
+      { "id": "a", "text": "a … as … as" },
+      { "id": "b", "text": "à … às … às" },
+      { "id": "c", "text": "à … as … às" },
+      { "id": "d", "text": "a … às … as" },
+      { "id": "e", "text": "à … às … as" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Visar (almejar) exige 'a' + 'a modernização' = à. Atender no sentido de acatar admite regência indireta: 'atende às diretrizes'. O terceiro caso é pronome demonstrativo com valor de 'aquelas', regido por 'atende a' = às."
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-q3",
+    "topicId": "gerais-portugues-crase-regencia",
+    "statement": "Assinale a alternativa em que a crase é facultativa.",
+    "options": [
+      { "id": "a", "text": "Chegamos à conclusão de que houve dano ao erário." },
+      { "id": "b", "text": "Entregou o processo à Marcela ontem." },
+      { "id": "c", "text": "Voltou à casa dos pais após a audiência." },
+      { "id": "d", "text": "O evento começará às nove horas." },
+      { "id": "e", "text": "Compareceu à sessão extraordinária." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Antes de nome próprio feminino a crase é facultativa. As demais são obrigatórias: 'chegar a' + artigo (A); 'casa' especificada (C); hora determinada (D); 'comparecer a' + artigo (E)."
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-q4",
+    "topicId": "gerais-portugues-crase-regencia",
+    "statement": "Assinale a alternativa correta quanto à regência.",
+    "options": [
+      { "id": "a", "text": "Assisti o julgamento pela transmissão ao vivo." },
+      { "id": "b", "text": "O servidor obedeceu as determinações do relator." },
+      { "id": "c", "text": "Prefiro a via administrativa do que a judicial." },
+      { "id": "d", "text": "A omissão do gestor implicou a instauração de tomada de contas." },
+      { "id": "e", "text": "Aspirava o cargo de conselheiro há anos." }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Implicar, no sentido de acarretar, é transitivo direto — sem preposição. A: assistir (ver) exige 'a' — 'assisti ao julgamento'. B: obedecer exige 'a' — 'obedeceu às determinações'. C: preferir é 'algo a algo', nunca 'do que'. E: aspirar (desejar) exige 'a' — 'aspirava ao cargo'."
+  },
+  {
+    "id": "gerais-portugues-crase-regencia-q5",
+    "topicId": "gerais-portugues-crase-regencia",
+    "statement": "\"Encaminhou o ofício ___ autoridade competente, ___ fim de que fossem prestados os esclarecimentos ___ que se referiu o relator.\"",
+    "options": [
+      { "id": "a", "text": "à … a … à" },
+      { "id": "b", "text": "a … à … a" },
+      { "id": "c", "text": "à … a … a" },
+      { "id": "d", "text": "a … a … à" },
+      { "id": "e", "text": "à … à … à" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Encaminhou à autoridade' (encaminhar algo a alguém + artigo). 'A fim de que' é locução conjuntiva final e não leva crase ('fim' é masculino). 'Esclarecimentos a que se referiu' — antes de 'que', sem crase."
+  }
+]

@@ -3,26 +3,98 @@
     "id": "especificos-contratacoes-ti-p1",
     "topicId": "especificos-contratacoes-ti",
     "order": 1,
-    "title": "Mapa mental — Lei 14.133/2021 e contratações de TI",
+    "title": "Mapa mental — Lei 14.133/2021",
     "blocks": [
-      { "type": "text", "value": "Esse é o bloco de maior retorno por hora pra você: cai muito (12-20 das 60 questões específicas históricas nesse tipo de prova) e é decoreba de estrutura — a banca cobra o que está escrito na lei/norma, não o que 'faz sentido na prática'." },
+      { "type": "text", "value": "Peso estimado: 8 a 14 das 60 questões específicas. É o maior retorno por hora de estudo do edital. Estude por estrutura e números: leia o mapa mental, feche o arquivo, recite as 5 modalidades, os 6 critérios de julgamento e as 7 fases — só depois faça questões." },
       {
         "type": "mindmap",
-        "value": "Contratações de TI\n- Lei 14.133/2021 (Nova Lei de Licitações)\n  - Fases da licitação: preparatória, divulgação, apresentação de propostas, julgamento, habilitação, recursal, homologação\n  - Modalidades: pregão, concorrência, concurso, leilão, diálogo competitivo\n  - Critérios de julgamento: menor preço, maior desconto, melhor técnica, técnica e preço, maior retorno econômico\n  - ETP (Estudo Técnico Preliminar): obrigatório antes de contratar, justifica a necessidade\n  - TR (Termo de Referência) / Projeto Básico: detalha o objeto da contratação\n  - Matriz de risco: distribui riscos entre contratante e contratado\n- Lei 13.303/2016 (Lei das Estatais)\n  - Aplica-se a empresas públicas e sociedades de economia mista\n  - Regras próprias de licitação, diferentes da 14.133\n- IN SGD/ME 94/2022\n  - Regula contratações de TI no âmbito federal\n  - Fases: planejamento da contratação, seleção do fornecedor, gestão do contrato\n  - Equipe de planejamento: integrante técnico, requisitante e administrativo\n- Guia de Boas Práticas de Contratações de TI (TCU)\n  - Não é lei, é orientação — mas a banca cobra como se fosse\n  - Reforça ETP, análise de riscos e fiscalização do contrato"
-      }
+        "value": "LEI 14.133/2021\n- Princípios (art. 5º) — 22 princípios + LINDB\n- Planejamento\n  - PCA — Plano de Contratações Anual (art. 12, VII)\n  - ETP — Estudo Técnico Preliminar (art. 18, §1º)\n  - TR — Termo de Referência (art. 6º, XXIII) — 10 elementos\n  - Pesquisa de preços (art. 23)\n- Agentes (arts. 7º e 8º)\n  - Agente de contratação (no pregão = pregoeiro)\n  - Comissão de contratação (3+) — bens/serviços especiais e diálogo competitivo\n  - Segregação de funções; gestor e fiscais do contrato\n- Fases da licitação (art. 17) — 7 fases em sequência\n  - Preparatória, Divulgação do edital, Propostas/lances, Julgamento, Habilitação, Recursal, Homologação\n  - Julgamento antes da habilitação; inversão só por exceção motivada\n- Modalidades (art. 28) — 5\n  - Pregão, Concorrência, Concurso, Leilão, Diálogo competitivo\n  - Extintos: convite, tomada de preços, RDC\n- Critérios de julgamento (art. 33) — 6\n  - Menor preço, Maior desconto, Melhor técnica ou conteúdo artístico, Técnica e preço, Maior lance (leilão), Maior retorno econômico\n- Contratação direta\n  - Inexigibilidade (art. 74) — inviabilidade de competição, rol exemplificativo\n  - Dispensa (art. 75) — rol taxativo, inclui valores (R$ 100 mil obras/R$ 50 mil demais, dobro em alguns casos)\n- Contratos\n  - Duração: contínuos até 5 anos (art. 106), prorrogáveis até 10 (art. 107)\n  - Matriz de riscos; alterações; reajuste\n  - Sanções (art. 156): advertência, multa (0,5% a 30%), impedimento (até 3 anos, ente federativo), inidoneidade (3 a 6 anos, toda a Administração)"
+      },
+      { "type": "tip", "value": "Guarde: 'melhor proposta' (art. 11), não 'menor preço'. A lei adota o custo do ciclo de vida — conceito central para julgar aquisições de TI (licença + suporte + migração + saída)." }
     ]
   },
   {
     "id": "especificos-contratacoes-ti-p2",
     "topicId": "especificos-contratacoes-ti",
     "order": 2,
-    "title": "Pegadinhas da banca",
+    "title": "Pontos de atenção — Lei 14.133/2021",
     "blocks": [
-      { "type": "trap", "value": "ETP não é o mesmo que Termo de Referência. O ETP vem antes e justifica SE e POR QUE contratar; o TR (ou Projeto Básico) detalha O QUE está sendo contratado, depois que a decisão de contratar já foi tomada." },
-      { "type": "trap", "value": "'Menor preço' não é o único critério de julgamento possível na 14.133 — a banca gosta de te fazer marcar 'menor preço é sempre o critério padrão'. Existem outros critérios (melhor técnica, técnica e preço, maior retorno econômico) que são inclusive recomendados para TI mais complexa." },
-      { "type": "trap", "value": "Diálogo competitivo é modalidade NOVA da Lei 14.133, não existia na Lei 8.666. Usada para contratações complexas/inovadoras onde a Administração não sabe de antemão a melhor solução técnica — típico de TI." },
-      { "type": "trap", "value": "Matriz de risco não é 'documento opcional que ajuda'. Em contratações mais complexas, ela é instrumento formal que redistribui responsabilidades contratuais — ausência dela pode gerar responsabilização de quem deveria ter previsto o risco." },
-      { "type": "trap", "value": "IN SGD/ME 94/2022 é para o âmbito federal (Poder Executivo Federal). A banca pode testar se você sabe que estados/municípios não são obrigados a segui-la diretamente, mas ela é referência de boas práticas amplamente cobrada mesmo assim." }
+      { "type": "trap", "value": "Modalidades são 5, e 'convite'/'tomada de preços' não existem mais. Alternativa que citar qualquer uma delas como modalidade vigente está errada, sem exceção." },
+      { "type": "trap", "value": "Critérios de julgamento são 6. 'Maior lance' só no leilão; 'maior retorno econômico' só no contrato de eficiência. A banca cria critérios falsos como 'menor custo global'." },
+      { "type": "trap", "value": "Art. 26 ≠ art. 41. Margem de preferência para bens de informática (Lei 8.248) está no art. 26; indicação de marca está no art. 41." },
+      { "type": "trap", "value": "Indicação de marca não é proibida em termos absolutos — é admitida em 4 hipóteses (padronização, única capaz de atender, compatibilidade com plataforma já adotada, referência). Alternativa 'é sempre vedada' está errada." },
+      { "type": "trap", "value": "Ordem das fases: julgamento vem antes da habilitação. A inversão é exceção, exige ato motivado + previsão no edital. A banca inverte a regra e a exceção." },
+      { "type": "trap", "value": "ETP: obrigatórios são só os incisos I, IV, VI, VIII e XIII (necessidade, quantidade, valor, parcelamento, conclusão). É um dos poucos 'decorebas numéricos' que realmente cai, e cai literal." },
+      { "type": "trap", "value": "Pesquisa de preços: cotação com fornecedores é o ÚLTIMO parâmetro, e exige no mínimo 3. PNCP/painel de preços vem primeiro." },
+      { "type": "trap", "value": "Dispensa é rol taxativo; inexigibilidade é exemplificativa (a lista do art. 74 começa com 'especialmente'). A banca troca os dois adjetivos." },
+      { "type": "trap", "value": "Impedimento (até 3 anos, âmbito do ente federativo) ≠ inidoneidade (3 a 6 anos, toda a Administração). Trocar prazo ou abrangência é o distrator mais comum do art. 156." },
+      { "type": "trap", "value": "Multa: 0,5% a 30%. Não é 'até 10%' (prática da 8.666 antiga) nem 'até 20%'." },
+      { "type": "trap", "value": "Agente de contratação deve ser servidor efetivo ou empregado público do quadro permanente — nunca terceirizado. No pregão chama-se pregoeiro." },
+      { "type": "trap", "value": "Comissão de contratação (3+ membros) é obrigatória no diálogo competitivo, e facultativa (substituindo o agente) em bens e serviços especiais." },
+      { "type": "trap", "value": "'Melhor proposta' ≠ 'menor preço'. A lei manda considerar o ciclo de vida do objeto — argumento de ouro na prova escrita ao tratar de licenciamento e nuvem." },
+      { "type": "trap", "value": "A Lei 14.133 não se aplica às estatais — elas seguem a Lei 13.303/2016. Questão frequente por ser pegadinha de escopo." },
+      { "type": "trap", "value": "A fase recursal é única. Não existem 'dois momentos recursais' como havia na Lei 8.666." }
+    ]
+  },
+  {
+    "id": "especificos-contratacoes-ti-p3",
+    "topicId": "especificos-contratacoes-ti",
+    "order": 3,
+    "title": "Mapa mental — IN SGD/ME 94/2022",
+    "blocks": [
+      { "type": "text", "value": "Norma que disciplina como se contrata Solução de TIC no Executivo Federal (SISP), sob a Lei 14.133/2021. É o roteiro operacional — e o auditor de controle externo é quem verifica se ele foi cumprido. Vigente desde 1º/2/2023." },
+      {
+        "type": "mindmap",
+        "value": "IN SGD/ME 94/2022 — contratação de Solução de TIC\n- Gerenciamento de riscos: ocorre em paralelo às 3 fases, não é uma quarta fase\n- Fase 1 — Planejamento da Contratação\n  - DFD (Documento de Formalização da Demanda) — nasce da área requisitante\n  - Equipe de Planejamento: Requisitante, Técnico, Administrativo (R-T-A)\n  - ETP: necessidade > levantamento de soluções > análise de custos > escolha justificada > viabilidade\n  - TR: modelo de execução do objeto + modelo de gestão do contrato (níveis de serviço, glosas)\n- Fase 2 — Seleção do Fornecedor\n  - Conduzida sob a Lei 14.133/2021 (edital, julgamento, habilitação)\n  - Equipe de planejamento apoia, mas quem conduz é o agente de contratação\n- Fase 3 — Gestão do Contrato\n  - Gestor do contrato; Fiscal técnico; Fiscal requisitante; Fiscal administrativo; Preposto (da contratada)\n  - Ciclo: iniciação, OS/OFB, monitoramento, recebimento provisório (fiscais), recebimento definitivo (gestor), transição/encerramento"
+      },
+      { "type": "tip", "value": "Mnemônico da equipe de planejamento: R-T-A — Requisitante (o quê), Técnico (como), Administrativo (com que rito)." }
+    ]
+  },
+  {
+    "id": "especificos-contratacoes-ti-p4",
+    "topicId": "especificos-contratacoes-ti",
+    "order": 4,
+    "title": "Pontos de atenção — IN SGD/ME 94/2022",
+    "blocks": [
+      { "type": "trap", "value": "São 3 fases: Planejamento, Seleção do Fornecedor e Gestão do Contrato. O gerenciamento de riscos NÃO é uma quarta fase — ocorre em paralelo às três." },
+      { "type": "trap", "value": "A Equipe de Planejamento tem 3 integrantes: requisitante, técnico e administrativo. A banca inventa um quarto ('integrante jurídico') ou troca as funções." },
+      { "type": "trap", "value": "Quem inicia a contratação é a área REQUISITANTE (negócio), não a área de TIC. O DFD nasce da necessidade de negócio, não da vontade da TI." },
+      { "type": "trap", "value": "Fiscal técnico ≠ fiscal requisitante. Técnico avalia a qualidade técnica; requisitante avalia o atendimento à necessidade de negócio. É a troca mais frequente da banca." },
+      { "type": "trap", "value": "O preposto é da CONTRATADA, jamais servidor do órgão, e não recebe ordens diretas fora do canal formal." },
+      { "type": "trap", "value": "Modelo de execução ≠ modelo de gestão. Execução = como entrega; gestão = como afere e paga (níveis de serviço e glosas)." },
+      { "type": "trap", "value": "É vedada a remuneração por posto de trabalho/homem-hora desvinculada de resultado. Se a questão apresentar isso como boa prática, está errada." },
+      { "type": "trap", "value": "É vedado exigir certificações dos profissionais como requisito de habilitação — só se pode exigir no momento da execução contratual." },
+      { "type": "trap", "value": "É vedada a contratação de mais de uma solução de TIC em um único contrato." },
+      { "type": "trap", "value": "Pagamento só após o recebimento DEFINITIVO, feito pelo gestor; o recebimento provisório é dos fiscais. Inverter os papéis é distrator comum." },
+      { "type": "trap", "value": "Âmbito: SISP/Executivo Federal. Não obriga automaticamente Estados e Municípios, mas é referência de boa prática usada pelos Tribunais de Contas." }
+    ]
+  },
+  {
+    "id": "especificos-contratacoes-ti-p5",
+    "topicId": "especificos-contratacoes-ti",
+    "order": 5,
+    "title": "Mapa mental — Guia de Boas Práticas em Contratação de TI (TCU)",
+    "blocks": [
+      { "type": "text", "value": "Guia do TCU que mapeia, etapa por etapa da fase de PLANEJAMENTO de uma contratação de TI, quais riscos existem e quais controles os mitigam. Não é lei — é referencial de boas práticas, mas os Tribunais de Contas cobram como parâmetro de auditoria. Escopo: só o planejamento, não trata de seleção de fornecedor nem gestão contratual." },
+      {
+        "type": "mindmap",
+        "value": "Guia TCU — 5 etapas do planejamento (V-S-E-R-T)\n- 1. Análise de viabilidade da contratação — vale a pena? qual solução?\n- 2. Plano de sustentação — como manter a solução viva e evitar lock-in?\n- 3. Estratégia da contratação — modalidade, critério, parcelamento, forma de pagamento\n- 4. Análise de riscos — o que pode dar errado e o que fazer a respeito\n- 5. Termo de Referência/Projeto Básico — consolidação de tudo em documento\n- 4 achados de auditoria mais combatidos\n  - Contratação sem estudo de alternativas\n  - Especificação que reproduz catálogo de fabricante\n  - Pagamento por esforço (homem-hora/posto de trabalho)\n  - Ausência de plano de sustentação (gera lock-in)"
+      },
+      { "type": "tip", "value": "Frase-síntese para a prova escrita: 'o planejamento é o principal controle interno da contratação de TI'." }
+    ]
+  },
+  {
+    "id": "especificos-contratacoes-ti-p6",
+    "topicId": "especificos-contratacoes-ti",
+    "order": 6,
+    "title": "Pontos de atenção — Guia TCU",
+    "blocks": [
+      { "type": "trap", "value": "O guia trata SÓ do planejamento da contratação. Não cobre seleção do fornecedor nem gestão contratual. Alternativa que atribua ao guia etapas de execução está errada." },
+      { "type": "trap", "value": "São 5 etapas, nesta ordem: V-S-E-R-T (Viabilidade, Sustentação, Estratégia, Riscos, Termo de Referência). A banca inverte 'estratégia' e 'sustentação' com frequência." },
+      { "type": "trap", "value": "Plano de sustentação ≠ estratégia da contratação. Sustentação = manter a solução viva e evitar lock-in. Estratégia = como comprar (modalidade, parcelamento, pagamento)." },
+      { "type": "trap", "value": "O guia é referencial de boas práticas, não norma vinculante — mas é usado como parâmetro de auditoria pelos Tribunais de Contas." },
+      { "type": "trap", "value": "Análise de riscos é etapa própria (a 4ª) no guia do TCU — diferente da IN 94/2022, em que o gerenciamento de riscos ocorre em paralelo às três fases. Se a questão citar o guia, riscos é etapa; se citar a IN 94, é paralelo. Essa distinção é armadilha certa." },
+      { "type": "trap", "value": "Lock-in é combatido pelo plano de sustentação: transferência de conhecimento, documentação, código-fonte e direitos de propriedade intelectual." }
     ]
   }
 ]

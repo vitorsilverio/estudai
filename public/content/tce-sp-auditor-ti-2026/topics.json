@@ -1,6 +1,7 @@
 [
   { "id": "gerais-portugues", "subjectId": "gerais-portugues", "name": "Português (flashcards gerais)", "order": 1 },
+  { "id": "gerais-portugues-crase-regencia", "subjectId": "gerais-portugues", "name": "Crase e Regência", "order": 2 },
   { "id": "gerais-legislacao", "subjectId": "gerais-legislacao", "name": "Legislação aplicável ao TCESP", "order": 1 },
-  { "id": "especificos-contratacoes-ti", "subjectId": "especificos-contratacoes-ti", "name": "Lei 14.133/2021 e contratações de TI", "order": 1 },
+  { "id": "especificos-contratacoes-ti", "subjectId": "especificos-contratacoes-ti", "name": "Lei 14.133/2021, IN 94/2022 e Guia TCU", "order": 1 },
   { "id": "especificos-governanca-ti", "subjectId": "especificos-governanca-ti", "name": "Governança de TI (ITIL 4, COBIT, PMBOK, ISO)", "order": 1 }
 ]
