@@ -1,0 +1,28 @@
+[
+  {
+    "id": "especificos-contratacoes-ti-p1",
+    "topicId": "especificos-contratacoes-ti",
+    "order": 1,
+    "title": "Mapa mental — Lei 14.133/2021 e contratações de TI",
+    "blocks": [
+      { "type": "text", "value": "Esse é o bloco de maior retorno por hora pra você: cai muito (12-20 das 60 questões específicas históricas nesse tipo de prova) e é decoreba de estrutura — a banca cobra o que está escrito na lei/norma, não o que 'faz sentido na prática'." },
+      {
+        "type": "mindmap",
+        "value": "Contratações de TI\n- Lei 14.133/2021 (Nova Lei de Licitações)\n  - Fases da licitação: preparatória, divulgação, apresentação de propostas, julgamento, habilitação, recursal, homologação\n  - Modalidades: pregão, concorrência, concurso, leilão, diálogo competitivo\n  - Critérios de julgamento: menor preço, maior desconto, melhor técnica, técnica e preço, maior retorno econômico\n  - ETP (Estudo Técnico Preliminar): obrigatório antes de contratar, justifica a necessidade\n  - TR (Termo de Referência) / Projeto Básico: detalha o objeto da contratação\n  - Matriz de risco: distribui riscos entre contratante e contratado\n- Lei 13.303/2016 (Lei das Estatais)\n  - Aplica-se a empresas públicas e sociedades de economia mista\n  - Regras próprias de licitação, diferentes da 14.133\n- IN SGD/ME 94/2022\n  - Regula contratações de TI no âmbito federal\n  - Fases: planejamento da contratação, seleção do fornecedor, gestão do contrato\n  - Equipe de planejamento: integrante técnico, requisitante e administrativo\n- Guia de Boas Práticas de Contratações de TI (TCU)\n  - Não é lei, é orientação — mas a banca cobra como se fosse\n  - Reforça ETP, análise de riscos e fiscalização do contrato"
+      }
+    ]
+  },
+  {
+    "id": "especificos-contratacoes-ti-p2",
+    "topicId": "especificos-contratacoes-ti",
+    "order": 2,
+    "title": "Pegadinhas da banca",
+    "blocks": [
+      { "type": "trap", "value": "ETP não é o mesmo que Termo de Referência. O ETP vem antes e justifica SE e POR QUE contratar; o TR (ou Projeto Básico) detalha O QUE está sendo contratado, depois que a decisão de contratar já foi tomada." },
+      { "type": "trap", "value": "'Menor preço' não é o único critério de julgamento possível na 14.133 — a banca gosta de te fazer marcar 'menor preço é sempre o critério padrão'. Existem outros critérios (melhor técnica, técnica e preço, maior retorno econômico) que são inclusive recomendados para TI mais complexa." },
+      { "type": "trap", "value": "Diálogo competitivo é modalidade NOVA da Lei 14.133, não existia na Lei 8.666. Usada para contratações complexas/inovadoras onde a Administração não sabe de antemão a melhor solução técnica — típico de TI." },
+      { "type": "trap", "value": "Matriz de risco não é 'documento opcional que ajuda'. Em contratações mais complexas, ela é instrumento formal que redistribui responsabilidades contratuais — ausência dela pode gerar responsabilização de quem deveria ter previsto o risco." },
+      { "type": "trap", "value": "IN SGD/ME 94/2022 é para o âmbito federal (Poder Executivo Federal). A banca pode testar se você sabe que estados/municípios não são obrigados a segui-la diretamente, mas ela é referência de boas práticas amplamente cobrada mesmo assim." }
+    ]
+  }
+]

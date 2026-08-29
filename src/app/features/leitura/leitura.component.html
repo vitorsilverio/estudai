@@ -30,6 +30,14 @@
       @for (block of currentPage.blocks; track $index) {
         @if (block.type === 'tip') {
           <p class="reading-tip">💡 {{ block.value }}</p>
+        } @else if (block.type === 'trap') {
+          <p class="reading-trap">⚠️ {{ block.value }}</p>
+        } @else if (block.type === 'mindmap') {
+          <ul class="reading-mindmap">
+            @for (row of parseMindmap(block.value); track $index) {
+              <li [style.marginLeft.rem]="row.level * 1.1">{{ row.text }}</li>
+            }
+          </ul>
         } @else {
           <p class="reading-text">{{ block.value }}</p>
         }

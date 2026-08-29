@@ -19,7 +19,7 @@ export interface Topic {
   order: number;
 }
 
-export type ContentBlockType = 'text' | 'tip' | 'image';
+export type ContentBlockType = 'text' | 'tip' | 'image' | 'mindmap' | 'trap';
 
 export interface ContentBlock {
   type: ContentBlockType;

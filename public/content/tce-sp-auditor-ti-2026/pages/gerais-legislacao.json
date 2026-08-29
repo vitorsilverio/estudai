@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gerais-legislacao-p1",
+    "topicId": "gerais-legislacao",
+    "order": 1,
+    "title": "Mapa mental — Legislação do TCESP",
+    "blocks": [
+      { "type": "text", "value": "No bloco de Conhecimentos Gerais, legislação vale pouco em número de questões (LC 709/93, Regimento Interno, Instruções 1/2024, arts. 70-75 da CF e Lei 10.261/68), mas ela reaparece com peso muito maior dentro de Conhecimentos Específicos, misturada com TI (contratações, LGPD, Lei do Software, LAI)." },
+      {
+        "type": "mindmap",
+        "value": "Legislação do TCESP\n- Base institucional (Gerais)\n  - LC 709/93: organiza o Tribunal de Contas do Estado de SP\n  - Regimento Interno do TCESP: como o Tribunal funciona por dentro\n  - Instruções 1/2024: normas de procedimento mais recentes\n  - CF arts. 70-75: controle externo, competência dos Tribunais de Contas\n  - Lei 10.261/68 (Estatuto dos Funcionários Públicos Civis de SP)\n- Legislação de TI (Específicos, pesa mais)\n  - LGPD (Lei 13.709/2018): proteção de dados pessoais\n  - Lei do Software (Lei 9.609/98): direitos sobre programas de computador\n  - LAI (Lei 12.527/2011): acesso à informação, transparência\n  - LC 182/2021: marco legal das startups\n  - Decreto 10.540/2020: governança de dados no Executivo federal (usado por analogia)"
+      }
+    ]
+  },
+  {
+    "id": "gerais-legislacao-p2",
+    "topicId": "gerais-legislacao",
+    "order": 2,
+    "title": "Pegadinhas da banca",
+    "blocks": [
+      { "type": "trap", "value": "Confundir 'Tribunal de Contas' com órgão do Poder Judiciário. Não é — é órgão auxiliar do Poder Legislativo no controle externo (art. 71 da CF). A banca adora testar isso de forma indireta." },
+      { "type": "trap", "value": "LGPD não é só 'lei de privacidade genérica' — ela tem conceitos técnicos específicos cobrados literalmente: dado pessoal, dado sensível, tratamento, controlador, operador, encarregado (DPO). Decorar essas definições exatas, não paráfrase própria." },
+      { "type": "trap", "value": "A Lei do Software (9.609/98) trata de direitos autorais sobre programas de computador — não confundir com patente. Software no Brasil é protegido por direito autoral, com prazo de proteção de 50 anos (diferente dos 70 anos do direito autoral 'comum')." },
+      { "type": "trap", "value": "LAI (12.527/2011): a regra geral é publicidade, o sigilo é exceção. A banca gosta de inverter essa lógica na alternativa errada ('em caso de dúvida, prevalece o sigilo') — é o contrário." }
+    ]
+  }
+]

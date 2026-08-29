@@ -1,0 +1,28 @@
+[
+  {
+    "id": "especificos-governanca-ti-p1",
+    "topicId": "especificos-governanca-ti",
+    "order": 1,
+    "title": "Mapa mental — Governança de TI",
+    "blocks": [
+      { "type": "text", "value": "Junto com contratações, esse é o outro grande bloco de decoreba de estrutura (8-12 questões). Como você é sênior e programador, o risco aqui é achar que 'TI é a parte tranquila' — governança não tem relação com programar, é estrutura de framework mesmo." },
+      {
+        "type": "mindmap",
+        "value": "Governança de TI\n- ITIL 4\n  - 4 dimensões: organizações e pessoas, informação e tecnologia, parceiros e fornecedores, fluxos de valor e processos\n  - 7 princípios orientadores: foco no valor, começar de onde está, progredir iterativamente, colaborar, pensar/trabalhar holisticamente, manter simples e prático, otimizar e automatizar\n  - Cadeia de valor de serviço (SVC): planejar, melhorar, engajar, projetar/transição, obter/construir, entregar/suportar\n  - Práticas: gestão de incidentes, problemas, mudanças, nível de serviço (SLA)\n- COBIT (foco em governança, não em execução)\n  - Distingue governança de gestão: governança avalia/direciona/monitora; gestão planeja/constrói/executa/monitora\n  - 5 princípios: atender necessidades das partes interessadas, cobertura ponta a ponta, aplicar um framework único integrado, permitir abordagem holística, separar governança de gestão\n- PMBOK 7\n  - Mudou de 'processos' pra 'princípios e domínios de performance'\n  - Domínios: stakeholders, equipe, abordagem de desenvolvimento, planejamento, trabalho do projeto, entrega, incerteza, medição\n- ISO 20000 (gestão de serviços de TI) e ISO 27002 (controles de segurança da informação)\n  - 20000: certifica que a área de TI tem um sistema de gestão de serviços adequado\n  - 27002: catálogo de controles de segurança, companion da ISO 27001 (que é a norma certificável)"
+      }
+    ]
+  },
+  {
+    "id": "especificos-governanca-ti-p2",
+    "topicId": "especificos-governanca-ti",
+    "order": 2,
+    "title": "Pegadinhas da banca",
+    "blocks": [
+      { "type": "trap", "value": "Governança ≠ Gestão. A banca ADORA cobrar isso literalmente (é o coração do COBIT): governança avalia, direciona e monitora (papel da alta administração); gestão planeja, constrói, executa e monitora (papel operacional). Se a questão descreve 'planejar e executar', é gestão, não governança." },
+      { "type": "trap", "value": "SLA (Service Level Agreement) é acordo de nível de SERVIÇO entre fornecedor e cliente — não confundir com SLA técnico interno de equipe (que seria mais operacional/OLA)." },
+      { "type": "trap", "value": "ISO 27001 é a norma certificável (define requisitos do Sistema de Gestão de Segurança da Informação); ISO 27002 é o catálogo de controles/boas práticas que apoia a 27001. Uma empresa se certifica NA 27001, usando a 27002 como referência de controles." },
+      { "type": "trap", "value": "PMBOK 7 NÃO é mais organizado em 'grupos de processos' (iniciação, planejamento, execução, monitoramento, encerramento) como o PMBOK 6 — mudou para 'domínios de performance' e princípios. Se a questão citar os 5 grupos de processos como se fossem do PMBOK 7 atual, desconfie." },
+      { "type": "trap", "value": "ITIL 4 não usa mais o termo 'ciclo de vida do serviço' (estratégia, desenho, transição, operação, melhoria contínua) como estrutura central — isso é ITIL v3. O ITIL 4 usa a Cadeia de Valor de Serviço (SVC) e as 4 dimensões." }
+    ]
+  }
+]
