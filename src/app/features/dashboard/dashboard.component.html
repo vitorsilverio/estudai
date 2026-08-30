@@ -21,6 +21,13 @@
     </div>
   </div>
 
+  <a routerLink="/leitura-diaria" class="daily-card" [class.daily-card--done]="progress.hasDoneDailyReviewToday()">
+    <span class="daily-card__title">
+      {{ progress.hasDoneDailyReviewToday() ? '✅ Leitura de hoje concluída' : '📌 Leitura obrigatória de hoje' }}
+    </span>
+    <span class="daily-card__subtitle">Mapa mental + pontos de atenção, antes de qualquer questão</span>
+  </a>
+
   <a routerLink="/trilha" class="cta-card">
     <span class="cta-card__title">Continuar estudando</span>
     <span class="cta-card__subtitle">Ver trilha de conteúdo</span>

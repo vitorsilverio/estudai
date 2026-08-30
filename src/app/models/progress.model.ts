@@ -34,6 +34,7 @@ export interface UserProgress {
   flashcardMastery: Record<string, number>; // 0..5
   badges: string[];
   simuladoResults: SimuladoResult[];
+  lastDailyReviewDate: string | null; // yyyy-mm-dd — Bloco 1: mapa mental + pontos de atenção do dia
 }
 
 export const EMPTY_PROGRESS: UserProgress = {
@@ -44,4 +45,5 @@ export const EMPTY_PROGRESS: UserProgress = {
   flashcardMastery: {},
   badges: [],
   simuladoResults: [],
+  lastDailyReviewDate: null,
 };

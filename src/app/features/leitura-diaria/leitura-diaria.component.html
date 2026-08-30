@@ -1,0 +1,43 @@
+<div class="page page--with-bottom-nav">
+  <h1>📌 Leitura obrigatória de hoje</h1>
+  <p class="hint">
+    Mapa mental e pontos de atenção de tudo que você já estudou — sem o texto corrido. É o Bloco 1
+    do seu ritual: leia isso antes de responder qualquer questão hoje.
+  </p>
+
+  @if (alreadyDoneToday) {
+    <div class="done-banner">✅ Você já fez a leitura de hoje. Pode repetir à vontade.</div>
+  }
+
+  @if (groups().length === 0) {
+    <p class="hint">Ainda não há mapa mental/pontos de atenção cadastrados para este concurso.</p>
+  }
+
+  @for (group of groups(); track group.topic.id) {
+    <section class="topic-group">
+      <div class="topic-group__header">
+        <h2>{{ group.topic.name }}</h2>
+        @if (speechSupported) {
+          <button type="button" class="icon-btn" (click)="readAloud(group)">🔊</button>
+        }
+      </div>
+      @for (block of group.blocks; track $index) {
+        @if (block.type === 'trap') {
+          <p class="trap">⚠️ {{ block.value }}</p>
+        } @else {
+          <ul class="mindmap">
+            @for (row of parseMindmap(block.value); track $index) {
+              <li [style.marginLeft.rem]="row.level * 1.1">{{ row.text }}</li>
+            }
+          </ul>
+        }
+      }
+    </section>
+  }
+
+  @if (groups().length > 0) {
+    <button type="button" class="btn btn--primary btn--block" (click)="finish()">
+      Concluí a leitura de hoje
+    </button>
+  }
+</div>

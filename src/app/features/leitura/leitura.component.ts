@@ -9,6 +9,7 @@ import { SettingsService } from '../../core/services/settings.service';
 import { SpeechService } from '../../core/services/speech.service';
 import { ContentPage, Question } from '../../models/content.model';
 import { QuizFinishedEvent, QuizRunnerComponent } from '../../shared/quiz/quiz-runner.component';
+import { parseMindmap } from '../../shared/mindmap';
 
 type Stage = 'loading' | 'reading' | 'quiz' | 'done';
 
@@ -50,18 +51,7 @@ export class LeituraComponent {
     return this.speech.supported;
   }
 
-  /** Turns an indented bullet-outline string (2 spaces per level, "- " prefix) into rows. */
-  parseMindmap(value: string): { text: string; level: number }[] {
-    return value
-      .split('\n')
-      .filter((line) => line.trim().length > 0)
-      .map((line) => {
-        const indent = line.match(/^ */)?.[0].length ?? 0;
-        const level = Math.floor(indent / 2);
-        const text = line.trim().replace(/^-\s*/, '');
-        return { text, level };
-      });
-  }
+  parseMindmap = parseMindmap;
 
   readAloud(): void {
     const page = this.currentPage;

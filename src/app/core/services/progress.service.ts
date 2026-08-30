@@ -31,6 +31,7 @@ const POINTS_PER_TOPIC_COMPLETED = 10;
 const POINTS_PER_CORRECT_PRACTICE = 5;
 const POINTS_PER_CORRECT_SIMULADO = 2;
 const POINTS_PER_FLASHCARD_REVIEWED = 2;
+const POINTS_PER_DAILY_REVIEW = 15;
 
 function todayIso(): string {
   return new Date().toISOString().slice(0, 10);
@@ -227,6 +228,20 @@ export class ProgressService {
     const mastery = this.state().flashcardMastery;
     return [...flashcardIds].sort((a, b) => (mastery[a] ?? 0) - (mastery[b] ?? 0));
   }
+
+  /**
+   * Bloco 1 do ritual: mapa mental + pontos de atenção do dia, lidos ANTES de qualquer questão.
+   * Idempotente — só conta uma vez por dia, mesmo se chamado de novo.
+   */
+  completeDailyReview(): void {
+    let p = this.state();
+    if (p.lastDailyReviewDate === todayIso()) return;
+    p = this.touchStreak(p);
+    p = { ...p, points: p.points + POINTS_PER_DAILY_REVIEW, lastDailyReviewDate: todayIso() };
+    this.persist(this.awardBadges(p));
+  }
+
+  readonly hasDoneDailyReviewToday = computed(() => this.state().lastDailyReviewDate === todayIso());
 
   /** Restores progress from a snapshot (used when pulling the remote copy from Firestore). */
   importSnapshot(data: UserProgress): void {

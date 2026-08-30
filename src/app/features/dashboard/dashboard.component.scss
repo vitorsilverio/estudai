@@ -55,6 +55,33 @@
   color: var(--text-muted);
 }
 
+.daily-card {
+  display: block;
+  background: var(--danger-bg);
+  border: 2px solid var(--danger-border);
+  color: var(--text);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  margin-bottom: 0.9rem;
+
+  &--done {
+    background: var(--success-bg);
+    border-color: var(--success-border);
+  }
+}
+
+.daily-card__title {
+  display: block;
+  font-weight: 700;
+}
+
+.daily-card__subtitle {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .cta-card {
   display: block;
   background: linear-gradient(135deg, var(--accent), #9b7ef7);

@@ -27,6 +27,11 @@ export const routes: Routes = [
     loadComponent: () => import('./features/flashcards/flashcards.component').then((m) => m.FlashcardsComponent),
   },
   {
+    path: 'leitura-diaria',
+    loadComponent: () =>
+      import('./features/leitura-diaria/leitura-diaria.component').then((m) => m.LeituraDiariaComponent),
+  },
+  {
     path: 'revisao',
     loadComponent: () => import('./features/revisao/revisao.component').then((m) => m.RevisaoComponent),
   },

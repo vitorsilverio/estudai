@@ -1,8 +1,13 @@
 import { Injectable } from '@angular/core';
 import { collection, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore';
-import { Observable, from, map, shareReplay } from 'rxjs';
-import { ContentPage, Exam, Flashcard, Question, Subject, Topic } from '../../models/content.model';
+import { Observable, forkJoin, from, map, of, shareReplay, switchMap } from 'rxjs';
+import { ContentBlock, ContentPage, Exam, Flashcard, Question, Subject, Topic } from '../../models/content.model';
 import { getDb } from '../firebase-app';
+
+export interface DailyKeyPoints {
+  topic: Topic;
+  blocks: ContentBlock[];
+}
 
 @Injectable({ providedIn: 'root' })
 export class ContentService {
@@ -82,5 +87,28 @@ export class ContentService {
   getFlashcards(examId: string, topicId: string): Observable<Flashcard[]> {
     const flashcardsRef = collection(this.db, 'exams', examId, 'topics', topicId, 'flashcards');
     return from(getDocs(flashcardsRef)).pipe(map((snap) => snap.docs.map((d) => d.data() as Flashcard)));
+  }
+
+  /**
+   * "Leitura obrigatória do dia" (Bloco 1 do ritual): reúne só os blocos de mapa mental e
+   * pontos de atenção de todos os tópicos com conteúdo — a decoreba pura, sem o texto corrido.
+   */
+  getDailyKeyPoints(examId: string): Observable<DailyKeyPoints[]> {
+    return this.getTopics(examId).pipe(
+      switchMap((topics) => {
+        if (topics.length === 0) return of([] as DailyKeyPoints[]);
+        const sorted = [...topics].sort((a, b) => a.order - b.order);
+        return forkJoin(
+          sorted.map((topic) =>
+            this.getPages(examId, topic.id).pipe(
+              map((pages) => {
+                const blocks = pages.flatMap((p) => p.blocks.filter((b) => b.type === 'mindmap' || b.type === 'trap'));
+                return { topic, blocks };
+              }),
+            ),
+          ),
+        ).pipe(map((results) => results.filter((r) => r.blocks.length > 0)));
+      }),
+    );
   }
 }
