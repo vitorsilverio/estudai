@@ -41,6 +41,10 @@
     <p class="hint">Continue estudando para desbloquear conquistas!</p>
   }
 
+  <div class="link-list">
+    <a routerLink="/mapa-de-erros" class="link-item">📓 Meu mapa de erros</a>
+  </div>
+
   @if (auth.currentUser(); as user) {
     <div class="account-section">
       <p class="hint">Conectada como {{ user.displayName || user.email }}</p>

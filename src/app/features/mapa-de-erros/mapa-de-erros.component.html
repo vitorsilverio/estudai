@@ -1,0 +1,22 @@
+<div class="page page--with-bottom-nav">
+  <h1>📓 Meu mapa de erros</h1>
+  <p class="hint">
+    Todo erro (e todo acerto no chute) registrado, classificado por tipo — pra você ver os
+    padrões de onde a banca te pega.
+  </p>
+
+  @if (entries().length === 0) {
+    <p class="hint">Nenhum erro registrado ainda.</p>
+  }
+
+  @for (entry of entries(); track entry.id) {
+    <div class="entry">
+      <div class="entry__header">
+        <span class="entry__date">{{ entry.date }}</span>
+        <span class="entry__type">{{ typeLabel(entry.type) }}</span>
+      </div>
+      <p class="entry__topic">{{ entry.topicLabel }} — questão {{ entry.questionRef }}</p>
+      <p class="entry__note">{{ entry.note }}</p>
+    </div>
+  }
+</div>

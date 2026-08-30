@@ -40,6 +40,11 @@ export const routes: Routes = [
     loadComponent: () => import('./features/progresso/progresso.component').then((m) => m.ProgressoComponent),
   },
   {
+    path: 'mapa-de-erros',
+    loadComponent: () =>
+      import('./features/mapa-de-erros/mapa-de-erros.component').then((m) => m.MapaDeErrosComponent),
+  },
+  {
     path: 'trocar-concurso',
     loadComponent: () => import('./features/exam-picker/exam-picker.component').then((m) => m.ExamPickerComponent),
   },
