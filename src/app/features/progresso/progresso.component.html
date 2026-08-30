@@ -43,6 +43,9 @@
 
   <div class="link-list">
     <a routerLink="/mapa-de-erros" class="link-item">📓 Meu mapa de erros</a>
+    @if (canUseRedacao) {
+      <a routerLink="/redacao" class="link-item">✍️ Redação</a>
+    }
   </div>
 
   @if (auth.currentUser(); as user) {

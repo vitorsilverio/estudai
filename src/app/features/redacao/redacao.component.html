@@ -1,0 +1,77 @@
+<div class="page page--with-bottom-nav">
+  <h1>✍️ Redação</h1>
+
+  @if (!isAllowed) {
+    <p class="hint">Esse recurso não está disponível para a sua conta.</p>
+  } @else {
+    <p class="hint">
+      Envie foto(s) da sua redação. Isso só guarda a imagem — a correção é feita manualmente,
+      quando você pedir, não é automática.
+    </p>
+
+    @if (submitted()) {
+      <div class="done-banner">✅ Enviado! Avise quando quiser que eu corrija.</div>
+    }
+
+    <label class="upload-area">
+      <input type="file" accept="image/*" capture="environment" multiple hidden (change)="onFilesSelected($event)" />
+      @if (isCompressing()) {
+        <span>Processando imagem…</span>
+      } @else {
+        <span>📷 Tirar foto / escolher imagem(ns)</span>
+      }
+    </label>
+
+    @if (pendingImages().length > 0) {
+      <div class="preview-grid">
+        @for (img of pendingImages(); track $index) {
+          <div class="preview-item">
+            <img [src]="img" alt="Página da redação" />
+            <button type="button" class="preview-item__remove" (click)="removeImage($index)">✕</button>
+          </div>
+        }
+      </div>
+
+      <textarea
+        class="note-input"
+        placeholder="Contexto opcional (ex: qual tema, o que te preocupa nessa redação)"
+        rows="3"
+        [value]="note()"
+        (input)="note.set($any($event.target).value)"
+      ></textarea>
+
+      <button type="button" class="btn btn--primary btn--block" [disabled]="isSubmitting()" (click)="submit()">
+        {{ isSubmitting() ? 'Enviando…' : 'Enviar redação' }}
+      </button>
+    }
+
+    <h2 class="section-title">Minhas redações enviadas</h2>
+    @if (essays().length === 0) {
+      <p class="hint">Nenhuma redação enviada ainda.</p>
+    }
+    @for (essay of essays(); track essay.id) {
+      <div class="essay-card">
+        <div class="essay-card__header">
+          <span class="essay-card__date">{{ essay.createdAt | date: 'dd/MM/yyyy HH:mm' }}</span>
+          <span class="essay-card__status" [class.essay-card__status--reviewed]="essay.status === 'reviewed'">
+            {{ essay.status === 'reviewed' ? '✅ Corrigida' : '⏳ Aguardando correção' }}
+          </span>
+        </div>
+        @if (essay.note) {
+          <p class="essay-card__note">{{ essay.note }}</p>
+        }
+        <div class="essay-card__thumbs">
+          @for (img of essay.images; track $index) {
+            <img [src]="img" alt="Página da redação" />
+          }
+        </div>
+        @if (essay.correction) {
+          <div class="essay-card__correction">
+            <p class="essay-card__correction-label">Correção</p>
+            <p class="essay-card__correction-text">{{ essay.correction.text }}</p>
+          </div>
+        }
+      </div>
+    }
+  }
+</div>

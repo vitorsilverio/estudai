@@ -6,6 +6,7 @@ import { ContentService } from '../../core/services/content.service';
 import { ProgressService } from '../../core/services/progress.service';
 import { ProfileService } from '../../core/services/profile.service';
 import { AuthService } from '../../core/services/auth.service';
+import { ALLOWED_ESSAY_EMAILS } from '../../core/allowed-emails';
 import { Exam } from '../../models/content.model';
 
 const BADGE_LABELS: Record<string, string> = {
@@ -44,6 +45,10 @@ export class ProgressoComponent {
 
   badges = computed(() => this.progress.progress().badges.map((b) => BADGE_LABELS[b] ?? b));
   simuladoCount = computed(() => this.progress.progress().simuladoResults.length);
+
+  get canUseRedacao(): boolean {
+    return ALLOWED_ESSAY_EMAILS.includes(this.auth.currentUser()?.email ?? '');
+  }
 
   signOut(): void {
     this.auth.signOutUser();

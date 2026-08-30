@@ -1,0 +1,143 @@
+.hint {
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.done-banner {
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
+  border-radius: var(--radius-md);
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.upload-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--accent);
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.preview-item {
+  position: relative;
+
+  img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+  }
+}
+
+.preview-item__remove {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  width: 1.6rem;
+  height: 1.6rem;
+  cursor: pointer;
+}
+
+.note-input {
+  width: 100%;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.7rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+.section-title {
+  margin-top: 2rem;
+}
+
+.essay-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.9rem;
+}
+
+.essay-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.essay-card__date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.essay-card__status {
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+
+  &--reviewed {
+    background: var(--success-bg);
+    color: #1a7a44;
+  }
+}
+
+.essay-card__note {
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 0 0 0.6rem;
+}
+
+.essay-card__thumbs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+
+  img {
+    height: 100px;
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+  }
+}
+
+.essay-card__correction {
+  margin-top: 0.8rem;
+  background: var(--accent-bg);
+  border-radius: var(--radius-md);
+  padding: 0.8rem 0.9rem;
+}
+
+.essay-card__correction-label {
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+}
+
+.essay-card__correction-text {
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-wrap;
+}
